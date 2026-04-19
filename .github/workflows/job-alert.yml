@@ -1,35 +1,40 @@
-name: Job Alert Email
+name: Job Alert
 
 on:
   schedule:
-  - cron: "57 12 * * *" # 21:57 KST (UTC+9 -> 12:57 UTC)
-  workflow_dispatch: {}
+    # 평일(월~금) 오전 9시 KST = UTC 00:00
+    - cron: '0 0 * * 1-5'
+  workflow_dispatch: # 수동 실행 버튼
 
 jobs:
-  send:
+  run:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: "pip"
-
-      - name: Install deps
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
+      # 이전 실행에서 저장된 jobs.db 복원 (중복 발송 방지)
       - name: Restore jobs.db cache
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: jobs.db
           key: jobs-db-${{ runner.os }}-${{ github.run_id }}
           restore-keys: |
             jobs-db-${{ runner.os }}-
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install system dependencies
+        run: sudo apt-get install -y tesseract-ocr
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
 
       - name: Run job alert
         env:
@@ -39,10 +44,10 @@ jobs:
           GMAIL_SENDER: ${{ secrets.GMAIL_SENDER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
-          RECIPIENT_NAME: ${{ secrets.RECIPIENT_NAME }}
-        run: |
-          python -m job_alert.main
+        # --skip-playwright: 리멤버 스크래퍼 제외 (GitHub Actions에서 Playwright 미지원)
+        run: python main.py --skip-playwright
 
+      # 이번 실행 결과 DB 저장 (다음 실행의 restore-keys로 복원됨)
       - name: Save jobs.db cache
         uses: actions/cache/save@v4
         if: always()
