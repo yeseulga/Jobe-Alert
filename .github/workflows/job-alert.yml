@@ -1,0 +1,51 @@
+name: Job Alert Email
+
+on:
+  schedule:
+  - cron: "57 12 * * *" # 21:57 KST (UTC+9 -> 12:57 UTC)
+  workflow_dispatch: {}
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Restore jobs.db cache
+        uses: actions/cache@v4
+        with:
+          path: jobs.db
+          key: jobs-db-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            jobs-db-${{ runner.os }}-
+
+      - name: Run job alert
+        env:
+          SMTP_PROVIDER: ${{ secrets.SMTP_PROVIDER }}
+          NAVER_SENDER: ${{ secrets.NAVER_SENDER }}
+          NAVER_PASSWORD: ${{ secrets.NAVER_PASSWORD }}
+          GMAIL_SENDER: ${{ secrets.GMAIL_SENDER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          RECIPIENT_NAME: ${{ secrets.RECIPIENT_NAME }}
+        run: |
+          python -m job_alert.main
+
+      - name: Save jobs.db cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: jobs.db
+          key: jobs-db-${{ runner.os }}-${{ github.run_id }}

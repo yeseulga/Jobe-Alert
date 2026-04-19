@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "job-alert"
+version = "0.1.0"
+description = "AI-based job recommender and auto email sender"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+job-alert = "job_alert.main:main"

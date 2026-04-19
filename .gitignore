@@ -1,0 +1,45 @@
+__pycache__/
+.venv/
+.env
+.DS_Store
+*.sqlite3
+*.db
+dist/
+build/
+*.egg-info/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables (민감 정보)
+.env
+.env.*
+
+# Database
+*.db
+*.sqlite3
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
