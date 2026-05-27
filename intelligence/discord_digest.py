@@ -13,6 +13,7 @@ from .config import (
     MAX_ITEMS_PER_CATEGORY,
     TOP_PICKS_COUNT,
 )
+from .terms import get_daily_terms
 
 _CATEGORY_COLORS = {
     "research":   0x6366F1,   # 인디고
@@ -140,6 +141,24 @@ def send_digest(categorized_items: dict[str, list[dict]], dry_run: bool = False)
             "description": f"*{cat_desc}*",
             "color": _CATEGORY_COLORS.get(cat_key, 0x6B7280),
             "fields": fields,
+            "footer": {"text": f"AI 인텔리전스 · {today}"},
+        })
+
+    # ── 📚 오늘의 IT 용어 embed ──────────────────────────────────
+    daily_terms = get_daily_terms(2)
+    term_fields = []
+    for term, category, definition, example in daily_terms:
+        term_fields.append({
+            "name": f"📖  {term}  |  *{category}*",
+            "value": f"{definition}\n> {example}",
+            "inline": False,
+        })
+    if term_fields:
+        embeds.append({
+            "title": "📚  오늘의 IT 용어",
+            "description": "몰랐으면 오늘 알고 가기",
+            "color": 0x8B5CF6,  # 보라
+            "fields": term_fields,
             "footer": {"text": f"AI 인텔리전스 · {today}"},
         })
 
