@@ -101,8 +101,7 @@ def send_digest(categorized_items: dict[str, list[dict]], dry_run: bool = False)
     total = sum(len(v) for v in categorized_items.values())
 
     if total == 0:
-        print("⚠️  발송할 아이템이 없습니다. Discord 전송 건너뜀.")
-        return
+        print("⚠️  발송할 AI 뉴스 아이템이 없습니다. 용어 섹션만 발송합니다.")
 
     embeds = []
 
@@ -162,11 +161,13 @@ def send_digest(categorized_items: dict[str, list[dict]], dry_run: bool = False)
             "footer": {"text": f"AI 인텔리전스 · {today}"},
         })
 
+    content = (
+        f"🤖  **AI 엔지니어 인텔리전스** — {today}\n"
+        + (f"> 오늘의 AI 동향 `{total}건` 큐레이션 완료. 🔥 핫이슈부터 확인하세요!" if total > 0
+           else "> 오늘은 신규 AI 뉴스가 없습니다. 📚 용어는 매일 업데이트!")
+    )
     payload = {
-        "content": (
-            f"🤖  **AI 엔지니어 인텔리전스** — {today}\n"
-            f"> 오늘의 AI 동향 `{total}건` 큐레이션 완료. 🔥 핫이슈부터 확인하세요!"
-        ),
+        "content": content,
         "embeds": embeds,
     }
 
