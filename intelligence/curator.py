@@ -106,7 +106,9 @@ impact_areas (해당하는 것 모두 선택, 없으면 빈 배열):
 
 summary_ko: 링크를 클릭하지 않아도 핵심을 파악할 수 있도록 — ① 무엇인지 ② 왜 중요한지 ③ AI 엔지니어에게 어떤 의미인지 3문장으로 작성
 apply_tip: 이 내용을 AI 엔지니어 지망생이 지금 당장 써먹을 수 있는 실용 팁 1문장 (예: "RAG 파이프라인 구성 시 이 기법을 적용해 검색 정확도 높이기")
-relevance_score: AI 엔지니어 관련성 1-10 (한국 취업 시장 기준, 6 이상만 발송)"""
+relevance_score: AI 엔지니어 관련성 1-10 (한국 취업 시장 기준, 6 이상만 발송)
+  → 가산 기준: MIT·Stanford·CMU·UC버클리(BAIR)·코넬·옥스퍼드·Google DeepMind·OpenAI·Anthropic·Microsoft Research 소속 논문 +1
+  → 가산 주제: RAG·에이전트·LLM 파인튜닝·프롬프트 최적화·추론 효율화·멀티에이전트 시스템 +1"""
 
 
 def _parse_claude_output(text: str, count: int) -> list[dict] | None:

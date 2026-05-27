@@ -16,9 +16,11 @@ CATEGORIES = {
 # 각 항목: (name, url, type)
 # type: "rss" | "github_api" | "hf_api" | "pwc_api"
 SOURCES = [
+    # ── 논문 (arXiv = 코넬대 운영, 전 세계 AI 논문 1차 공개 플랫폼) ─
     ("arXiv cs.AI",    "https://rss.arxiv.org/rss/cs.AI",                   "rss"),
     ("arXiv cs.LG",    "https://rss.arxiv.org/rss/cs.LG",                   "rss"),
     ("arXiv cs.CL",    "https://rss.arxiv.org/rss/cs.CL",                   "rss"),
+    ("arXiv cs.IR",    "https://rss.arxiv.org/rss/cs.IR",                   "rss"),  # RAG·벡터검색·시맨틱 리트리벌
     ("HuggingFace",    "https://huggingface.co/api/daily_papers",            "hf_api"),
     ("GitHub AI",      "https://api.github.com/search/repositories",         "github_api"),
     # ── AI 회사 공식 블로그 ───────────────────────────────────────
@@ -31,6 +33,8 @@ SOURCES = [
     ("The Verge AI",     "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "rss"),
     ("Ars Technica",     "https://feeds.arstechnica.com/arstechnica/technology-lab",          "rss"),
     ("TechCrunch AI",    "https://techcrunch.com/tag/artificial-intelligence/feed/",          "rss"),
+    # ── 대학 연구소 블로그 ───────────────────────────────────────
+    ("BAIR Blog",        "https://bair.berkeley.edu/blog/feed.xml",            "rss"),  # UC버클리 AI 연구소
     # ── AI 엔지니어 실무 ─────────────────────────────────────────
     ("Simon Willison",   "https://simonwillison.net/atom/everything/",         "rss"),
     ("The Batch",        "https://www.deeplearning.ai/the-batch/feed/",        "rss"),  # Andrew Ng 뉴스레터
