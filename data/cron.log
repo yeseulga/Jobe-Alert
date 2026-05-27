@@ -3457,3 +3457,3590 @@
 [메일] GMAIL_SENDER / GMAIL_APP_PASSWORD 환경 변수 미설정
 
 ✅ 완료 — 08:06:05
+
+🚀 Job Alert 시작 — 2026-04-22 08:05:01
+
+📡 채용 공고 수집 중...
+
+==================================================
+  [사람인] 수집 시작
+==================================================
+  [사람인] 'AI 엔지니어' 검색 중...
+  [사람인] 'LLM 개발' 검색 중...
+  [사람인] 'RAG 개발' 검색 중...
+  [사람인] '챗봇 개발' 검색 중...
+  [사람인] '자동화 개발' 검색 중...
+  [사람인] 'ML 엔지니어' 검색 중...
+  [사람인] '자연어처리' 검색 중...
+  [사람인] 수집 완료: 840건
+  [사람인] 원본 수집: 840건
+
+==================================================
+  [잡코리아] 수집 시작
+==================================================
+  [잡코리아] 'AI 엔지니어' 검색 중...
+  [잡코리아] 'LLM' 검색 중...
+  [잡코리아] 'RAG' 검색 중...
+  [잡코리아] '챗봇 개발' 검색 중...
+  [잡코리아] '자동화 개발' 검색 중...
+  [잡코리아] '자연어처리' 검색 중...
+  [잡코리아] 수집 완료: 0건
+  [잡코리아] 원본 수집: 0건
+
+==================================================
+  [프로그래머스] 수집 시작
+==================================================
+  [프로그래머스] 'AI' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=AI&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'LLM' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=LLM&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '챗봇' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%B1%97%EB%B4%87&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '자동화' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%9E%90%EB%8F%99%ED%99%94&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'NLP' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=NLP&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'RAG' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=RAG&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'Machine Learning' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=Machine+Learning&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 수집 완료: 0건
+  [프로그래머스] 원본 수집: 0건
+
+==================================================
+  [원티드] 수집 시작
+==================================================
+  [원티드] category=655 수집 중...
+  [원티드] category=1024 수집 중...
+  [원티드] category=1025 수집 중...
+  [원티드] 수집 완료: 0건
+  [원티드] 원본 수집: 0건
+
+==================================================
+  [LinkedIn] 수집 시작
+==================================================
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=LLM+AI+개발자+채용&hl=ko&gl=KR&ceid=KR...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=RAG+챗봇+AI+엔지니어+채용&hl=ko&gl=KR&cei...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=자동화+AI+개발+채용+공고&hl=ko&gl=KR&ceid=...
+  [LinkedIn] 수집 완료: 76건
+  [LinkedIn] 원본 수집: 76건
+
+총 원본 수집: 916건
+
+🔍 중복 공고 제거 중...
+  [중복→스킵] '에이전틱Agentic AI?개발자 채용이 위험해진 이유' (LinkedIn)
+  [중복→스킵] '오픈AI·앤트로픽, 국내서 엔지니어 최초 채용…‘솔루션 아키텍트’ 분야' (LinkedIn)
+  [중복→스킵] '"1371억 줄게" 연봉 쇼크…채용시장 발칵 뒤집어놓은 직업 [글로벌 머니 X파일]' (LinkedIn)
+  [중복→스킵] 'AI 시대의 취업 / 채용 전략' (LinkedIn)
+  [중복→스킵] "'채용 혹한기' 보낸 IT업계…유일하게 생존한 'AI 개발자'" (LinkedIn)
+  [중복→스킵] 'IT 업계 채용 41% 감소… AI 개발자 채용은 오히려 증가' (LinkedIn)
+  [중복→스킵] 'AI 개발자 수요 급증, IT 채용 시장 변화 주목' (LinkedIn)
+  [중복→스킵] '독파모 SKT 정예팀, 청년 인턴 모집..."AI 인재 육성"' (LinkedIn)
+  [중복→스킵] '“AI 고급 인력 모십니다”…채용 확대 나선 AI기업들' (LinkedIn)
+  [중복→스킵] '인공지능 채용이 활발한 분야와 연봉은 어느 정도 일까?' (LinkedIn)
+  [중복→스킵] '크래프톤, 게임 제작·AI 분야 신입 채용...＂글로벌 인재로 성장 지원＂' (LinkedIn)
+  [중복→스킵] "일론 머스크 xAI, 시급 65달러 'AI 튜터' 수천명 채용" (LinkedIn)
+  [중복→스킵] '"대변혁 맞은 회계 업무…\'AI 회계사\' 채용 앞장설 것"' (LinkedIn)
+중복 제거 후: 903건
+
+🎯 키워드 필터링 및 점수 산정 중...
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 PhysicalAI 엔지니어모집'  ← 로봇
+  [제외] 'AI 엔지니어채용 (스테이블 디퓨전, ComfyUI)'  ← UI
+  [제외] '[ANU]AI 엔지니어채용 (건축설계)'  ← 설계
+  [제외] 'AI 엔지니어(백엔드 개발자)'  ← 백엔드
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] 'AI 엔지니어(3D VISION/ADAS/임베디드) 모집'  ← 임베디드
+  [제외] 'Power Platform(앱개발, RPA, BI, AI Agent) 엔지니어 모집'  ← 앱개발
+  [제외] '임베디드 AI 시스템 엔지니어 (NPU)(신입,경력3년미만)'  ← 시스템 엔지니어
+  [제외] '[나비프라] 엣지 AI 최적화 엔지니어(컴퓨터비전)'  ← 비전
+  [제외] '[AI컨택센터상위] 화상회의 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] '[AI반도체] RTL 설계 엔지니어'  ← 반도체
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 PhysicalAI 엔지니어모집'  ← 로봇
+  [제외] 'AI 엔지니어(3D VISION/ADAS/임베디드) 모집'  ← 임베디드
+  [제외] 'AI 시스템엔지니어 모십니다 (리눅스 NPU 서버)'  ← 시스템엔지니어
+  [제외] '[연구개발/경력] AI 이미징 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] 'AI 모델 개발 엔지니어'  ← 로봇
+  [제외] '[주요SI업체] AI 보안사업 엔지니어/서비스개발/컨설팅/사업수행'  ← 보안
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] '.[유망 AI 관련 코스닥사] Postgre SQL & C code 엔지니어 팀장'  ← C (단독)
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] '[서초] AI 인프라 솔루션 전문기업 시스템 소프트웨어 엔지니어'  ← 인프라
+  [제외] '[Physical AI] 휴머노이드 전장 하드웨어(HW)엔지니어'  ← 하드웨어
+  [제외] '2D, 3D, AI 머신비전 엔지니어 (신입)'  ← 비전
+  [제외] '[에티버스이피에이] X86 서버 및 AI 인프라 하드웨어 엔지니어'  ← 하드웨어
+  [제외] '[다우키움 계열사] 데이터·AI 백엔드 엔지니어 (경력 무관)'  ← 백엔드
+  [제외] '[클라우드/AI][잠실SDS] 기술지원 엔지니어 모집'  ← 클라우드
+  [제외] 'AI 채용솔루션(ATS) 백엔드 엔지니어'  ← 백엔드
+  [제외] '[서울] AI 인프라팀 엔지니어 채용 (GPU 서버)'  ← 인프라
+  [제외] '[AI/솔루션] 콜 인프라 엔지니어'  ← 인프라
+  [제외] 'AI Spera [사업팀] 보안엔지니어 & 보안분석전문가'  ← 보안
+  [제외] '[협업툴 플로우] AI 풀스택 엔지니어'  ← 풀스택
+  [제외] 'LLM 챗봇 개발 프로젝트 / java, python / 중구'  ← Java
+  [제외] 'AI Agent / LLM 기반 개발 (분석/설계/개발)'  ← 설계
+  [제외] 'LLM 알고리즘 개발 연구원 / 광주 또는 울산 근무'  ← 알고리즘
+  [제외] '[코스닥] AI보안 및 LLM/NLP 연구/개발자 (3~7년)'  ← 보안
+  [제외] '[정규직/코스닥/AI SW전문기업] LLM 풀스택 개발 경력직 채용'  ← 풀스택
+  [제외] '[AI 플랫폼 SW] 로봇 주행 / AI SW (LLM) / 임베디드 SW 개발'  ← 임베디드
+  [제외] 'AI 에이전트 백엔드 개발자 : Langraph/Langchain/LLM'  ← 백엔드
+  [제외] 'AI Scientist 모집(AI 클라우드)'  ← 클라우드
+  [제외] '[채용] 백엔드 개발자 (경력 1년 이상)'  ← 백엔드
+  [제외] '서비스 기획/UX 디자인 리드'  ← UX
+  [제외] 'AI Engineer 모집(AI 클라우드)'  ← 클라우드
+  [제외] '풀스택 개발자 채용합니다'  ← 풀스택
+  [제외] '[서초] AI 인프라 솔루션 전문기업 시스템 소프트웨어 엔지니어'  ← 인프라
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] '백엔드 개발자 채용공고 (계약직)'  ← 백엔드
+  [제외] 'Wanted: 클라우드 엔지니어, 구글 프리미어파트너인 DX선도기업'  ← 클라우드
+  [제외] '[금융, IT] Python 백엔드 개발자 3년차'  ← 백엔드
+  [제외] '[아정당 서울] DevOps 개발자 (5년 이상~)'  ← DevOps
+  [제외] '병원용AI Smart Desk 서비스 백엔드/풀스택 경력(3년이상)개발자'  ← 백엔드
+  [제외] '(주)시티파이브 풀스택 개발자(c#, Mobile, AI/ML) 채용'  ← C#
+  [제외] '보안분야 공공/전략 사업개발 채용'  ← 보안
+  [제외] '[WAUG]와그 백엔드 개발자(PHP, JAVA) 모집'  ← Java
+  [제외] '[보안 컨설팅] 수준높은 취약점 진단, 모의해킹 컨설팅'  ← 보안
+  [제외] '[국내 핀테크 유니콘기업] 백엔드 엔지니어'  ← 백엔드
+  [제외] '[아이브릭스] AI웹서비스 프론트엔드 ,Spring개발자 채용공고'  ← Spring
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '[대화형AI기업] 시나리오 설계 및 기획 담당'  ← 설계
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] '[인빅]프론트엔드 개발자(Svelte 중심) 경력 채용'  ← 프론트엔드
+  [제외] '시니어 백엔드 엔지니어 (Python)'  ← 백엔드
+  [제외] '컴퓨터 비전 AI 분야 개발자'  ← 비전
+  [제외] 'RAG 및 LLM 기반 시스템 설계 및 구축 경험/세계적게임사'  ← 설계
+  [제외] '[CJ 그룹-CJ 메조미디어] 백엔드 개발자 경력채용'  ← 백엔드
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '[AX] AI 에이전트 개발자 (백엔드 + 데이터 엔지니어링)'  ← 백엔드
+  [제외] '함께 성장할 수 있는 앱 프론트 풀스택 개발자를 찾아요'  ← 풀스택
+  [제외] 'Wanted: AI 에이전트 백엔드 개발자( RAG, 벡터DB 구축 )'  ← 백엔드
+  [제외] 'AI 에이전트 백엔드 개발자 : RAG, 벡터DB 구축'  ← 백엔드
+  [제외] 'AI Scientist 모집(AI 클라우드)'  ← 클라우드
+  [제외] 'AI Engineer 모집(AI 클라우드)'  ← 클라우드
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] 'RAG 및 LLM 기반 시스템 설계 및 구축 경험/세계적게임사'  ← 설계
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '[AX] AI 에이전트 개발자 (백엔드 + 데이터 엔지니어링)'  ← 백엔드
+  [제외] '온톨로지 설계 및 구축[선임~책임연구원]'  ← 설계
+  [제외] '[경력무관] 메일 보안 솔루션 영업'  ← 보안
+  [제외] '[AI/클라우드] 프리세일즈 경력 채용'  ← 클라우드
+  [제외] 'AI 및 라이브 기반 반려동물 양육 플랫폼 백엔드 개발자 채용'  ← 백엔드
+  [제외] '온톨로지 기반 AI (sLLM) 항체개발 시스템 백엔드'  ← 백엔드
+  [제외] '[메가존클라우드 관계사] 알파코드 AI 서비스 개발자'  ← 클라우드
+  [제외] '[마인드웨어웍스] 엔지니어(데이터,네트워크,AI,SE) 경력직 채용'  ← 네트워크
+  [제외] '위드로봇(주) Python 개발자 채용'  ← 로봇
+  [제외] 'AI Agent / LLM 기반 개발 (분석/설계/개발)'  ← 설계
+  [제외] 'DevOps Engineer'  ← DevOps
+  [제외] '[경력Java·Vue.js] 의료기 사업 에이전트AI 개발 프리랜서 모집'  ← Java
+  [제외] '백화점 앱 AI 챗봇 서비스 운영-백엔드 개발자(중급) 구인'  ← 백엔드
+  [제외] 'LLM챗봇 개발프로젝트 / java, python / 중구'  ← Java
+  [제외] 'Cloud & DevOps Arichitect 경력사원 모집'  ← DevOps
+  [제외] '[탑코미디어] 챗봇 페르소나 설계자 모집'  ← 설계
+  [제외] '[TWC] AI SaaS 클라우드게이트 고객지원/운영 담당자 채용'  ← 클라우드
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '[대화형AI기업] 시나리오 설계 및 기획 담당'  ← 설계
+  [제외] 'AI 프로그래머(AI 시스템 설계 및 개발) 모집 - 병역특례 가능'  ← 설계
+  [제외] '(주)세피스 개발팀 MES,POP(C#, .NET, MVC )경력사원 채용'  ← .NET
+  [제외] '[마인드웨어웍스] 엔지니어(데이터,네트워크,AI,SE) 경력직 채용'  ← 네트워크
+  [제외] 'Power Platform(앱개발, RPA, BI, AI Agent) 엔지니어 모집'  ← 앱개발
+  [제외] '[인텔리코드] AI Agent 백엔드 개발자 모집 공고'  ← 백엔드
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] '[캐시워크] 백엔드개발 병역특례 대상자 모집'  ← 백엔드
+  [제외] '[캐시워크] 풀스택개발 병역특례 대상자 모집'  ← 풀스택
+  [제외] 'React 기반 백엔드 개발자 구인'  ← 백엔드
+  [제외] '[정규직/코스닥/AI SW전문기업] LLM 풀스택 개발 경력직 채용'  ← 풀스택
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] 'AI 학습 및 평가 데이터 설계/구축 PL (재택근무)'  ← 설계
+  [제외] '인프라 엔지니어'  ← 인프라
+  [제외] '[여의도] Salesforce 클라우드 개발 모집 공고 [4월-1년]'  ← 클라우드
+  [제외] '[이지팩토리] JAVA 웹 개발자 경력직 채용 공고'  ← Java
+  [제외] '인프라 아키텍트'  ← 인프라
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] '산업기능요원(보충역) 시스템 엔지니어(SE) 채용'  ← 시스템 엔지니어
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] '[경력Java·Vue.js] 의료기 사업 에이전트AI 개발 프리랜서 모집'  ← Java
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] '[프론트엔드 개발자] 경력직 채용'  ← 프론트엔드
+  [제외] '프론트엔드 개발자 (React / Next.js / Python)'  ← 프론트엔드
+  [제외] '[자동화플랫폼팀] 백엔드 시스템 개발자 채용'  ← 백엔드
+  [제외] '[경력]자동화 로봇/공장/창고 3D시뮬레이션 개발(WebGL/Package)'  ← 비전
+  [제외] '자동화 설비설계 경력 개발자[10년↑]'  ← 설계
+  [제외] '자동화 설비설계 경력 개발자[5~9년]'  ← 설계
+  [제외] '반도체 자동화 설비 제어 프로그램 개발'  ← 반도체
+  [제외] '자동화 장비 개발 - 기구설계 엔지니어 모집'  ← 설계
+  [제외] '자동화설비 SW(비전제어) 개발 경력 모집'  ← 비전
+  [제외] 'Revit 기반 BIM 자동화 C# 개발자 채용 (WinForms, 3년이상)'  ← C#
+  [제외] '3D프린터 자동화 로봇 AS 및 연구개발 지원 (경력직)'  ← 로봇
+  [제외] '(MNCs) QA 플랫폼 자동화 솔루션 개발-ML엔지니어'  ← QA
+  [제외] 'KIOSK 및 전산 자동화 C# 주니어 개발자 모집'  ← C#
+  [제외] '기구설계 (검사장비/자동화장비) 개발자 모집'  ← 설계
+  [제외] '[반도체 장비 제조업 ]자동화 개발로봇 프로그래머 경력 채용'  ← 반도체
+  [제외] '글로벌 eCommerce QA 차장급 자동화 시니어 개발자 모집'  ← QA
+  [제외] '[기흥연구소] 공장 설비 자동화 설계 및 개발 경력자 채용'  ← 설계
+  [제외] '[경력] 제조로보틱스 - 로봇 자동화 플랫폼 미들웨어 개발'  ← 로봇
+  [제외] '(주)글로벌디펜스 협동로봇 자동화 시스템 SW 개발자'  ← 로봇
+  [제외] '2026상반기 C++ 영상처리,자동화개발 신입·경력 프로그래머채용'  ← C++
+  [제외] '[Welcome Bonus 지급] 보안 시스템자동화 개발자 영입'  ← 보안
+  [제외] '[2차전지 자동화 장비 개발] 설계'  ← 설계
+  [제외] '산업자동화 머신비전 Application SW 프로그램 개발'  ← 비전
+  [제외] '[글로벌엔지니어링] 협동로봇 자동화 시스템 SW개발자'  ← 로봇
+  [제외] 'MFC개발(자동화장비,대리~차장급)'  ← 네트워크
+  [제외] '레이저 장비 제어 프로그램 개발(자동화장비,대리~차장급)'  ← 네트워크
+  [제외] '[이천/청주] 네트워크 엔지니어'  ← 네트워크
+  [제외] '프론트엔드 개발자(경력 3년 이상)'  ← 프론트엔드
+  [제외] '[수원 망포] 네트워크 엔지니어'  ← 네트워크
+  [제외] '[평택] 네트워크 엔지니어'  ← 네트워크
+  [제외] '(주)씨에이에스 2026년 정보보호사업부문 채용'  ← 정보보호
+  [제외] '[경력] JAVA개발자 플랫폼 운영 관리'  ← Java
+  [제외] '[서울] 네트워크 엔지니어 (경력)'  ← 네트워크
+  [제외] 'UX/UI 디자이너 (3년 이상)'  ← UX
+  [제외] '[카카오 계열사] 웹툰 한국어/일본어 Linguist'  ← UI
+  [제외] '생산 비규격설계 경력직 채용'  ← 설계
+  [제외] '기술연구소 로봇선행개발팀(기구설계) 경력사원 채용'  ← 로봇
+  [제외] '코아시아씨엠 연구소 모바일 렌즈 광학설계 경력사원 채용'  ← 설계
+  [제외] '브룩스오토메이션 SQA Engineer'  ← QA
+  [제외] '풀스택 개발자 모집공고'  ← 풀스택
+  [제외] '대기업 그룹사 DBA'  ← DBA
+  [제외] '[엔키아] 솔루션 UI/UX 디자이너(경력)'  ← UX
+  [제외] '[머스트핀테크] 에이전시 사업부(AGN) CX팀-UI디자이너'  ← UI
+  [제외] 'AI Engineer 모집(AI 클라우드)'  ← 클라우드
+  [제외] '(주)바이언스 - 백엔드 개발자 채용'  ← 백엔드
+  [제외] '[글로벌 유명 게임 개발사 산하 스튜디오]프론트엔드 엔지니어'  ← 프론트엔드
+  [제외] '(주)도화엔지니어링 웹 프론트엔드(Front-End) 개발자'  ← 프론트엔드
+  [제외] '[KREAM] IT 보안 기술 담당자 모집'  ← 보안
+  [제외] 'Back-end(백엔드) 개발자 채용'  ← 백엔드
+  [제외] '[동탄/코스닥] 레이저 응용광학 기구설계'  ← 설계
+  [제외] '[글로벌 게임 개발사] Slot UI Designer 채용'  ← UI
+  [제외] 'SW Engineer (신입/경력)'  ← 반도체
+  [제외] '(MNCs) QA 플랫폼 자동화 솔루션 개발-ML엔지니어'  ← QA
+  [제외] '[마곡/판교] 로봇 엔지니어(Operator, ML, 3D) 채용: 연4500이상'  ← 로봇
+  [제외] '구글 클라우드 엔지니어 아키텍처 설계/기술지원 (Data,AI/ML)'  ← 클라우드
+  [제외] 'ML Systems Runtime Engineer [경력]'  ← 반도체
+  [제외] 'ML Systems Runtime Engineer [신입/병특가능]'  ← 반도체
+  [제외] 'AI Engineer 모집(AI 클라우드)'  ← 클라우드
+  [제외] '[스카이웨어]신입 개발자 모집(Java / 웹서비스 / AI 활용개발)'  ← Java
+  [제외] '영상처리 알고리즘 개발자 (Vision S/W Engineer)'  ← 영상처리
+  [제외] 'Cloud & DevOps Arichitect 경력사원 모집'  ← DevOps
+  [제외] '프론트엔드 개발자: Frontend Engineer'  ← 프론트엔드
+  [제외] '[제조AI 고속성장 스타트업]인프라-플랫폼 데이터 엔지니어채용'  ← 인프라
+  [제외] 'AWS Public Cloud Pre-sales & Consulting 경력사원 모집'  ← AWS
+  [제외] '[EUV 반도체 장비 기업] Deep learning(PHM, Data analysis)'  ← 반도체
+  [제외] '[이노션] 백엔드 소프트웨어 엔지니어(마케팅 플랫폼) (계약직)'  ← 백엔드
+  [제외] '이미지 프로세싱 알고리즘 개발 신입'  ← 알고리즘
+  [제외] '반도체 검사(계측)설비 SW 개발 경력채용'  ← 반도체
+  [제외] '[경력]자동화 로봇/공장/창고 3D시뮬레이션 개발(WebGL/Package)'  ← 비전
+  [제외] '[전문연구요원]로봇 시스템 비전 소프트웨어 엔지니어'  ← 비전
+  [제외] '[환경/신재생에너지/송파구] IT인프라 운영 대리~과장급'  ← 인프라
+  [제외] '[써큘러랩스] MLOps 채용'  ← MLOps
+  [제외] '로봇 모션 컨트롤 엔지니어(경력)'  ← 로봇
+  [제외] '[AI Model R&D Engineer] / MCU 전문 반도체 기업'  ← 반도체
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] '백엔드 엔지니어'  ← 백엔드
+  [제외] '[다우키움 계열사] 데이터·AI 백엔드 엔지니어 (경력 무관)'  ← 백엔드
+  [제외] '[강남/AI/연봉상향] 컴퓨터비전 엔지니어 채용'  ← 비전
+  [제외] '[메가존클라우드 관계사] 알파코드 AI 서비스 개발자'  ← 클라우드
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] '[코스닥] AI보안 및 LLM/NLP 연구/개발자 (3~7년)'  ← 보안
+  [제외] '서비스 기획/UX 디자인 리드'  ← UX
+  [제외] '풀스택 개발자 채용합니다'  ← 풀스택
+  [제외] '병원용AI Smart Desk 서비스 백엔드/풀스택 경력(3년이상)개발자'  ← 백엔드
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] 'AI 기반 Front-End Developer, 설계 (영어 필수)'  ← 클라우드
+  [제외] '주식회사 천천히 - 풀스택 개발자를 채용합니다.'  ← 풀스택
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'ComfyUI AI/PO기반 솔루션기획(10~13년)'  ← UI
+  [제외] 'ComfyUI AI/PO기반 솔루션기획(14년 이상)'  ← UI
+  [제외] 'PO.검색기획(8-10년.온라인모바일.쇼핑몰.이커머스.UIUX.서비스)'  ← UX
+  [제외] '노리스페이스와 함께 성장하실 DevOPS Engineer분을 모십니다'  ← DevOps
+  [제외] 'ComfyUI AI/PO기반 솔루션기획(6~9년)'  ← UI
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] 'AI 개발(Python), 데이터분석 및 사업 기획 인턴 모집'  ← 클라우드
+  [제외] '[코스닥-보안업체] AI/ML 모델 연구/개발자'  ← 보안
+  [제외] 'LLM 알고리즘 개발 연구원 / 광주 또는 울산 근무'  ← 알고리즘
+  [제외] '[경력] 기구 설계 담당자(팀장급) / 2D설계 및 3D모델링'  ← 설계
+  [제외] 'AI 및 사이버보안 연구원 각 부문별 채용(신입/경력직)'  ← 보안
+  [제외] '2026년 상반기 에이로봇 S/W, H/W 채용'  ← H/W
+  [제외] 'SKT 정예팀, 독파모 개발 참여 인턴 모집 “AI 인재 육성의 마중물 역할 기대”'  ← UX
+  [제외] 'AI 개발자 대신 데이터 엔지니어 수천명 뽑는 토스 왜'  ← UX
+  [제외] '“합격하면 500만원 준다” “우린 2000만원 준다” 난리더니…결국 채용 ‘큰 장’ 선다'  ← .NET
+  [제외] 'IT 채용 반토막에도 \'AI 개발자\' 수요는 증가…"중고신입 선호"'  ← UX
+  [제외] '“멀티 LLM 체제서도 생존 목표”...SK텔레콤, 직원 채용 등 AI 챗봇 고도화 전력 - 조선비즈'  ← QA
+  [제외] '게임 제작과 AI 분야의 신입 사원 채용 | KRAFTON'  ← UX
+  [제외] 'SKT·크래프톤, 독자 AI 개발 참여 인턴 개발자 모집'  ← UX
+  [제외] '그렙, AI 인력 전쟁 본격화...기업 10곳 중 7곳 채용 나선다'  ← UX
+  [제외] '2년 전 인기였던 프롬프트 엔지니어, 지금은 어떻게 됐나..."직무에서 역량으로"'  ← UX
+  [제외] '[점선면] AI에 채용 맡겼더니 여성이 배제됐다…AI에 스며든 차별 없애려면'  ← UI
+  [제외] "이통3사 채용 공고에서 사라진 '통신'…AI 인재 모시기 집중"  ← UX
+  [제외] 'IT 채용 반토막에도 \'AI 개발자\' 수요는 증가…"중고신입 선호" - 머니투데이'  ← QA
+  [제외] '한국딥러닝(주) 2026년 상반기 채용 | 기업리뷰 23건, 연봉정보 11건, 면접후기 35건, 복지정보 0건, 채용공고 11건'  ← UX
+  [제외] "AI 스타트업은 지금 개발자 '채용 전쟁'…리벨리온·뉴빌리티, 직원 수 3배 급증 [긱스]"  ← UI
+  [제외] "[기획] 프롬프트 엔지니어링은 죽지 않았다, 다만 '시스템 설계'로 승화되었을 뿐"  ← UX
+  [제외] 'RAG vs. 미세 조정 vs. 프롬프트 엔지니어링'  ← UX
+  [제외] 'AI 확산에도 채용 시장의 중심은 ‘개발자’'  ← UX
+  [제외] 'HD현대·한화오션, 대규모 채용 드라이브…조선업 인재 확보전 본격화'  ← UI
+  [제외] '잡코리아, ‘AI 공고 자동 생성’ 기능 도입…채용 공고 작성 시간 70% 이상 단축'  ← UX
+  [제외] '“29년간 축적 데이터 활용”…잡코리아, AI 채용 효율 확대 본격화'  ← UX
+  [제외] '[초점] ‘AI는 필수\' 채용공고 300% 급증...구직자 절반은 "기준 혼동“'  ← UX
+  [제외] '“채용 전 과정 AI 자동화” 라운드HR, ‘라운드AI’로 국내 HR 테크 판도 바꾼다'  ← QA
+  [제외] '스타트업 채용 플랫폼 ‘그룹바이’…AI 활용 자동화 기술 개발 속도'  ← UX
+  [제외] '신입 채용 비중 14% 바늘구멍… 글로벌 AI 3강, 한국서 격돌 [캠퍼스 뉴스]'  ← UX
+  [제외] '[현장] "1만 3천명 공채를 3주 만에"… 마이다스인, \'AI 채용 에이전트\'로 HR 혁신 제시'  ← UX
+  [제외] '[초점] "AI 기반 채용 아웃소싱 서비스가 당신의 HR팀을 대체한다"'  ← QA
+  [제외] 'AI가 일자리를 바꾸고 있다…신입 채용 감소와 요구 조건 강화'  ← UX
+  [제외] '[AI 채용] “누가 나를 떨어뜨렸는가, 면접관인가 AI인가”'  ← UX
+  [제외] '삼성전자, AI분야 경력사원 채용'  ← Java
+  [제외] '"반복 업무는 로봇이"…대형 로펌 \'AI 비서\' 속속 채용'  ← QA
+필터링 후: 650건
+최종 발송 대상: 30건
+
+📊 점수 분포:
+  14점: 4건
+  12점: 4건
+  9점: 6건
+  8점: 4건
+  7점: 6건
+  5점: 4건
+  4점: 2건
+
+📧 이메일 발송 중...
+[메일] GMAIL_SENDER / GMAIL_APP_PASSWORD 환경 변수 미설정
+
+✅ 완료 — 08:06:03
+
+🚀 Job Alert 시작 — 2026-04-23 08:05:01
+
+📡 채용 공고 수집 중...
+
+==================================================
+  [사람인] 수집 시작
+==================================================
+  [사람인] 'AI 엔지니어' 검색 중...
+  [사람인] 'LLM 개발' 검색 중...
+  [사람인] 'RAG 개발' 검색 중...
+  [사람인] '챗봇 개발' 검색 중...
+  [사람인] '자동화 개발' 검색 중...
+  [사람인] 'ML 엔지니어' 검색 중...
+  [사람인] '자연어처리' 검색 중...
+  [사람인] 수집 완료: 840건
+  [사람인] 원본 수집: 840건
+
+==================================================
+  [잡코리아] 수집 시작
+==================================================
+  [잡코리아] 'AI 엔지니어' 검색 중...
+  [잡코리아] 'LLM' 검색 중...
+  [잡코리아] 'RAG' 검색 중...
+  [잡코리아] '챗봇 개발' 검색 중...
+  [잡코리아] '자동화 개발' 검색 중...
+  [잡코리아] '자연어처리' 검색 중...
+  [잡코리아] 수집 완료: 0건
+  [잡코리아] 원본 수집: 0건
+
+==================================================
+  [프로그래머스] 수집 시작
+==================================================
+  [프로그래머스] 'AI' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=AI&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'LLM' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=LLM&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '챗봇' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%B1%97%EB%B4%87&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '자동화' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%9E%90%EB%8F%99%ED%99%94&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'NLP' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=NLP&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'RAG' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=RAG&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'Machine Learning' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=Machine+Learning&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 수집 완료: 0건
+  [프로그래머스] 원본 수집: 0건
+
+==================================================
+  [원티드] 수집 시작
+==================================================
+  [원티드] category=655 수집 중...
+  [원티드] category=1024 수집 중...
+  [원티드] category=1025 수집 중...
+  [원티드] 수집 완료: 0건
+  [원티드] 원본 수집: 0건
+
+==================================================
+  [LinkedIn] 수집 시작
+==================================================
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=LLM+AI+개발자+채용&hl=ko&gl=KR&ceid=KR...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=RAG+챗봇+AI+엔지니어+채용&hl=ko&gl=KR&cei...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=자동화+AI+개발+채용+공고&hl=ko&gl=KR&ceid=...
+  [LinkedIn] 수집 완료: 74건
+  [LinkedIn] 원본 수집: 74건
+
+총 원본 수집: 914건
+
+🔍 중복 공고 제거 중...
+  [중복→스킵] '에이전틱Agentic AI?개발자 채용이 위험해진 이유' (LinkedIn)
+  [중복→스킵] '독파모 SKT 정예팀, 청년 인턴 모집..."AI 인재 육성"' (LinkedIn)
+  [중복→스킵] '오픈AI·앤트로픽, 국내서 엔지니어 최초 채용…‘솔루션 아키텍트’ 분야' (LinkedIn)
+  [중복→스킵] '"1371억 줄게" 연봉 쇼크…채용시장 발칵 뒤집어놓은 직업 [글로벌 머니 X파일]' (LinkedIn)
+  [중복→스킵] '메타, AI 채용 ‘일시 중단’…초지능팀 재편 후 숨고르기' (LinkedIn)
+  [중복→스킵] 'AI 시대의 취업 / 채용 전략' (LinkedIn)
+  [중복→스킵] "'채용 혹한기' 보낸 IT업계…유일하게 생존한 'AI 개발자'" (LinkedIn)
+  [중복→스킵] 'IT 업계 채용 41% 감소… AI 개발자 채용은 오히려 증가' (LinkedIn)
+  [중복→스킵] 'AI 개발자 수요 급증, IT 채용 시장 변화 주목' (LinkedIn)
+  [중복→스킵] '“AI 고급 인력 모십니다”…채용 확대 나선 AI기업들' (LinkedIn)
+  [중복→스킵] '인공지능 채용이 활발한 분야와 연봉은 어느 정도 일까?' (LinkedIn)
+  [중복→스킵] '\'독파모\' SKT 정예팀, 인턴 개발자 모집…"성장 발판 마련"' (LinkedIn)
+  [중복→스킵] '크래프톤, 게임 제작·AI 분야 신입 채용...＂글로벌 인재로 성장 지원＂' (LinkedIn)
+  [중복→스킵] "일론 머스크 xAI, 시급 65달러 'AI 튜터' 수천명 채용" (LinkedIn)
+  [중복→스킵] '"대변혁 맞은 회계 업무…\'AI 회계사\' 채용 앞장설 것"' (LinkedIn)
+중복 제거 후: 899건
+
+🎯 키워드 필터링 및 점수 산정 중...
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 PhysicalAI 엔지니어모집'  ← 로봇
+  [제외] 'AI 엔지니어(백엔드 개발자)'  ← 백엔드
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] 'AI 엔지니어(3D VISION/ADAS/임베디드) 모집'  ← 임베디드
+  [제외] 'Deeper-I 임베디드 AI 응용/시스템 SW 엔지니어 채용'  ← 임베디드
+  [제외] 'Power Platform(앱개발, RPA, BI, AI Agent) 엔지니어 모집'  ← 앱개발
+  [제외] '임베디드 AI 시스템 엔지니어 (NPU)(신입,경력3년미만)'  ← 시스템 엔지니어
+  [제외] '[나비프라] 엣지 AI 최적화 엔지니어(컴퓨터비전)'  ← 비전
+  [제외] '[AI반도체] RTL 설계 엔지니어'  ← 반도체
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 PhysicalAI 엔지니어모집'  ← 로봇
+  [제외] 'AI 엔지니어(3D VISION/ADAS/임베디드) 모집'  ← 임베디드
+  [제외] 'AI 시스템엔지니어 모십니다 (리눅스 NPU 서버)'  ← 시스템엔지니어
+  [제외] '[연구개발/경력] AI 이미징 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] 'AI 모델 개발 엔지니어'  ← 로봇
+  [제외] '[주요SI업체] AI 보안사업 엔지니어/서비스개발/컨설팅/사업수행'  ← 보안
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] '.[유망 AI 관련 코스닥사] Postgre SQL & C code 엔지니어 팀장'  ← C (단독)
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] '[서초] AI 인프라 솔루션 전문기업 시스템 소프트웨어 엔지니어'  ← 인프라
+  [제외] '[Physical AI] 휴머노이드 전장 하드웨어(HW)엔지니어'  ← 하드웨어
+  [제외] '[에티버스이피에이] X86 서버 및 AI 인프라 하드웨어 엔지니어'  ← 하드웨어
+  [제외] '2D, 3D, AI 머신비전 엔지니어 (신입)'  ← 비전
+  [제외] '[서울] AI 인프라팀 엔지니어 채용 (GPU 서버)'  ← 인프라
+  [제외] '[다우키움 계열사] 데이터·AI 백엔드 엔지니어 (경력 무관)'  ← 백엔드
+  [제외] '[피지컬AI 로봇] 휴머노이드 전장 HW 엔지니어'  ← 로봇
+  [제외] 'LLM 챗봇 개발 프로젝트 / java, python / 중구'  ← Java
+  [제외] 'AI Agent / LLM 기반 개발 (분석/설계/개발)'  ← 설계
+  [제외] 'LLM 알고리즘 개발 연구원 / 광주 또는 울산 근무'  ← 알고리즘
+  [제외] '[코스닥] AI보안 및 LLM/NLP 연구/개발자 (3~7년)'  ← 보안
+  [제외] '[정규직/코스닥/AI SW전문기업] LLM 풀스택 개발 경력직 채용'  ← 풀스택
+  [제외] '[AI 플랫폼 SW] 로봇 주행 / AI SW (LLM) / 임베디드 SW 개발'  ← 임베디드
+  [제외] 'AI 에이전트 백엔드 개발자 : Langraph/Langchain/LLM'  ← 백엔드
+  [제외] 'AI Scientist 모집(AI 클라우드)'  ← 클라우드
+  [제외] '[타이드스퀘어] Java Backend Engineer 경력 채용'  ← Java
+  [제외] '[채용] 백엔드 개발자 (경력 1년 이상)'  ← 백엔드
+  [제외] '서비스 기획/UX 디자인 리드'  ← UX
+  [제외] 'AI Engineer 모집(AI 클라우드)'  ← 클라우드
+  [제외] '[아정당 서울] DevOps 개발자 (5년 이상~)'  ← DevOps
+  [제외] '풀스택 개발자 채용합니다'  ← 풀스택
+  [제외] '[서초] AI 인프라 솔루션 전문기업 시스템 소프트웨어 엔지니어'  ← 인프라
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] '백엔드 개발자 채용공고 (계약직)'  ← 백엔드
+  [제외] 'Wanted: 클라우드 엔지니어, 구글 프리미어파트너인 DX선도기업'  ← 클라우드
+  [제외] '[금융, IT] Python 백엔드 개발자 3년차'  ← 백엔드
+  [제외] '병원용AI Smart Desk 서비스 백엔드/풀스택 경력(3년이상)개발자'  ← 백엔드
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] '(주)시티파이브 풀스택 개발자(c#, Mobile, AI/ML) 채용'  ← C#
+  [제외] '보안분야 공공/전략 사업개발 채용'  ← 보안
+  [제외] '[WAUG]와그 백엔드 개발자(PHP, JAVA) 모집'  ← Java
+  [제외] '[보안 컨설팅] 수준높은 취약점 진단, 모의해킹 컨설팅'  ← 보안
+  [제외] '[국내 핀테크 유니콘기업] 백엔드 엔지니어'  ← 백엔드
+  [제외] '[아이브릭스] AI웹서비스 프론트엔드 ,Spring개발자 채용공고'  ← Spring
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '[대화형AI기업] 시나리오 설계 및 기획 담당'  ← 설계
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] '[인빅]프론트엔드 개발자(Svelte 중심) 경력 채용'  ← 프론트엔드
+  [제외] '시니어 백엔드 엔지니어 (Python)'  ← 백엔드
+  [제외] '컴퓨터 비전 AI 분야 개발자'  ← 비전
+  [제외] 'RAG 및 LLM 기반 시스템 설계 및 구축 경험/세계적게임사'  ← 설계
+  [제외] '[CJ 그룹-CJ 메조미디어] 백엔드 개발자 경력채용'  ← 백엔드
+  [제외] 'Wanted: AI 에이전트 백엔드 개발자( RAG, 벡터DB 구축 )'  ← 백엔드
+  [제외] 'AI 에이전트 백엔드 개발자 : RAG, 벡터DB 구축'  ← 백엔드
+  [제외] 'AI Scientist 모집(AI 클라우드)'  ← 클라우드
+  [제외] 'AI Engineer 모집(AI 클라우드)'  ← 클라우드
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '[경력무관] 메일 보안 솔루션 영업'  ← 보안
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] 'RAG 및 LLM 기반 시스템 설계 및 구축 경험/세계적게임사'  ← 설계
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '[AX] AI 에이전트 개발자 (백엔드 + 데이터 엔지니어링)'  ← 백엔드
+  [제외] '온톨로지 설계 및 구축[선임~책임연구원]'  ← 설계
+  [제외] '[AI/클라우드] 프리세일즈 경력 채용'  ← 클라우드
+  [제외] 'AI 및 라이브 기반 반려동물 양육 플랫폼 백엔드 개발자 채용'  ← 백엔드
+  [제외] '온톨로지 기반 AI (sLLM) 항체개발 시스템 백엔드'  ← 백엔드
+  [제외] '[메가존클라우드 관계사] 알파코드 AI 서비스 개발자'  ← 클라우드
+  [제외] '위드로봇(주) Python 개발자 채용'  ← 로봇
+  [제외] 'AI Agent / LLM 기반 개발 (분석/설계/개발)'  ← 설계
+  [제외] 'DevOps Engineer'  ← DevOps
+  [제외] '[경력Java·Vue.js] 의료기 사업 에이전트AI 개발 프리랜서 모집'  ← Java
+  [제외] '백화점 앱 AI 챗봇 서비스 운영-백엔드 개발자(중급) 구인'  ← 백엔드
+  [제외] 'LLM챗봇 개발프로젝트 / java, python / 중구'  ← Java
+  [제외] '[탑코미디어] 챗봇 페르소나 설계자 모집'  ← 설계
+  [제외] '[TWC] AI SaaS 클라우드게이트 고객지원/운영 담당자 채용'  ← 클라우드
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '[대화형AI기업] 시나리오 설계 및 기획 담당'  ← 설계
+  [제외] 'Cloud & DevOps Arichitect 경력사원 모집'  ← DevOps
+  [제외] 'AI 프로그래머(AI 시스템 설계 및 개발) 모집 - 병역특례 가능'  ← 설계
+  [제외] '(주)세피스 개발팀 MES,POP(C#, .NET, MVC )경력사원 채용'  ← .NET
+  [제외] '(주)지텔레마 AI 알고리즘 및 S/W 개발 담당(3D 모델 생성)'  ← 알고리즘
+  [제외] 'Power Platform(앱개발, RPA, BI, AI Agent) 엔지니어 모집'  ← 앱개발
+  [제외] '[인텔리코드] AI Agent 백엔드 개발자 모집 공고'  ← 백엔드
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] '[캐시워크] 백엔드개발 병역특례 대상자 모집'  ← 백엔드
+  [제외] '[캐시워크] 풀스택개발 병역특례 대상자 모집'  ← 풀스택
+  [제외] '[정규직/코스닥/AI SW전문기업] LLM 풀스택 개발 경력직 채용'  ← 풀스택
+  [제외] 'React 기반 백엔드 개발자 구인'  ← 백엔드
+  [제외] 'AI 학습 및 평가 데이터 설계/구축 PL (재택근무)'  ← 설계
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] '인프라 엔지니어'  ← 인프라
+  [제외] '[여의도] Salesforce 클라우드 개발 모집 공고 [4월-1년]'  ← 클라우드
+  [제외] '프론트엔드, 백엔드 개발자 모집'  ← 백엔드
+  [제외] '[이지팩토리] JAVA 웹 개발자 경력직 채용 공고'  ← Java
+  [제외] '인프라 아키텍트'  ← 인프라
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] 'Backend Engineer(Node.js & Java/Kotlin)'  ← Java
+  [제외] '프론트엔드 개발자 (React / Next.js / Python)'  ← 프론트엔드
+  [제외] 'AI 기반 자연어 질의 시스템 개발자 (프론트 & 백엔드)'  ← 백엔드
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] '[경력Java·Vue.js] 의료기 사업 에이전트AI 개발 프리랜서 모집'  ← Java
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] '[프론트엔드 개발자] 경력직 채용'  ← 프론트엔드
+  [제외] '[자동화플랫폼팀] 백엔드 시스템 개발자 채용'  ← 백엔드
+  [제외] '[경력]자동화 로봇/공장/창고 3D시뮬레이션 개발(WebGL/Package)'  ← 비전
+  [제외] '반도체 자동화 설비 제어 프로그램 개발'  ← 반도체
+  [제외] '자동화 장비 개발 - 기구설계 엔지니어 모집'  ← 설계
+  [제외] '자동화설비 SW(비전제어) 개발 경력 모집'  ← 비전
+  [제외] 'Revit 기반 BIM 자동화 C# 개발자 채용 (WinForms, 3년이상)'  ← C#
+  [제외] '3D프린터 자동화 로봇 AS 및 연구개발 지원 (경력직)'  ← 로봇
+  [제외] '(MNCs) QA 플랫폼 자동화 솔루션 개발-ML엔지니어'  ← QA
+  [제외] 'KIOSK 및 전산 자동화 C# 주니어 개발자 모집'  ← C#
+  [제외] '기구설계 (검사장비/자동화장비) 개발자 모집'  ← 설계
+  [제외] '[반도체 장비 제조업 ]자동화 개발로봇 프로그래머 경력 채용'  ← 반도체
+  [제외] '글로벌 eCommerce QA 차장급 자동화 시니어 개발자 모집'  ← QA
+  [제외] '[기흥연구소] 공장 설비 자동화 설계 및 개발 경력자 채용'  ← 설계
+  [제외] '[2차전지 자동화 장비 개발] 설계'  ← 설계
+  [제외] '[경력] 제조로보틱스 - 로봇 자동화 플랫폼 미들웨어 개발'  ← 로봇
+  [제외] '(주)글로벌디펜스 협동로봇 자동화 시스템 SW 개발자'  ← 로봇
+  [제외] '2026상반기 C++ 영상처리,자동화개발 신입·경력 프로그래머채용'  ← C++
+  [제외] '산업자동화 머신비전 Application SW 프로그램 개발'  ← 비전
+  [제외] '[Welcome Bonus 지급] 보안 시스템자동화 개발자 영입'  ← 보안
+  [제외] '[글로벌엔지니어링] 협동로봇 자동화 시스템 SW개발자'  ← 로봇
+  [제외] 'MFC개발(자동화장비,대리~차장급)'  ← 네트워크
+  [제외] '레이저 장비 제어 프로그램 개발(자동화장비,대리~차장급)'  ← 네트워크
+  [제외] '[평택] 네트워크 엔지니어'  ← 네트워크
+  [제외] '[수원 망포] 네트워크 엔지니어'  ← 네트워크
+  [제외] '[이천/청주] 네트워크 엔지니어'  ← 네트워크
+  [제외] '코아시아씨엠 연구소 모바일 렌즈 광학설계 경력사원 채용'  ← 설계
+  [제외] '프론트엔드 개발자(경력 3년 이상)'  ← 프론트엔드
+  [제외] '[서울] 네트워크 엔지니어 (경력)'  ← 네트워크
+  [제외] '(주)씨에이에스 2026년 정보보호사업부문 채용'  ← 정보보호
+  [제외] '[경력] JAVA개발자 플랫폼 운영 관리'  ← Java
+  [제외] '(주)도화엔지니어링 웹 프론트엔드(Front-End) 개발자'  ← 프론트엔드
+  [제외] 'UX/UI 디자이너 (3년 이상)'  ← UX
+  [제외] '생산 비규격설계 경력직 채용'  ← 설계
+  [제외] '기술연구소 로봇선행개발팀(기구설계) 경력사원 채용'  ← 로봇
+  [제외] '브룩스오토메이션 SQA Engineer'  ← QA
+  [제외] '풀스택 개발자 모집공고'  ← 풀스택
+  [제외] '[카카오 계열사] 웹툰 한국어/일본어 Linguist'  ← UI
+  [제외] '대기업 그룹사 DBA'  ← DBA
+  [제외] '[머스트핀테크] 에이전시 사업부(AGN) CX팀-UI디자이너'  ← UI
+  [제외] 'AI Engineer 모집(AI 클라우드)'  ← 클라우드
+  [제외] '(주)바이언스 - 백엔드 개발자 채용'  ← 백엔드
+  [제외] '[글로벌 유명 게임 개발사 산하 스튜디오]프론트엔드 엔지니어'  ← 프론트엔드
+  [제외] 'Back-end(백엔드) 개발자 채용'  ← 백엔드
+  [제외] '[동탄/코스닥] 레이저 응용광학 기구설계'  ← 설계
+  [제외] '[글로벌 게임 개발사] Slot UI Designer 채용'  ← UI
+  [제외] 'SW Engineer (신입/경력)'  ← 반도체
+  [제외] '(MNCs) QA 플랫폼 자동화 솔루션 개발-ML엔지니어'  ← QA
+  [제외] '[마곡/판교] 로봇 엔지니어(Operator, ML, 3D) 채용: 연4500이상'  ← 로봇
+  [제외] '구글 클라우드 엔지니어 아키텍처 설계/기술지원 (Data,AI/ML)'  ← 클라우드
+  [제외] 'ML Systems Runtime Engineer [신입/병특가능]'  ← 반도체
+  [제외] 'ML Systems Runtime Engineer [경력]'  ← 반도체
+  [제외] 'AI Engineer 모집(AI 클라우드)'  ← 클라우드
+  [제외] '[스카이웨어]신입 개발자 모집(Java / 웹서비스 / AI 활용개발)'  ← Java
+  [제외] '영상처리 알고리즘 개발자 (Vision S/W Engineer)'  ← 영상처리
+  [제외] '프론트엔드 개발자: Frontend Engineer'  ← 프론트엔드
+  [제외] '[제조AI 고속성장 스타트업]인프라-플랫폼 데이터 엔지니어채용'  ← 인프라
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'AWS Public Cloud Pre-sales & Consulting 경력사원 모집'  ← AWS
+  [제외] '[써큘러랩스] MLOps 채용'  ← MLOps
+  [제외] '[EUV 반도체 장비 기업] Deep learning(PHM, Data analysis)'  ← 반도체
+  [제외] '[이노션] 백엔드 소프트웨어 엔지니어(마케팅 플랫폼) (계약직)'  ← 백엔드
+  [제외] '이미지 프로세싱 알고리즘 개발 신입'  ← 알고리즘
+  [제외] '반도체 검사(계측)설비 SW 개발 경력채용'  ← 반도체
+  [제외] '[경력]자동화 로봇/공장/창고 3D시뮬레이션 개발(WebGL/Package)'  ← 비전
+  [제외] '[전문연구요원]로봇 시스템 비전 소프트웨어 엔지니어'  ← 비전
+  [제외] '[환경/신재생에너지/송파구] IT인프라 운영 대리~과장급'  ← 인프라
+  [제외] 'Cloud & DevOps Arichitect 경력사원 모집'  ← DevOps
+  [제외] '로봇 모션 컨트롤 엔지니어(경력)'  ← 로봇
+  [제외] '[AI Model R&D Engineer] / MCU 전문 반도체 기업'  ← 반도체
+  [제외] '백엔드 엔지니어'  ← 백엔드
+  [제외] '[다우키움 계열사] 데이터·AI 백엔드 엔지니어 (경력 무관)'  ← 백엔드
+  [제외] '[강남/AI/연봉상향] 컴퓨터비전 엔지니어 채용'  ← 비전
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] '[코스닥] AI보안 및 LLM/NLP 연구/개발자 (3~7년)'  ← 보안
+  [제외] '서비스 기획/UX 디자인 리드'  ← UX
+  [제외] '풀스택 개발자 채용합니다'  ← 풀스택
+  [제외] '병원용AI Smart Desk 서비스 백엔드/풀스택 경력(3년이상)개발자'  ← 백엔드
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] 'AI 개발(Python), 데이터분석 및 사업 기획 인턴 모집'  ← 클라우드
+  [제외] '주식회사 천천히 - 풀스택 개발자를 채용합니다.'  ← 풀스택
+  [제외] 'AI 기반 자연어 질의 시스템 개발자 (프론트 & 백엔드)'  ← 백엔드
+  [제외] 'ComfyUI AI/PO기반 솔루션기획(14년 이상)'  ← UI
+  [제외] 'ComfyUI AI/PO기반 솔루션기획(10~13년)'  ← UI
+  [제외] 'PO.검색기획(8-10년.온라인모바일.쇼핑몰.이커머스.UIUX.서비스)'  ← UX
+  [제외] '노리스페이스와 함께 성장하실 DevOPS Engineer분을 모십니다'  ← DevOps
+  [제외] 'ComfyUI AI/PO기반 솔루션기획(6~9년)'  ← UI
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] '[코스닥-보안업체] AI/ML 모델 연구/개발자'  ← 보안
+  [제외] 'LLM 알고리즘 개발 연구원 / 광주 또는 울산 근무'  ← 알고리즘
+  [제외] '[경력] 기구 설계 담당자(팀장급) / 2D설계 및 3D모델링'  ← 설계
+  [제외] 'AI 및 사이버보안 연구원 각 부문별 채용(신입/경력직)'  ← 보안
+  [제외] '2026년 상반기 에이로봇 S/W, H/W 채용'  ← H/W
+  [제외] 'SKT 정예팀, 독파모 개발 참여 인턴 모집 “AI 인재 육성의 마중물 역할 기대”'  ← UX
+  [제외] 'AI 개발자 대신 데이터 엔지니어 수천명 뽑는 토스 왜'  ← UX
+  [제외] '“합격하면 500만원 준다” “우린 2000만원 준다” 난리더니…결국 채용 ‘큰 장’ 선다'  ← .NET
+  [제외] '“멀티 LLM 체제서도 생존 목표”...SK텔레콤, 직원 채용 등 AI 챗봇 고도화 전력 - 조선비즈'  ← QA
+  [제외] '게임 제작과 AI 분야의 신입 사원 채용 | KRAFTON'  ← UX
+  [제외] 'SKT·크래프톤, 독자 AI 개발 참여 인턴 개발자 모집'  ← UX
+  [제외] '그렙, AI 인력 전쟁 본격화...기업 10곳 중 7곳 채용 나선다'  ← UX
+  [제외] '2년 전 인기였던 프롬프트 엔지니어, 지금은 어떻게 됐나..."직무에서 역량으로"'  ← UX
+  [제외] '[점선면] AI에 채용 맡겼더니 여성이 배제됐다…AI에 스며든 차별 없애려면'  ← UI
+  [제외] 'IT 채용 반토막에도 \'AI 개발자\' 수요는 증가…"중고신입 선호" - 머니투데이'  ← QA
+  [제외] '한국딥러닝(주) 2026년 상반기 채용 | 기업리뷰 23건, 연봉정보 11건, 면접후기 35건, 복지정보 0건, 채용공고 11건'  ← UX
+  [제외] "AI 스타트업은 지금 개발자 '채용 전쟁'…리벨리온·뉴빌리티, 직원 수 3배 급증 [긱스]"  ← UI
+  [제외] "[기획] 프롬프트 엔지니어링은 죽지 않았다, 다만 '시스템 설계'로 승화되었을 뿐"  ← UX
+  [제외] 'RAG vs. 미세 조정 vs. 프롬프트 엔지니어링'  ← UX
+  [제외] 'AI 확산에도 채용 시장의 중심은 ‘개발자’'  ← UX
+  [제외] 'HD현대·한화오션, 대규모 채용 드라이브…조선업 인재 확보전 본격화'  ← UI
+  [제외] '잡코리아, ‘AI 공고 자동 생성’ 기능 도입…채용 공고 작성 시간 70% 이상 단축'  ← UX
+  [제외] '“29년간 축적 데이터 활용”…잡코리아, AI 채용 효율 확대 본격화'  ← UX
+  [제외] '[초점] ‘AI는 필수\' 채용공고 300% 급증...구직자 절반은 "기준 혼동“'  ← UX
+  [제외] '스타트업 채용 플랫폼 ‘그룹바이’…AI 활용 자동화 기술 개발 속도'  ← UX
+  [제외] '신입 채용 비중 14% 바늘구멍… 글로벌 AI 3강, 한국서 격돌 [캠퍼스 뉴스]'  ← UX
+  [제외] '[현장] "1만 3천명 공채를 3주 만에"… 마이다스인, \'AI 채용 에이전트\'로 HR 혁신 제시'  ← UX
+  [제외] '[초점] "AI 기반 채용 아웃소싱 서비스가 당신의 HR팀을 대체한다"'  ← QA
+  [제외] 'AI가 일자리를 바꾸고 있다…신입 채용 감소와 요구 조건 강화'  ← UX
+  [제외] '“AI에 책상 빼앗긴 엔지니어들” 실리콘밸리발 구조조정 [직장인 뉴스]'  ← UX
+  [제외] '[AI 채용] “누가 나를 떨어뜨렸는가, 면접관인가 AI인가”'  ← UX
+  [제외] '"반복 업무는 로봇이"…대형 로펌 \'AI 비서\' 속속 채용'  ← QA
+필터링 후: 660건
+최종 발송 대상: 30건
+
+📊 점수 분포:
+  14점: 4건
+  12점: 4건
+  9점: 5건
+  8점: 6건
+  7점: 7건
+  5점: 4건
+
+📧 이메일 발송 중...
+[메일] GMAIL_SENDER / GMAIL_APP_PASSWORD 환경 변수 미설정
+
+✅ 완료 — 08:06:07
+
+🚀 Job Alert 시작 — 2026-04-24 08:05:01
+
+📡 채용 공고 수집 중...
+
+==================================================
+  [사람인] 수집 시작
+==================================================
+  [사람인] 'AI 엔지니어' 검색 중...
+  [사람인] 'LLM 개발' 검색 중...
+  [사람인] 'RAG 개발' 검색 중...
+  [사람인] '챗봇 개발' 검색 중...
+  [사람인] '자동화 개발' 검색 중...
+  [사람인] 'ML 엔지니어' 검색 중...
+  [사람인] '자연어처리' 검색 중...
+  [사람인] 수집 완료: 840건
+  [사람인] 원본 수집: 840건
+
+==================================================
+  [잡코리아] 수집 시작
+==================================================
+  [잡코리아] 'AI 엔지니어' 검색 중...
+  [잡코리아] 'LLM' 검색 중...
+  [잡코리아] 'RAG' 검색 중...
+  [잡코리아] '챗봇 개발' 검색 중...
+  [잡코리아] '자동화 개발' 검색 중...
+  [잡코리아] '자연어처리' 검색 중...
+  [잡코리아] 수집 완료: 0건
+  [잡코리아] 원본 수집: 0건
+
+==================================================
+  [프로그래머스] 수집 시작
+==================================================
+  [프로그래머스] 'AI' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=AI&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'LLM' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=LLM&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '챗봇' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%B1%97%EB%B4%87&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '자동화' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%9E%90%EB%8F%99%ED%99%94&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'NLP' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=NLP&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'RAG' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=RAG&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'Machine Learning' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=Machine+Learning&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 수집 완료: 0건
+  [프로그래머스] 원본 수집: 0건
+
+==================================================
+  [원티드] 수집 시작
+==================================================
+  [원티드] category=655 수집 중...
+  [원티드] category=1024 수집 중...
+  [원티드] category=1025 수집 중...
+  [원티드] 수집 완료: 0건
+  [원티드] 원본 수집: 0건
+
+==================================================
+  [LinkedIn] 수집 시작
+==================================================
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=LLM+AI+개발자+채용&hl=ko&gl=KR&ceid=KR...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=RAG+챗봇+AI+엔지니어+채용&hl=ko&gl=KR&cei...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=자동화+AI+개발+채용+공고&hl=ko&gl=KR&ceid=...
+  [LinkedIn] 수집 완료: 76건
+  [LinkedIn] 원본 수집: 76건
+
+총 원본 수집: 916건
+
+🔍 중복 공고 제거 중...
+  [중복→스킵] '에이전틱Agentic AI?개발자 채용이 위험해진 이유' (LinkedIn)
+  [중복→스킵] '독파모 SKT 정예팀, 청년 인턴 모집..."AI 인재 육성"' (LinkedIn)
+  [중복→스킵] '오픈AI·앤트로픽, 국내서 엔지니어 최초 채용…‘솔루션 아키텍트’ 분야' (LinkedIn)
+  [중복→스킵] '"1371억 줄게" 연봉 쇼크…채용시장 발칵 뒤집어놓은 직업 [글로벌 머니 X파일]' (LinkedIn)
+  [중복→스킵] '메타, AI 채용 ‘일시 중단’…초지능팀 재편 후 숨고르기' (LinkedIn)
+  [중복→스킵] 'AI 시대의 취업 / 채용 전략' (LinkedIn)
+  [중복→스킵] "'채용 혹한기' 보낸 IT업계…유일하게 생존한 'AI 개발자'" (LinkedIn)
+  [중복→스킵] 'IT 업계 채용 41% 감소… AI 개발자 채용은 오히려 증가' (LinkedIn)
+  [중복→스킵] 'AI 개발자 수요 급증, IT 채용 시장 변화 주목' (LinkedIn)
+  [중복→스킵] '“AI 고급 인력 모십니다”…채용 확대 나선 AI기업들' (LinkedIn)
+  [중복→스킵] '인공지능 채용이 활발한 분야와 연봉은 어느 정도 일까?' (LinkedIn)
+  [중복→스킵] '크래프톤, 게임 제작·AI 분야 신입 채용...＂글로벌 인재로 성장 지원＂' (LinkedIn)
+  [중복→스킵] '\'독파모\' SKT 정예팀, 인턴 개발자 모집…"성장 발판 마련"' (LinkedIn)
+  [중복→스킵] "일론 머스크 xAI, 시급 65달러 'AI 튜터' 수천명 채용" (LinkedIn)
+  [중복→스킵] '"대변혁 맞은 회계 업무…\'AI 회계사\' 채용 앞장설 것"' (LinkedIn)
+중복 제거 후: 901건
+
+🎯 키워드 필터링 및 점수 산정 중...
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 PhysicalAI 엔지니어모집'  ← 로봇
+  [제외] 'AI 엔지니어(백엔드 개발자)'  ← 백엔드
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] 'Microsoft Engineer(AI Agent/Security Consultant)'  ← 클라우드
+  [제외] 'Deeper-I 임베디드 AI 응용/시스템 SW 엔지니어 채용'  ← 임베디드
+  [제외] '(주)스탁브릭스에서 풀스택 엔지니어(AI·임베디드·플랫폼)를 찾고 있어요'  ← 임베디드
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] 'AI 채용솔루션(ATS) 백엔드 엔지니어'  ← 백엔드
+  [제외] 'AI Research Engineer 엔지니어 채용'  ← 클라우드
+  [제외] 'AI 인프라 필드 엔지니어'  ← 인프라
+  [제외] 'AI 플랫폼 시스템 엔지니어(경력)'  ← 시스템 엔지니어
+  [제외] 'AI인프라 엔지니어(경력)'  ← 인프라
+  [제외] '[퀀텀씨엔에스] 쿠버네티스 기반 AI 인프라 운영 엔지니어 채용'  ← 인프라
+  [제외] 'AI 플랫폼 시스템 엔지니어(신입)'  ← 시스템 엔지니어
+  [제외] '[메타엠] AICC개발실 IPCC 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] '[에티버스이피에이] X86 서버 및 AI 인프라 하드웨어 엔지니어'  ← 하드웨어
+  [제외] 'Junior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] 'Senior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] 'AI 시스템엔지니어 모십니다 (리눅스 NPU 서버)'  ← 시스템엔지니어
+  [제외] 'AI 신약개발 플랫폼 백엔드/데이터 엔지니어 모집'  ← 백엔드
+  [제외] 'AI 이미징 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] 'LLM 챗봇 개발 프로젝트 / java, python / 중구'  ← Java
+  [제외] '[AI 플랫폼 SW] 로봇 주행 / AI SW (LLM) / 임베디드 SW 개발'  ← 임베디드
+  [제외] 'AI 에이전트 백엔드 개발자 : Langraph/Langchain/LLM'  ← 백엔드
+  [제외] '동명기술공단 부설연구소 AI / 백엔드 개발자 채용 공고'  ← 백엔드
+  [제외] '2026년 상반기 각 부분 신입/경력사원 채용(영업, 전략기획, 채널관리, 연구개발자, 기술엔지니어, QA인증)'  ← QA
+  [제외] '[그림] 머신비전 SW 소프트웨어 개발자(C++/MFC) 채용'  ← C++
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] '[수산그룹]수산INT 부문별 채용(개발/영업/정보보호컨설팅 등)'  ← 정보보호
+  [제외] '[메타빌드] 보안/네트워크 솔루션 개발 및 유지관리 채용'  ← 네트워크
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] 'AI 서비스 백엔드 개발자(경력)'  ← 백엔드
+  [제외] '풀스택 S/W개발 경력사원 채용'  ← 풀스택
+  [제외] '[CJ 그룹-CJ 메조미디어] 백엔드 개발자 경력채용'  ← 백엔드
+  [제외] '[서비스개발센터] 경력 개발자(프론트엔드, 백엔드) 채용'  ← 백엔드
+  [제외] '에너지 플랫폼 개발(AI, 웹개발, 솔루션) 경력직 채용'  ← 웹개발
+  [제외] '경력 개발자(프론트엔드) 채용'  ← 프론트엔드
+  [제외] '[에티버스] Vantiq 백엔드 개발 및 기술지원 담당자 (경력)'  ← 백엔드
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '경력 개발자(백엔드) 채용'  ← 백엔드
+  [제외] '[AI서비스] 백엔드개발 경력직 채용'  ← 백엔드
+  [제외] '프론트엔드/백엔드 개발자 모집'  ← 백엔드
+  [제외] 'AI 기반 자연어 질의 시스템 개발자 (프론트 & 백엔드)'  ← 백엔드
+  [제외] '[iVX] 백엔드 개발자(계약직, 3년 이상)'  ← 백엔드
+  [제외] '신성델타테크(주) 로봇센터(서울) 로봇 소프트웨어 개발직 채용'  ← 로봇
+  [제외] '통신사 차세대 BSS 프로젝트 개발자(Java, React, AI Agent)'  ← Java
+  [제외] '[KREAM] AI Builder 모집'  ← UI
+  [제외] '보안분야 공공/전략 사업개발 채용'  ← 보안
+  [제외] '[개발본부]클라우드 PM'  ← 클라우드
+  [제외] '[STEALIEN] 취약점 분석가/보안 개발자(R&D) 채용 (선제대응팀)'  ← 보안
+  [제외] 'AI 엔지니어 (백엔드 개발자)'  ← 백엔드
+  [제외] '[아정당 서울] DevOps 개발자 (5년 이상~)'  ← DevOps
+  [제외] 'AI 에이전트 백엔드 개발자 : RAG, 벡터DB 구축'  ← 백엔드
+  [제외] '2026년 상반기 각 부분 신입/경력사원 채용(영업, 전략기획, 채널관리, 연구개발자, 기술엔지니어, QA인증)'  ← QA
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] '백엔드 개발자 (7년 이상) PHP/ Java / 다양한 언어 환영'  ← Java
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] '[메타빌드] 보안/네트워크 솔루션 개발 및 유지관리 채용'  ← 네트워크
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '에너지 플랫폼 개발(AI, 웹개발, 솔루션) 경력직 채용'  ← 웹개발
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '프론트엔드/백엔드 개발자 모집'  ← 백엔드
+  [제외] '통신사 차세대 BSS 프로젝트 개발자(Java, React, AI Agent)'  ← Java
+  [제외] 'AI 엔지니어 (백엔드 개발자)'  ← 백엔드
+  [제외] '바이브코딩(Vibe Coding) 기반 풀스택 개발자 모집'  ← 풀스택
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] 'AI 모델 및 알고리즘 개발자'  ← 알고리즘
+  [제외] '위드로봇(주) Python 개발자 채용'  ← 로봇
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] 'AI 기반 영상 분석 서비스 풀스택 개발자 경력 채용 공고'  ← 풀스택
+  [제외] '[경력] 서비스 플랫폼 풀스택 개발자'  ← 풀스택
+  [제외] 'LLM챗봇 개발프로젝트 / java, python / 중구'  ← Java
+  [제외] '백화점 앱 AI 챗봇 서비스 운영-백엔드 개발자(중급) 구인'  ← 백엔드
+  [제외] 'Power Platform(앱개발, RPA, BI, AI Agent) 엔지니어 모집'  ← 앱개발
+  [제외] 'AI 기반 자연어 질의 시스템 개발자 (프론트 & 백엔드)'  ← 백엔드
+  [제외] '[캐시워크] 풀스택개발 병역특례 대상자 모집'  ← 풀스택
+  [제외] '시니어 풀스택 엔지니어(5~7년)'  ← 풀스택
+  [제외] '시니어 풀스택 엔지니어(8~10년)'  ← 풀스택
+  [제외] '[여의도] Salesforce 클라우드 개발 모집 공고 [4월-1년]'  ← 클라우드
+  [제외] '[캐시워크] 백엔드개발 병역특례 대상자 모집'  ← 백엔드
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] '[인텔리코드] AI Agent 백엔드 개발자 모집 공고'  ← 백엔드
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] '한국oooo공사/공기업/Java, React/챗봇시스템 구축'  ← Java
+  [제외] '인프라 아키텍트'  ← 인프라
+  [제외] '(주)세피스 개발팀 MES,POP(C#, .NET, MVC )경력사원 채용'  ← .NET
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] 'Microsoft Engineer(AI Agent/Security Consultant)'  ← 클라우드
+  [제외] '[SW] 프론트엔드 개발자 인턴 (정규직 전환 가능)'  ← 프론트엔드
+  [제외] '딥러닝 엔지니어 / 데이터사이언티스트'  ← 데이터사이언티스트
+  [제외] 'Backend Engineer(Node.js & Java/Kotlin)'  ← Java
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] '주식회사 아이티앤 웹개발자 경력직 채용'  ← 웹개발
+  [제외] 'React 기반 백엔드 개발자 구인'  ← 백엔드
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] '[AI 전문기업 아크릴] 프론트엔드 앱 개발자 경력직 채용'  ← 프론트엔드
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] 'AI 프로그래머(AI 시스템 설계 및 개발) 모집 - 병역특례 가능'  ← 설계
+  [제외] '정보보호 담당자 경력직 채용 (4~7년차)'  ← 정보보호
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] '인프라 엔지니어'  ← 인프라
+  [제외] 'AI 학습 및 평가 데이터 설계/구축 PL (재택근무)'  ← 설계
+  [제외] '프론트엔드 개발자 (React / Next.js / Python)'  ← 프론트엔드
+  [제외] '[이지팩토리] JAVA 웹 개발자 경력직 채용 공고'  ← Java
+  [제외] '[AI/클라우드] 소프트웨어 기술 영업 (경력) 채용'  ← 클라우드
+  [제외] '(주)지텔레마 AI 알고리즘 및 S/W 개발 담당(3D 모델 생성)'  ← 알고리즘
+  [제외] '[LGCNS자회사] 금융권경험 시니어 UX/UI 기획자 PM 모집'  ← UX
+  [제외] '[경력] 언리얼 개발자 (Unity3D전환가능)'  ← 비전
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] '프론트엔드, 백엔드 개발자 모집'  ← 백엔드
+  [제외] '[TWC] AI SaaS 클라우드게이트 고객지원/운영 담당자 채용'  ← 클라우드
+  [제외] '[글로벌엔지니어링] 협동로봇 자동화 시스템 SW개발자'  ← 로봇
+  [제외] '[반도체 장비 제조업 ]자동화 개발로봇 프로그래머 경력 채용'  ← 반도체
+  [제외] '반도체 자동화 설비 제어 프로그램 개발'  ← 반도체
+  [제외] '[경력]자동화 로봇/공장/창고 3D시뮬레이션 개발(WebGL/Package)'  ← 비전
+  [제외] '(주)글로벌디펜스 협동로봇 자동화 시스템 SW 개발자'  ← 로봇
+  [제외] '기구설계 (검사장비/자동화장비) 개발자 모집'  ← 설계
+  [제외] '기술연구소 로봇선행개발팀(기구설계) 경력사원 채용'  ← 로봇
+  [제외] '3D프린터 자동화 로봇 AS 및 연구개발 지원 (경력직)'  ← 로봇
+  [제외] '[기흥연구소] 공장 설비 자동화 설계 및 개발 경력자 채용'  ← 설계
+  [제외] '자동화 장비 개발 - 기구설계 엔지니어 모집'  ← 설계
+  [제외] '[정규직] 로봇 자동화 시스템 설계 및 제작 엔지니어 모집'  ← 로봇
+  [제외] '[분당/코스닥] HW 시스템 설계 및 개발 채용'  ← 설계
+  [제외] '코스닥상장사 (주)지아이텍 비전사업부[SW/제어(PC)]경력'  ← 비전
+  [제외] '시스템 설계 엔지니어(로봇 자동화)'  ← 로봇
+  [제외] '비젼시스템/로봇/PLC 프로그램 개발 및 기술지원 인재모집'  ← 로봇
+  [제외] '페이브텍(주)R&D 로봇 매니퓰레이터 제어 개발자 채용'  ← 로봇
+  [제외] '각 부문 채용(전장설계/PLC제어/PC제어/기계설계)'  ← 설계
+  [제외] '로봇 .자동화 신입사원'  ← 로봇
+  [제외] '[로보티즈] 품질경영팀 지그펌웨어, 전장부 설계 모집의 건'  ← 펌웨어
+  [제외] '[전문연구요원]로봇 제어 플랫폼 개발 엔지니어'  ← 로봇
+  [제외] '기구설계 경력(기술연구소)'  ← 설계
+  [제외] '로봇 제어'  ← 로봇
+  [제외] '기술연구소 H/W 담당자 모집(MCU 및 임베디스 H/W 설계)'  ← H/W
+  [제외] '[경력] 제조로보틱스 - 로봇 자동화 플랫폼 미들웨어 개발'  ← 로봇
+  [제외] '[첨단로봇연구소] 로봇과 시스템 설계,개발 엔지니어(경력)'  ← 로봇
+  [제외] '[첨단로봇연구소] 로봇 및 자동화 제어 S/W 경력사원'  ← 로봇
+  [제외] '[PC제어] 자동화 설비 SW 개발자 채용(C++/MFC)'  ← C++
+  [제외] 'ICT/ISP System H/W 설계,검증,기술지원 엔지니어'  ← H/W
+  [제외] '자동화 설계 PM(5년이상)'  ← 설계
+  [제외] '기구설계(국내 개발팀)'  ← 설계
+  [제외] '자동화 설비 PC제어/머신비전 신입/경력직 채용'  ← 비전
+  [제외] '자동차 관련 EOL 검사장비( Labview, C# ) 신입, 경력사원 채용'  ← C#
+  [제외] '자동제어 설계, PLC 프로그래밍 경력사원 모집'  ← 설계
+  [제외] '[LG전자 자회사] 로보스타 전장 설계, 회로/FW 설계'  ← 설계
+  [제외] '[LG전자 자회사] 로보스타 반도체 설비 기구 설계, SW 개발'  ← 반도체
+  [제외] '(주)져스텍 연구소/설계팀 경력사원 모집 공고'  ← 설계
+  [제외] '로봇 전장 설계 엔지니어 채용'  ← 로봇
+  [제외] '기구 설계 연구개발 경력직 채용'  ← 설계
+  [제외] '(렌다) 머신비전 기구설계 개발자/엔지니어 모집'  ← 비전
+  [제외] '(주)페타엑스 자동화시스템 설계 / 기계조립 & CS담당자 모집'  ← 설계
+  [제외] '[경력모집] 설비제어 비전시스템 개발 담당자 모집'  ← 비전
+  [제외] '(케이엠테크) 머신비전 기구설계 개발자/엔지니어 모집'  ← 비전
+  [제외] '기술연구소 메카 설계 담당자 모집'  ← 설계
+  [제외] '로봇핸드 AI 기술개발'  ← 로봇
+  [제외] '[주토스] 정밀 AOI 설계 개발자 모집'  ← 설계
+  [제외] '[코스닥 상장] ㈜에이프로 임베디드/펌웨어 개발자 채용'  ← 임베디드
+  [제외] '[채용공고] 산업용 자동화 기계설계 엔지니어 모집'  ← 설계
+  [제외] '로봇 제어 엔지니어'  ← 로봇
+  [제외] '자동화 장비 기구설계 엔지니어'  ← 설계
+  [제외] '[기술연구소/기구설계팀] 정규직 모집'  ← 설계
+  [제외] '로봇 스타트업 (주)에니아이 Electrical Engineer'  ← 로봇
+  [제외] '자율주행 로봇 / 협동 로봇 / ROS / Vision / AI 개발 직무'  ← 로봇
+  [제외] '하드웨어 엔지니어 전장설계(경력)'  ← 하드웨어
+  [제외] '로보틱스 하드웨어 (설계) 엔지니어 모집 (신입/경력)'  ← 하드웨어
+  [제외] '[장비설계] (주) 오엠티- 자동화 설비 기구 설계 / 경력자 채용'  ← 설계
+  [제외] '자동화설계, 기구설계, 기계설계 모집함.'  ← 설계
+  [제외] '보안장비 기구설계 엔지니어 채용'  ← 보안
+  [제외] '로봇 Application SW Engineer'  ← 로봇
+  [제외] '(주)파인솔루션 기구설계 및 제어(PLC/펌웨어) 엔지니어 모집'  ← 펌웨어
+  [제외] '[GST] 스크러버 개발_기구설계 경력자 채용'  ← 설계
+  [제외] '로봇/로보틱스 필드엔지니어(FSE) 모집 (경력)'  ← 로봇
+  [제외] '기구 설계자 모집'  ← 설계
+  [제외] '로봇 SI 엔지니어 채용 #왕십리 #도보3분'  ← 로봇
+  [제외] '전기전자 및 설계 엔지니어 모집'  ← 설계
+  [제외] '2026년 상반기 에이로봇 S/W, H/W 채용'  ← H/W
+  [제외] '3차원 머신비전 알고리즘 개발'  ← 비전
+  [제외] '[경력] 기구설계 인재 모집'  ← 설계
+  [제외] '[신입/경력] 자동화 장비 설계 하드웨어(CAD,Solidworks)'  ← 하드웨어
+  [제외] 'AI 솔루션 사업부 비전 검사 장비 설계 부문 신입 사원 모집'  ← 비전
+  [제외] '[로보콘(주)] 기구설계 신규 개발 업무자(실무자)'  ← 설계
+  [제외] '(주)비욘드로보틱스 로봇 하드웨어 엔지니어'  ← 하드웨어
+  [제외] '[로봇 스타트업] 로봇 센서 디지털 회로 설계 엔지니어 채용'  ← 로봇
+  [제외] '(주)퓨런티어 신규채용 진행합니다.(설계/제어SW)'  ← 설계
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] 'AIR 부문 AI 전문 Engineer 채용 (경력)'  ← 클라우드
+  [제외] '[딥파인] MLOps 엔지니어'  ← MLOps
+  [제외] 'MLOps 엔지니어'  ← MLOps
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'AI 모델 개발 엔지니어'  ← 로봇
+  [제외] 'Deeper-I 임베디드 AI 응용/시스템 SW 엔지니어 채용'  ← 임베디드
+  [제외] '구글 클라우드 엔지니어 아키텍처 설계/기술지원 (Data,AI/ML)'  ← 클라우드
+  [제외] 'MLOps 엔지니어 (3~10년)'  ← MLOps
+  [제외] '리눅스 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] 'MLOps Engineer'  ← MLOps
+  [제외] 'Senior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] 'Junior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] 'AI Engineer'  ← 클라우드
+  [제외] '[나비프라] 엣지 AI 최적화 엔지니어(컴퓨터비전)'  ← 비전
+  [제외] '정보보호 엔지니어 경력 채용'  ← 정보보호
+  [제외] '백엔드엔지니어(경력 3년 이상)'  ← 백엔드
+  [제외] '클라우드 AI-SOC 전문가 채용 (CERT·운영·관제)'  ← 클라우드
+  [제외] '시니어 풀스택 엔지니어(8~10년)'  ← 풀스택
+  [제외] '시니어 풀스택 엔지니어(5~7년)'  ← 풀스택
+  [제외] 'AI Spera [인텔리전스개발팀] 백엔드 개발자'  ← 백엔드
+  [제외] 'AI Spera [사업팀] 보안엔지니어 & 보안분석전문가'  ← 보안
+  [제외] 'AWS 클라우드 영업/개발/엔지니어/SA/마케팅등 경력 채용'  ← AWS
+  [제외] '데이터 엔지니어(경력) 채용'  ← 클라우드
+  [제외] '[메타크래프트] 신입 AWS 인프라 엔지니어 모집 안내'  ← 인프라
+  [제외] '[이노션] 백엔드 소프트웨어 엔지니어(마케팅 플랫폼) (계약직)'  ← 백엔드
+  [제외] '(주)스탁브릭스에서 풀스택 엔지니어(AI·임베디드·플랫폼)를 찾고 있어요'  ← 임베디드
+  [제외] '연구소 MLOps Engineer 채용'  ← MLOps
+  [제외] '클라우드 엔지니어 경력직 채용'  ← 클라우드
+  [제외] '[CTILAB] MLOps Engineer 채용'  ← MLOps
+  [제외] '딥러닝 엔지니어 / 데이터사이언티스트'  ← 데이터사이언티스트
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] 'AI 기반 자연어 질의 시스템 개발자 (프론트 & 백엔드)'  ← 백엔드
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'AI 서비스 백엔드 개발자(경력)'  ← 백엔드
+  [제외] '데이터 엔지니어(경력) 채용'  ← 클라우드
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] 'DevOps 엔지니어 (5년 이상)'  ← DevOps
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] '[미디어젠(주)] 파이썬 백엔드/서버 개발자(경력)'  ← 백엔드
+  [제외] '[부산/경력 7년 이상] 코어셀 - 프로덕트 엔지니어 (인프라)'  ← 인프라
+  [제외] 'AI 및 사이버보안 연구원 각 부문별 채용(신입/경력직)'  ← 보안
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] '백엔드 개발자(JAVA / 3~15년 / 팀원)'  ← Java
+  [제외] 'AI 개발(Python), 데이터분석 및 사업 기획 인턴 모집'  ← 클라우드
+  [제외] '[코스닥상장사](주)브이씨 자율주행 로봇 AI 개발자 채용'  ← 로봇
+  [제외] '정보보호 담당자 경력직 채용 (4~7년차)'  ← 정보보호
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] 'SKT 정예팀, 독파모 개발 참여 인턴 모집 “AI 인재 육성의 마중물 역할 기대”'  ← UX
+  [제외] 'AI 개발자 대신 데이터 엔지니어 수천명 뽑는 토스 왜'  ← UX
+  [제외] '“합격하면 500만원 준다” “우린 2000만원 준다” 난리더니…결국 채용 ‘큰 장’ 선다'  ← .NET
+  [제외] '“멀티 LLM 체제서도 생존 목표”...SK텔레콤, 직원 채용 등 AI 챗봇 고도화 전력 - 조선비즈'  ← QA
+  [제외] '게임 제작과 AI 분야의 신입 사원 채용 | KRAFTON'  ← UX
+  [제외] 'SKT·크래프톤, 독자 AI 개발 참여 인턴 개발자 모집'  ← UX
+  [제외] '그렙, AI 인력 전쟁 본격화...기업 10곳 중 7곳 채용 나선다'  ← UX
+  [제외] '2년 전 인기였던 프롬프트 엔지니어, 지금은 어떻게 됐나..."직무에서 역량으로"'  ← UX
+  [제외] '[점선면] AI에 채용 맡겼더니 여성이 배제됐다…AI에 스며든 차별 없애려면'  ← UI
+  [제외] 'IT 채용 반토막에도 \'AI 개발자\' 수요는 증가…"중고신입 선호" - 머니투데이'  ← QA
+  [제외] '한국딥러닝(주) 2026년 상반기 채용 | 기업리뷰 23건, 연봉정보 11건, 면접후기 35건, 복지정보 0건, 채용공고 11건'  ← UX
+  [제외] "AI 스타트업은 지금 개발자 '채용 전쟁'…리벨리온·뉴빌리티, 직원 수 3배 급증 [긱스]"  ← UI
+  [제외] "[기획] 프롬프트 엔지니어링은 죽지 않았다, 다만 '시스템 설계'로 승화되었을 뿐"  ← UX
+  [제외] 'RAG vs. 미세 조정 vs. 프롬프트 엔지니어링'  ← UX
+  [제외] 'AI 확산에도 채용 시장의 중심은 ‘개발자’'  ← UX
+  [제외] 'HD현대·한화오션, 대규모 채용 드라이브…조선업 인재 확보전 본격화'  ← UI
+  [제외] '“29년간 축적 데이터 활용”…잡코리아, AI 채용 효율 확대 본격화'  ← UX
+  [제외] '잡코리아, ‘AI 공고 자동 생성’ 기능 도입…채용 공고 작성 시간 70% 이상 단축'  ← UX
+  [제외] '[초점] ‘AI는 필수\' 채용공고 300% 급증...구직자 절반은 "기준 혼동“'  ← UX
+  [제외] '[현장] "1만 3천명 공채를 3주 만에"… 마이다스인, \'AI 채용 에이전트\'로 HR 혁신 제시'  ← UX
+  [제외] '스타트업 채용 플랫폼 ‘그룹바이’…AI 활용 자동화 기술 개발 속도'  ← UX
+  [제외] '신입 채용 비중 14% 바늘구멍… 글로벌 AI 3강, 한국서 격돌 [캠퍼스 뉴스]'  ← UX
+  [제외] '[초점] "AI 기반 채용 아웃소싱 서비스가 당신의 HR팀을 대체한다"'  ← QA
+  [제외] 'AI가 일자리를 바꾸고 있다…신입 채용 감소와 요구 조건 강화'  ← UX
+  [제외] '“AI에 책상 빼앗긴 엔지니어들” 실리콘밸리발 구조조정 [직장인 뉴스]'  ← UX
+  [제외] '[AI 채용] “누가 나를 떨어뜨렸는가, 면접관인가 AI인가”'  ← UX
+  [제외] '“채용 데이터, 대화하듯 분석한다” 라운드HR, 국내 최초 AI 채팅 기반 데이터 분석 기능 출시'  ← UX
+  [제외] '"채용 모든 과정 한 솔루션으로"···신개념 제품 \'잡다\' 출시'  ← UX
+  [제외] '"반복 업무는 로봇이"…대형 로펌 \'AI 비서\' 속속 채용'  ← QA
+필터링 후: 633건
+최종 발송 대상: 30건
+
+📊 점수 분포:
+  14점: 4건
+  12점: 4건
+  9점: 6건
+  8점: 9건
+  7점: 7건
+
+📧 이메일 발송 중...
+[메일] GMAIL_SENDER / GMAIL_APP_PASSWORD 환경 변수 미설정
+
+✅ 완료 — 08:06:02
+
+🚀 Job Alert 시작 — 2026-04-25 08:05:01
+
+📡 채용 공고 수집 중...
+
+==================================================
+  [사람인] 수집 시작
+==================================================
+  [사람인] 'AI 엔지니어' 검색 중...
+  [사람인] 'LLM 개발' 검색 중...
+  [사람인] 'RAG 개발' 검색 중...
+  [사람인] '챗봇 개발' 검색 중...
+  [사람인] '자동화 개발' 검색 중...
+  [사람인] 'ML 엔지니어' 검색 중...
+  [사람인] '자연어처리' 검색 중...
+  [사람인] 수집 완료: 840건
+  [사람인] 원본 수집: 840건
+
+==================================================
+  [잡코리아] 수집 시작
+==================================================
+  [잡코리아] 'AI 엔지니어' 검색 중...
+  [잡코리아] 'LLM' 검색 중...
+  [잡코리아] 'RAG' 검색 중...
+  [잡코리아] '챗봇 개발' 검색 중...
+  [잡코리아] '자동화 개발' 검색 중...
+  [잡코리아] '자연어처리' 검색 중...
+  [잡코리아] 수집 완료: 0건
+  [잡코리아] 원본 수집: 0건
+
+==================================================
+  [프로그래머스] 수집 시작
+==================================================
+  [프로그래머스] 'AI' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=AI&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'LLM' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=LLM&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '챗봇' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%B1%97%EB%B4%87&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '자동화' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%9E%90%EB%8F%99%ED%99%94&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'NLP' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=NLP&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'RAG' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=RAG&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'Machine Learning' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=Machine+Learning&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 수집 완료: 0건
+  [프로그래머스] 원본 수집: 0건
+
+==================================================
+  [원티드] 수집 시작
+==================================================
+  [원티드] category=655 수집 중...
+  [원티드] category=1024 수집 중...
+  [원티드] category=1025 수집 중...
+  [원티드] 수집 완료: 0건
+  [원티드] 원본 수집: 0건
+
+==================================================
+  [LinkedIn] 수집 시작
+==================================================
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=LLM+AI+개발자+채용&hl=ko&gl=KR&ceid=KR...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=RAG+챗봇+AI+엔지니어+채용&hl=ko&gl=KR&cei...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=자동화+AI+개발+채용+공고&hl=ko&gl=KR&ceid=...
+  [LinkedIn] 수집 완료: 76건
+  [LinkedIn] 원본 수집: 76건
+
+총 원본 수집: 916건
+
+🔍 중복 공고 제거 중...
+  [중복→스킵] '에이전틱Agentic AI?개발자 채용이 위험해진 이유' (LinkedIn)
+  [중복→스킵] '독파모 SKT 정예팀, 청년 인턴 모집..."AI 인재 육성"' (LinkedIn)
+  [중복→스킵] '오픈AI·앤트로픽, 국내서 엔지니어 최초 채용…‘솔루션 아키텍트’ 분야' (LinkedIn)
+  [중복→스킵] '"1371억 줄게" 연봉 쇼크…채용시장 발칵 뒤집어놓은 직업 [글로벌 머니 X파일]' (LinkedIn)
+  [중복→스킵] '메타, AI 채용 ‘일시 중단’…초지능팀 재편 후 숨고르기' (LinkedIn)
+  [중복→스킵] 'AI 시대의 취업 / 채용 전략' (LinkedIn)
+  [중복→스킵] "'채용 혹한기' 보낸 IT업계…유일하게 생존한 'AI 개발자'" (LinkedIn)
+  [중복→스킵] 'IT 업계 채용 41% 감소… AI 개발자 채용은 오히려 증가' (LinkedIn)
+  [중복→스킵] 'AI 개발자 수요 급증, IT 채용 시장 변화 주목' (LinkedIn)
+  [중복→스킵] '“AI 고급 인력 모십니다”…채용 확대 나선 AI기업들' (LinkedIn)
+  [중복→스킵] '인공지능 채용이 활발한 분야와 연봉은 어느 정도 일까?' (LinkedIn)
+  [중복→스킵] '크래프톤, 게임 제작·AI 분야 신입 채용...＂글로벌 인재로 성장 지원＂' (LinkedIn)
+  [중복→스킵] "일론 머스크 xAI, 시급 65달러 'AI 튜터' 수천명 채용" (LinkedIn)
+  [중복→스킵] '"대변혁 맞은 회계 업무…\'AI 회계사\' 채용 앞장설 것"' (LinkedIn)
+중복 제거 후: 902건
+
+🎯 키워드 필터링 및 점수 산정 중...
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 PhysicalAI 엔지니어모집'  ← 로봇
+  [제외] 'AI 엔지니어(백엔드 개발자)'  ← 백엔드
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] 'Microsoft Engineer(AI Agent/Security Consultant)'  ← 클라우드
+  [제외] 'Deeper-I 임베디드 AI 응용/시스템 SW 엔지니어 채용'  ← 임베디드
+  [제외] '(주)스탁브릭스에서 풀스택 엔지니어(AI·임베디드·플랫폼)를 찾고 있어요'  ← 임베디드
+  [제외] 'AI 채용솔루션(ATS) 백엔드 엔지니어'  ← 백엔드
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] 'AI Research Engineer 엔지니어 채용'  ← 클라우드
+  [제외] 'AI 인프라 필드 엔지니어'  ← 인프라
+  [제외] 'AI 플랫폼 시스템 엔지니어(경력)'  ← 시스템 엔지니어
+  [제외] 'AI인프라 엔지니어(경력)'  ← 인프라
+  [제외] '[퀀텀씨엔에스] 쿠버네티스 기반 AI 인프라 운영 엔지니어 채용'  ← 인프라
+  [제외] 'AI 플랫폼 시스템 엔지니어(신입)'  ← 시스템 엔지니어
+  [제외] '[메타엠] AICC개발실 IPCC 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] '[에티버스이피에이] X86 서버 및 AI 인프라 하드웨어 엔지니어'  ← 하드웨어
+  [제외] 'Junior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] 'Senior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] 'AI 시스템엔지니어 모십니다 (리눅스 NPU 서버)'  ← 시스템엔지니어
+  [제외] 'AI 신약개발 플랫폼 백엔드/데이터 엔지니어 모집'  ← 백엔드
+  [제외] 'AI 이미징 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] 'LLM 챗봇 개발 프로젝트 / java, python / 중구'  ← Java
+  [제외] '[AI 플랫폼 SW] 로봇 주행 / AI SW (LLM) / 임베디드 SW 개발'  ← 임베디드
+  [제외] 'AI 에이전트 백엔드 개발자 : Langraph/Langchain/LLM'  ← 백엔드
+  [제외] '동명기술공단 부설연구소 AI / 백엔드 개발자 채용 공고'  ← 백엔드
+  [제외] '2026년 상반기 각 부분 신입/경력사원 채용(영업, 전략기획, 채널관리, 연구개발자, 기술엔지니어, QA인증)'  ← QA
+  [제외] '[그림] 머신비전 SW 소프트웨어 개발자(C++/MFC) 채용'  ← C++
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] '[수산그룹]수산INT 부문별 채용(개발/영업/정보보호컨설팅 등)'  ← 정보보호
+  [제외] '[메타빌드] 보안/네트워크 솔루션 개발 및 유지관리 채용'  ← 네트워크
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '[서비스개발센터] 경력 개발자(프론트엔드, 백엔드) 채용'  ← 백엔드
+  [제외] '에너지 플랫폼 개발(AI, 웹개발, 솔루션) 경력직 채용'  ← 웹개발
+  [제외] '[CJ 그룹-CJ 메조미디어] 백엔드 개발자 경력채용'  ← 백엔드
+  [제외] 'AI 서비스 백엔드 개발자(경력)'  ← 백엔드
+  [제외] '풀스택 S/W개발 경력사원 채용'  ← 풀스택
+  [제외] '[에티버스] Vantiq 백엔드 개발 및 기술지원 담당자 (경력)'  ← 백엔드
+  [제외] '경력 개발자(프론트엔드) 채용'  ← 프론트엔드
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '[AI서비스] 백엔드개발 경력직 채용'  ← 백엔드
+  [제외] 'AI 기반 자연어 질의 시스템 개발자 (프론트 & 백엔드)'  ← 백엔드
+  [제외] '(주)인스케이프 AI비전 및 제어S/W개발 경력 인재 채용'  ← 비전
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] '[iVX] 백엔드 개발자(계약직, 3년 이상)'  ← 백엔드
+  [제외] '신성델타테크(주) 로봇센터(서울) 로봇 소프트웨어 개발직 채용'  ← 로봇
+  [제외] '통신사 차세대 BSS 프로젝트 개발자(Java, React, AI Agent)'  ← Java
+  [제외] 'AI 소프트웨어 풀스택 개발자'  ← 풀스택
+  [제외] '[KREAM] AI Builder 모집'  ← UI
+  [제외] '보안분야 공공/전략 사업개발 채용'  ← 보안
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] '[STEALIEN] 취약점 분석가/보안 개발자(R&D) 채용 (선제대응팀)'  ← 보안
+  [제외] 'AI 엔지니어 (백엔드 개발자)'  ← 백엔드
+  [제외] '[채용] 백엔드 개발자 (경력 1년 이상)'  ← 백엔드
+  [제외] 'AI 에이전트 백엔드 개발자 : RAG, 벡터DB 구축'  ← 백엔드
+  [제외] '2026년 상반기 각 부분 신입/경력사원 채용(영업, 전략기획, 채널관리, 연구개발자, 기술엔지니어, QA인증)'  ← QA
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] '[메타빌드] 보안/네트워크 솔루션 개발 및 유지관리 채용'  ← 네트워크
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '에너지 플랫폼 개발(AI, 웹개발, 솔루션) 경력직 채용'  ← 웹개발
+  [제외] '백엔드 개발자 (7년 이상) PHP/ Java / 다양한 언어 환영'  ← Java
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '통신사 차세대 BSS 프로젝트 개발자(Java, React, AI Agent)'  ← Java
+  [제외] 'AI 소프트웨어 풀스택 개발자'  ← 풀스택
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] 'AI 엔지니어 (백엔드 개발자)'  ← 백엔드
+  [제외] '바이브코딩(Vibe Coding) 기반 풀스택 개발자 모집'  ← 풀스택
+  [제외] 'AI 모델 및 알고리즘 개발자'  ← 알고리즘
+  [제외] '위드로봇(주) Python 개발자 채용'  ← 로봇
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] 'AI 기반 영상 분석 서비스 풀스택 개발자 경력 채용 공고'  ← 풀스택
+  [제외] '[경력] 서비스 플랫폼 풀스택 개발자'  ← 풀스택
+  [제외] 'LLM챗봇 개발프로젝트 / java, python / 중구'  ← Java
+  [제외] 'AI 기반 자연어 질의 시스템 개발자 (프론트 & 백엔드)'  ← 백엔드
+  [제외] '[캐시워크] 풀스택개발 병역특례 대상자 모집'  ← 풀스택
+  [제외] '시니어 풀스택 엔지니어(5~7년)'  ← 풀스택
+  [제외] '시니어 풀스택 엔지니어(8~10년)'  ← 풀스택
+  [제외] '[캐시워크] 백엔드개발 병역특례 대상자 모집'  ← 백엔드
+  [제외] '[여의도] Salesforce 클라우드 개발 모집 공고 [4월-1년]'  ← 클라우드
+  [제외] '[인텔리코드] AI Agent 백엔드 개발자 모집 공고'  ← 백엔드
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] '한국oooo공사/공기업/Java, React/챗봇시스템 구축'  ← Java
+  [제외] '인프라 아키텍트'  ← 인프라
+  [제외] '(주)세피스 개발팀 MES,POP(C#, .NET, MVC )경력사원 채용'  ← .NET
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] 'Microsoft Engineer(AI Agent/Security Consultant)'  ← 클라우드
+  [제외] '[SW] 프론트엔드 개발자 인턴 (정규직 전환 가능)'  ← 프론트엔드
+  [제외] '딥러닝 엔지니어 / 데이터사이언티스트'  ← 데이터사이언티스트
+  [제외] 'Backend Engineer(Node.js & Java/Kotlin)'  ← Java
+  [제외] '주식회사 아이티앤 웹개발자 경력직 채용'  ← 웹개발
+  [제외] 'React 기반 백엔드 개발자 구인'  ← 백엔드
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] '[AI 전문기업 아크릴] 프론트엔드 앱 개발자 경력직 채용'  ← 프론트엔드
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] 'AI 프로그래머(AI 시스템 설계 및 개발) 모집 - 병역특례 가능'  ← 설계
+  [제외] '정보보호 담당자 경력직 채용 (4~7년차)'  ← 정보보호
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] "생각하는집(thinkHOW's)에서 AI Builder·AI 네이티브 개발자 찾고 있어요"  ← UI
+  [제외] '인프라 엔지니어'  ← 인프라
+  [제외] 'AI 학습 및 평가 데이터 설계/구축 PL (재택근무)'  ← 설계
+  [제외] '[이지팩토리] JAVA 웹 개발자 경력직 채용 공고'  ← Java
+  [제외] '[AI/클라우드] 소프트웨어 기술 영업 (경력) 채용'  ← 클라우드
+  [제외] '(주)지텔레마 AI 알고리즘 및 S/W 개발 담당(3D 모델 생성)'  ← 알고리즘
+  [제외] '[LGCNS자회사] 금융권경험 시니어 UX/UI 기획자 PM 모집'  ← UX
+  [제외] '[경력] 언리얼 개발자 (Unity3D전환가능)'  ← 비전
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] '[글로벌엔지니어링] 협동로봇 자동화 시스템 SW개발자'  ← 로봇
+  [제외] '반도체 자동화 설비 제어 프로그램 개발'  ← 반도체
+  [제외] '[경력]자동화 로봇/공장/창고 3D시뮬레이션 개발(WebGL/Package)'  ← 비전
+  [제외] '자동화 장비 개발 - 기구설계 엔지니어 모집'  ← 설계
+  [제외] '(주)글로벌디펜스 협동로봇 자동화 시스템 SW 개발자'  ← 로봇
+  [제외] '[반도체 장비 제조업 ]자동화 개발로봇 프로그래머 경력 채용'  ← 반도체
+  [제외] '기구설계 (검사장비/자동화장비) 개발자 모집'  ← 설계
+  [제외] '기술연구소 로봇선행개발팀(기구설계) 경력사원 채용'  ← 로봇
+  [제외] '3D프린터 자동화 로봇 AS 및 연구개발 지원 (경력직)'  ← 로봇
+  [제외] '[기흥연구소] 공장 설비 자동화 설계 및 개발 경력자 채용'  ← 설계
+  [제외] '[분당/코스닥] HW 시스템 설계 및 개발 채용'  ← 설계
+  [제외] '[정규직] 로봇 자동화 시스템 설계 및 제작 엔지니어 모집'  ← 로봇
+  [제외] '코스닥상장사 (주)지아이텍 비전사업부[SW/제어(PC)]경력'  ← 비전
+  [제외] '시스템 설계 엔지니어(로봇 자동화)'  ← 로봇
+  [제외] '비젼시스템/로봇/PLC 프로그램 개발 및 기술지원 인재모집'  ← 로봇
+  [제외] '페이브텍(주)R&D 로봇 매니퓰레이터 제어 개발자 채용'  ← 로봇
+  [제외] '각 부문 채용(전장설계/PLC제어/PC제어/기계설계)'  ← 설계
+  [제외] '로봇 .자동화 신입사원'  ← 로봇
+  [제외] '[로보티즈] 품질경영팀 지그펌웨어, 전장부 설계 모집의 건'  ← 펌웨어
+  [제외] '기구설계 경력(기술연구소)'  ← 설계
+  [제외] '[전문연구요원]로봇 제어 플랫폼 개발 엔지니어'  ← 로봇
+  [제외] '로봇 제어'  ← 로봇
+  [제외] '기술연구소 H/W 담당자 모집(MCU 및 임베디스 H/W 설계)'  ← H/W
+  [제외] '[첨단로봇연구소] 로봇과 시스템 설계,개발 엔지니어(경력)'  ← 로봇
+  [제외] '[경력] 제조로보틱스 - 로봇 자동화 플랫폼 미들웨어 개발'  ← 로봇
+  [제외] '[첨단로봇연구소] 로봇 및 자동화 제어 S/W 경력사원'  ← 로봇
+  [제외] '[PC제어] 자동화 설비 SW 개발자 채용(C++/MFC)'  ← C++
+  [제외] 'ICT/ISP System H/W 설계,검증,기술지원 엔지니어'  ← H/W
+  [제외] '자동화 설계 PM(5년이상)'  ← 설계
+  [제외] '기구설계(국내 개발팀)'  ← 설계
+  [제외] '자동화 설비 PC제어/머신비전 신입/경력직 채용'  ← 비전
+  [제외] '자동차 관련 EOL 검사장비( Labview, C# ) 신입, 경력사원 채용'  ← C#
+  [제외] '[LG전자 자회사] 로보스타 전장 설계, 회로/FW 설계'  ← 설계
+  [제외] '자동제어 설계, PLC 프로그래밍 경력사원 모집'  ← 설계
+  [제외] '[LG전자 자회사] 로보스타 반도체 설비 기구 설계, SW 개발'  ← 반도체
+  [제외] '(주)져스텍 연구소/설계팀 경력사원 모집 공고'  ← 설계
+  [제외] '로봇 전장 설계 엔지니어 채용'  ← 로봇
+  [제외] '기구 설계 연구개발 경력직 채용'  ← 설계
+  [제외] '(렌다) 머신비전 기구설계 개발자/엔지니어 모집'  ← 비전
+  [제외] '(주)퓨런티어 신규채용 진행합니다.(설계/제어SW)'  ← 설계
+  [제외] '[경력모집] 설비제어 비전시스템 개발 담당자 모집'  ← 비전
+  [제외] '(주)페타엑스 자동화시스템 설계 / 기계조립 & CS담당자 모집'  ← 설계
+  [제외] '기술연구소 메카 설계 담당자 모집'  ← 설계
+  [제외] '(케이엠테크) 머신비전 기구설계 개발자/엔지니어 모집'  ← 비전
+  [제외] '로봇핸드 AI 기술개발'  ← 로봇
+  [제외] '[주토스] 정밀 AOI 설계 개발자 모집'  ← 설계
+  [제외] '[코스닥 상장] ㈜에이프로 임베디드/펌웨어 개발자 채용'  ← 임베디드
+  [제외] '[채용공고] 산업용 자동화 기계설계 엔지니어 모집'  ← 설계
+  [제외] '자동화 장비 기구설계 엔지니어'  ← 설계
+  [제외] '[기술연구소/기구설계팀] 정규직 모집'  ← 설계
+  [제외] '로봇 제어 엔지니어'  ← 로봇
+  [제외] '(주)파인솔루션 기구설계 및 제어(PLC/펌웨어) 엔지니어 모집'  ← 펌웨어
+  [제외] '로봇 스타트업 (주)에니아이 Electrical Engineer'  ← 로봇
+  [제외] '자율주행 로봇 / 협동 로봇 / ROS / Vision / AI 개발 직무'  ← 로봇
+  [제외] '[장비설계] (주) 오엠티- 자동화 설비 기구 설계 / 경력자 채용'  ← 설계
+  [제외] '하드웨어 엔지니어 전장설계(경력)'  ← 하드웨어
+  [제외] '로보틱스 하드웨어 (설계) 엔지니어 모집 (신입/경력)'  ← 하드웨어
+  [제외] '[시스템연구소] 기계설계 개발 경력자 채용의 건'  ← 설계
+  [제외] '자동화설계, 기구설계, 기계설계 모집함.'  ← 설계
+  [제외] '로봇 Application SW Engineer'  ← 로봇
+  [제외] '[GST] 스크러버 개발_기구설계 경력자 채용'  ← 설계
+  [제외] '기구 설계자 모집'  ← 설계
+  [제외] '로봇/로보틱스 필드엔지니어(FSE) 모집 (경력)'  ← 로봇
+  [제외] '전기전자 및 설계 엔지니어 모집'  ← 설계
+  [제외] '로봇 SI 엔지니어 채용 #왕십리 #도보3분'  ← 로봇
+  [제외] '3차원 머신비전 알고리즘 개발'  ← 비전
+  [제외] '2026년 상반기 에이로봇 S/W, H/W 채용'  ← H/W
+  [제외] '[경력] 기구설계 인재 모집'  ← 설계
+  [제외] '[신입/경력] 자동화 장비 설계 하드웨어(CAD,Solidworks)'  ← 하드웨어
+  [제외] '자동화 장비 기구설계 경력직 채용'  ← 설계
+  [제외] 'AI 솔루션 사업부 비전 검사 장비 설계 부문 신입 사원 모집'  ← 비전
+  [제외] '[로보콘(주)] 기구설계 신규 개발 업무자(실무자)'  ← 설계
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] 'AIR 부문 AI 전문 Engineer 채용 (경력)'  ← 클라우드
+  [제외] 'MLOps 엔지니어'  ← MLOps
+  [제외] '[딥파인] MLOps 엔지니어'  ← MLOps
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'AI 모델 개발 엔지니어'  ← 로봇
+  [제외] '구글 클라우드 엔지니어 아키텍처 설계/기술지원 (Data,AI/ML)'  ← 클라우드
+  [제외] 'Deeper-I 임베디드 AI 응용/시스템 SW 엔지니어 채용'  ← 임베디드
+  [제외] 'MLOps 엔지니어 (3~10년)'  ← MLOps
+  [제외] '리눅스 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'Senior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] 'MLOps Engineer'  ← MLOps
+  [제외] 'Junior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] 'AI Engineer'  ← 클라우드
+  [제외] '정보보호 엔지니어 경력 채용'  ← 정보보호
+  [제외] '백엔드엔지니어(경력 3년 이상)'  ← 백엔드
+  [제외] '클라우드 AI-SOC 전문가 채용 (CERT·운영·관제)'  ← 클라우드
+  [제외] '[나비프라] 엣지 AI 최적화 엔지니어(컴퓨터비전)'  ← 비전
+  [제외] 'AWS 클라우드 아키텍트 v0.3 경력 채용'  ← AWS
+  [제외] '시니어 풀스택 엔지니어(8~10년)'  ← 풀스택
+  [제외] '시니어 풀스택 엔지니어(5~7년)'  ← 풀스택
+  [제외] 'AI Spera [인텔리전스개발팀] 백엔드 개발자'  ← 백엔드
+  [제외] 'AI Spera [사업팀] 보안엔지니어 & 보안분석전문가'  ← 보안
+  [제외] 'AWS 클라우드 영업/개발/엔지니어/SA/마케팅등 경력 채용'  ← AWS
+  [제외] '데이터 엔지니어(경력) 채용'  ← 클라우드
+  [제외] '[메타크래프트] 신입 AWS 인프라 엔지니어 모집 안내'  ← 인프라
+  [제외] '연구소 MLOps Engineer 채용'  ← MLOps
+  [제외] '(주)스탁브릭스에서 풀스택 엔지니어(AI·임베디드·플랫폼)를 찾고 있어요'  ← 임베디드
+  [제외] '클라우드 엔지니어 경력직 채용'  ← 클라우드
+  [제외] '[이노션] 백엔드 소프트웨어 엔지니어(마케팅 플랫폼) (계약직)'  ← 백엔드
+  [제외] '딥러닝 엔지니어 / 데이터사이언티스트'  ← 데이터사이언티스트
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] 'AI 기반 자연어 질의 시스템 개발자 (프론트 & 백엔드)'  ← 백엔드
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'AI 서비스 백엔드 개발자(경력)'  ← 백엔드
+  [제외] '데이터 엔지니어(경력) 채용'  ← 클라우드
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] 'AI 소프트웨어 풀스택 개발자'  ← 풀스택
+  [제외] 'DevOps 엔지니어 (5년 이상)'  ← DevOps
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] '[부산/경력 7년 이상] 코어셀 - 프로덕트 엔지니어 (인프라)'  ← 인프라
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] 'AI 개발(Python), 데이터분석 및 사업 기획 인턴 모집'  ← 클라우드
+  [제외] '[코스닥상장사](주)브이씨 자율주행 로봇 AI 개발자 채용'  ← 로봇
+  [제외] '정보보호 담당자 경력직 채용 (4~7년차)'  ← 정보보호
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] '[ARKAiN] 풀스택 엔지니어 채용(경력)'  ← 풀스택
+  [제외] 'SKT 정예팀, 독파모 개발 참여 인턴 모집 “AI 인재 육성의 마중물 역할 기대”'  ← UX
+  [제외] 'AI 개발자 대신 데이터 엔지니어 수천명 뽑는 토스 왜'  ← UX
+  [제외] '“합격하면 500만원 준다” “우린 2000만원 준다” 난리더니…결국 채용 ‘큰 장’ 선다'  ← .NET
+  [제외] '“멀티 LLM 체제서도 생존 목표”...SK텔레콤, 직원 채용 등 AI 챗봇 고도화 전력 - 조선비즈'  ← QA
+  [제외] '게임 제작과 AI 분야의 신입 사원 채용 | KRAFTON'  ← UX
+  [제외] 'SKT·크래프톤, 독자 AI 개발 참여 인턴 개발자 모집'  ← UX
+  [제외] '그렙, AI 인력 전쟁 본격화...기업 10곳 중 7곳 채용 나선다'  ← UX
+  [제외] '2년 전 인기였던 프롬프트 엔지니어, 지금은 어떻게 됐나..."직무에서 역량으로"'  ← UX
+  [제외] '[점선면] AI에 채용 맡겼더니 여성이 배제됐다…AI에 스며든 차별 없애려면'  ← UI
+  [제외] 'IT 채용 반토막에도 \'AI 개발자\' 수요는 증가…"중고신입 선호" - 머니투데이'  ← QA
+  [제외] '한국딥러닝(주) 2026년 상반기 채용 | 기업리뷰 23건, 연봉정보 11건, 면접후기 35건, 복지정보 0건, 채용공고 11건'  ← UX
+  [제외] "AI 스타트업은 지금 개발자 '채용 전쟁'…리벨리온·뉴빌리티, 직원 수 3배 급증 [긱스]"  ← UI
+  [제외] "[기획] 프롬프트 엔지니어링은 죽지 않았다, 다만 '시스템 설계'로 승화되었을 뿐"  ← UX
+  [제외] 'RAG vs. 미세 조정 vs. 프롬프트 엔지니어링'  ← UX
+  [제외] 'AI 확산에도 채용 시장의 중심은 ‘개발자’'  ← UX
+  [제외] 'HD현대·한화오션, 대규모 채용 드라이브…조선업 인재 확보전 본격화'  ← UI
+  [제외] '“AI에 책상 빼앗긴 엔지니어들” 실리콘밸리발 구조조정 [직장인 뉴스]'  ← UX
+  [제외] '잡코리아, ‘AI 공고 자동 생성’ 기능 도입…채용 공고 작성 시간 70% 이상 단축'  ← UX
+  [제외] '“29년간 축적 데이터 활용”…잡코리아, AI 채용 효율 확대 본격화'  ← UX
+  [제외] '[초점] ‘AI는 필수\' 채용공고 300% 급증...구직자 절반은 "기준 혼동“'  ← UX
+  [제외] '[현장] "1만 3천명 공채를 3주 만에"… 마이다스인, \'AI 채용 에이전트\'로 HR 혁신 제시'  ← UX
+  [제외] '스타트업 채용 플랫폼 ‘그룹바이’…AI 활용 자동화 기술 개발 속도'  ← UX
+  [제외] '[초점] "AI 기반 채용 아웃소싱 서비스가 당신의 HR팀을 대체한다"'  ← QA
+  [제외] 'AI가 일자리를 바꾸고 있다…신입 채용 감소와 요구 조건 강화'  ← UX
+  [제외] '[AI 채용] “누가 나를 떨어뜨렸는가, 면접관인가 AI인가”'  ← UX
+  [제외] '그룹바이에이치알, AI 채용 자동화 솔루션 개발로 중기부 ‘벤처기업 인증 획득’'  ← AWS
+  [제외] 'LG CNS, 상반기 세 자릿수 경력직 채용… AI·로보틱스 ‘실전형 인재’ 확보 나서'  ← UX
+  [제외] '“채용 데이터, 대화하듯 분석한다” 라운드HR, 국내 최초 AI 채팅 기반 데이터 분석 기능 출시'  ← UX
+  [제외] '"반복 업무는 로봇이"…대형 로펌 \'AI 비서\' 속속 채용'  ← QA
+필터링 후: 640건
+최종 발송 대상: 30건
+
+📊 점수 분포:
+  14점: 4건
+  12점: 4건
+  9점: 6건
+  8점: 9건
+  7점: 7건
+
+📧 이메일 발송 중...
+[메일] GMAIL_SENDER / GMAIL_APP_PASSWORD 환경 변수 미설정
+
+✅ 완료 — 08:06:09
+
+🚀 Job Alert 시작 — 2026-04-26 08:05:00
+
+📡 채용 공고 수집 중...
+
+==================================================
+  [사람인] 수집 시작
+==================================================
+  [사람인] 'AI 엔지니어' 검색 중...
+  [사람인] 'LLM 개발' 검색 중...
+  [사람인] 'RAG 개발' 검색 중...
+  [사람인] '챗봇 개발' 검색 중...
+  [사람인] '자동화 개발' 검색 중...
+  [사람인] 'ML 엔지니어' 검색 중...
+  [사람인] '자연어처리' 검색 중...
+  [사람인] 수집 완료: 840건
+  [사람인] 원본 수집: 840건
+
+==================================================
+  [잡코리아] 수집 시작
+==================================================
+  [잡코리아] 'AI 엔지니어' 검색 중...
+  [잡코리아] 'LLM' 검색 중...
+  [잡코리아] 'RAG' 검색 중...
+  [잡코리아] '챗봇 개발' 검색 중...
+  [잡코리아] '자동화 개발' 검색 중...
+  [잡코리아] '자연어처리' 검색 중...
+  [잡코리아] 수집 완료: 0건
+  [잡코리아] 원본 수집: 0건
+
+==================================================
+  [프로그래머스] 수집 시작
+==================================================
+  [프로그래머스] 'AI' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=AI&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'LLM' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=LLM&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '챗봇' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%B1%97%EB%B4%87&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '자동화' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%9E%90%EB%8F%99%ED%99%94&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'NLP' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=NLP&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'RAG' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=RAG&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'Machine Learning' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=Machine+Learning&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 수집 완료: 0건
+  [프로그래머스] 원본 수집: 0건
+
+==================================================
+  [원티드] 수집 시작
+==================================================
+  [원티드] category=655 수집 중...
+  [원티드] category=1024 수집 중...
+  [원티드] category=1025 수집 중...
+  [원티드] 수집 완료: 0건
+  [원티드] 원본 수집: 0건
+
+==================================================
+  [LinkedIn] 수집 시작
+==================================================
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=LLM+AI+개발자+채용&hl=ko&gl=KR&ceid=KR...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=RAG+챗봇+AI+엔지니어+채용&hl=ko&gl=KR&cei...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=자동화+AI+개발+채용+공고&hl=ko&gl=KR&ceid=...
+  [LinkedIn] 수집 완료: 76건
+  [LinkedIn] 원본 수집: 76건
+
+총 원본 수집: 916건
+
+🔍 중복 공고 제거 중...
+  [중복→스킵] '에이전틱Agentic AI?개발자 채용이 위험해진 이유' (LinkedIn)
+  [중복→스킵] '오픈AI·앤트로픽, 국내서 엔지니어 최초 채용…‘솔루션 아키텍트’ 분야' (LinkedIn)
+  [중복→스킵] 'SKT·크래프톤, 독자 AI 파운데이션 모델 개발 인턴 모집… LLM 실전 R&D 참여' (LinkedIn)
+  [중복→스킵] '"1371억 줄게" 연봉 쇼크…채용시장 발칵 뒤집어놓은 직업 [글로벌 머니 X파일]' (LinkedIn)
+  [중복→스킵] '메타, AI 채용 ‘일시 중단’…초지능팀 재편 후 숨고르기' (LinkedIn)
+  [중복→스킵] 'AI 시대의 취업 / 채용 전략' (LinkedIn)
+  [중복→스킵] "'채용 혹한기' 보낸 IT업계…유일하게 생존한 'AI 개발자'" (LinkedIn)
+  [중복→스킵] 'IT 업계 채용 41% 감소… AI 개발자 채용은 오히려 증가' (LinkedIn)
+  [중복→스킵] 'AI 개발자 수요 급증, IT 채용 시장 변화 주목' (LinkedIn)
+  [중복→스킵] '독파모 SKT 정예팀, 청년 인턴 모집..."AI 인재 육성"' (LinkedIn)
+  [중복→스킵] '“AI 고급 인력 모십니다”…채용 확대 나선 AI기업들' (LinkedIn)
+  [중복→스킵] '인공지능 채용이 활발한 분야와 연봉은 어느 정도 일까?' (LinkedIn)
+  [중복→스킵] '크래프톤, 게임 제작·AI 분야 신입 채용...＂글로벌 인재로 성장 지원＂' (LinkedIn)
+  [중복→스킵] "일론 머스크 xAI, 시급 65달러 'AI 튜터' 수천명 채용" (LinkedIn)
+  [중복→스킵] '"대변혁 맞은 회계 업무…\'AI 회계사\' 채용 앞장설 것"' (LinkedIn)
+중복 제거 후: 901건
+
+🎯 키워드 필터링 및 점수 산정 중...
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 PhysicalAI 엔지니어모집'  ← 로봇
+  [제외] 'AI 엔지니어(백엔드 개발자)'  ← 백엔드
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] 'AI Research Engineer 엔지니어 채용'  ← 클라우드
+  [제외] 'AI 인프라 필드 엔지니어'  ← 인프라
+  [제외] 'AI 신약개발 플랫폼 백엔드/데이터 엔지니어 모집'  ← 백엔드
+  [제외] 'AI 플랫폼 시스템 엔지니어(신입)'  ← 시스템 엔지니어
+  [제외] 'AI인프라 엔지니어(경력)'  ← 인프라
+  [제외] '(주)스탁브릭스에서 풀스택 엔지니어(AI·임베디드·플랫폼)를 찾고 있어요'  ← 임베디드
+  [제외] '[메타엠] AICC개발실 IPCC 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] '[에티버스이피에이] X86 서버 및 AI 인프라 하드웨어 엔지니어'  ← 하드웨어
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] '[협업툴 플로우] AI 풀스택 엔지니어'  ← 풀스택
+  [제외] 'AI 플랫폼 시스템 엔지니어(경력)'  ← 시스템 엔지니어
+  [제외] 'AI 시스템엔지니어 모십니다 (리눅스 NPU 서버)'  ← 시스템엔지니어
+  [제외] 'AI 채용솔루션(ATS) 백엔드 엔지니어'  ← 백엔드
+  [제외] '[퀀텀씨엔에스] 쿠버네티스 기반 AI 인프라 운영 엔지니어 채용'  ← 인프라
+  [제외] '[나비프라] 엣지 AI 최적화 엔지니어(컴퓨터비전)'  ← 비전
+  [제외] 'Junior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] 'Senior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] 'LLM 챗봇 개발 프로젝트 / java, python / 중구'  ← Java
+  [제외] '[AI 플랫폼 SW] 로봇 주행 / AI SW (LLM) / 임베디드 SW 개발'  ← 임베디드
+  [제외] '2026년 상반기 각 부분 신입/경력사원 채용(영업, 전략기획, 채널관리, 연구개발자, 기술엔지니어, QA인증)'  ← QA
+  [제외] '[수산그룹]수산INT 부문별 채용(개발/영업/정보보호컨설팅 등)'  ← 정보보호
+  [제외] '[그림] 머신비전 SW 소프트웨어 개발자(C++/MFC) 채용'  ← C++
+  [제외] '동명기술공단 부설연구소 AI / 백엔드 개발자 채용 공고'  ← 백엔드
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] '풀스택 S/W개발 경력사원 채용'  ← 풀스택
+  [제외] '프론트엔드/백엔드 개발자 모집'  ← 백엔드
+  [제외] '경력 개발자(프론트엔드) 채용'  ← 프론트엔드
+  [제외] '[KREAM] AI Builder 모집'  ← UI
+  [제외] 'AI 기반 자연어 질의 시스템 개발자 (프론트 & 백엔드)'  ← 백엔드
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] 'AI 에이전트 백엔드 개발자 : Langraph/Langchain/LLM'  ← 백엔드
+  [제외] '[서비스개발센터] 경력 개발자(프론트엔드, 백엔드) 채용'  ← 백엔드
+  [제외] '[메타빌드] 보안/네트워크 솔루션 개발 및 유지관리 채용'  ← 네트워크
+  [제외] '이커머스 테크 풀스택 개발자'  ← 풀스택
+  [제외] '[CJ 그룹-CJ 메조미디어] 백엔드 개발자 경력채용'  ← 백엔드
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '통신사 차세대 BSS 프로젝트 개발자(Java, React, AI Agent)'  ← Java
+  [제외] '[AI서비스] 백엔드개발 경력직 채용'  ← 백엔드
+  [제외] '웹 프론트엔드 개발 업무- (판교)'  ← 프론트엔드
+  [제외] '신성델타테크(주) 로봇센터(서울) 로봇 소프트웨어 개발직 채용'  ← 로봇
+  [제외] '[채용] 백엔드 개발자 (경력 1년 이상)'  ← 백엔드
+  [제외] '[WAUG]와그 백엔드 개발자(PHP, JAVA) 모집'  ← Java
+  [제외] 'C# .net 개발자 모집 (ERP, MES)'  ← .NET
+  [제외] '(주)인스케이프 AI비전 및 제어S/W개발 경력 인재 채용'  ← 비전
+  [제외] '[서울 - 신입, 경력 3년이상] 프론트엔드 / 풀스택 개발자 채용'  ← 프론트엔드
+  [제외] 'AI 서비스 백엔드 개발자(경력)'  ← 백엔드
+  [제외] '보안분야 공공/전략 사업개발 채용'  ← 보안
+  [제외] '이커머스 플랫폼(카페24,고도몰) 백엔드 개발 (2년 이상)'  ← 백엔드
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] '[STEALIEN] 취약점 분석가/보안 개발자(R&D) 채용 (선제대응팀)'  ← 보안
+  [제외] '[경력] 언리얼 개발자 (Unity3D전환가능)'  ← 비전
+  [제외] '2026년 상반기 각 부분 신입/경력사원 채용(영업, 전략기획, 채널관리, 연구개발자, 기술엔지니어, QA인증)'  ← QA
+  [제외] '프론트엔드/백엔드 개발자 모집'  ← 백엔드
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] 'AI 에이전트 백엔드 개발자 : RAG, 벡터DB 구축'  ← 백엔드
+  [제외] '[메타빌드] 보안/네트워크 솔루션 개발 및 유지관리 채용'  ← 네트워크
+  [제외] '백엔드 개발자 (7년 이상) PHP/ Java / 다양한 언어 환영'  ← Java
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '통신사 차세대 BSS 프로젝트 개발자(Java, React, AI Agent)'  ← Java
+  [제외] 'AI 엔지니어 (백엔드 개발자)'  ← 백엔드
+  [제외] '바이브코딩(Vibe Coding) 기반 풀스택 개발자 모집'  ← 풀스택
+  [제외] '위드로봇(주) Python 개발자 채용'  ← 로봇
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] '에너지 플랫폼 개발(AI, 웹개발, 솔루션) 경력직 채용'  ← 웹개발
+  [제외] '[경력] 서비스 플랫폼 풀스택 개발자'  ← 풀스택
+  [제외] '[인텔리코드] AI Agent 백엔드 개발자 모집 공고'  ← 백엔드
+  [제외] '온톨로지 기반 AI (sLLM) 항체개발 시스템 백엔드'  ← 백엔드
+  [제외] 'AI 소프트웨어 풀스택 개발자'  ← 풀스택
+  [제외] 'AI 및 라이브 기반 반려동물 양육 플랫폼 백엔드 개발자 채용'  ← 백엔드
+  [제외] '생성형 AI 빅데이터 마케팅 플랫폼 백엔드(JAVA) 개발자 채용'  ← Java
+  [제외] '[NHN Cloud]데이터 보안 기술 개발'  ← 보안
+  [제외] 'LLM챗봇 개발프로젝트 / java, python / 중구'  ← Java
+  [제외] 'AI 기반 자연어 질의 시스템 개발자 (프론트 & 백엔드)'  ← 백엔드
+  [제외] '[캐시워크] 풀스택개발 병역특례 대상자 모집'  ← 풀스택
+  [제외] '[인텔리코드] AI Agent 백엔드 개발자 모집 공고'  ← 백엔드
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] '[캐시워크] 백엔드개발 병역특례 대상자 모집'  ← 백엔드
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] '(주)세피스 개발팀 MES,POP(C#, .NET, MVC )경력사원 채용'  ← .NET
+  [제외] '[여의도] Salesforce 클라우드 개발 모집 공고 [4월-1년]'  ← 클라우드
+  [제외] '한국oooo공사/공기업/Java, React/챗봇시스템 구축'  ← Java
+  [제외] 'React 기반 백엔드 개발자 구인'  ← 백엔드
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] '[SW] 프론트엔드 개발자 인턴 (정규직 전환 가능)'  ← 프론트엔드
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] 'AI 프로그래머(AI 시스템 설계 및 개발) 모집 - 병역특례 가능'  ← 설계
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] '주식회사 아이티앤 웹개발자 경력직 채용'  ← 웹개발
+  [제외] '시니어 풀스택 엔지니어(5~7년)'  ← 풀스택
+  [제외] '시니어 풀스택 엔지니어(8~10년)'  ← 풀스택
+  [제외] '인프라 아키텍트'  ← 인프라
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] 'Microsoft Engineer(AI Agent/Security Consultant)'  ← 클라우드
+  [제외] '[AI 전문기업 아크릴] 프론트엔드 앱 개발자 경력직 채용'  ← 프론트엔드
+  [제외] '딥러닝 엔지니어 / 데이터사이언티스트'  ← 데이터사이언티스트
+  [제외] "생각하는집(thinkHOW's)에서 AI Builder·AI 네이티브 개발자 찾고 있어요"  ← UI
+  [제외] 'Backend Engineer(Node.js & Java/Kotlin)'  ← Java
+  [제외] '인프라 엔지니어'  ← 인프라
+  [제외] '프론트엔드 개발자 (React / Next.js / Python)'  ← 프론트엔드
+  [제외] 'AI 학습 및 평가 데이터 설계/구축 PL (재택근무)'  ← 설계
+  [제외] '(주)지텔레마 AI 알고리즘 및 S/W 개발 담당(3D 모델 생성)'  ← 알고리즘
+  [제외] '[경력] 언리얼 개발자 (Unity3D전환가능)'  ← 비전
+  [제외] '정보보호 담당자 경력직 채용 (4~7년차)'  ← 정보보호
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] '[TWC] AI SaaS 클라우드게이트 고객지원/운영 담당자 채용'  ← 클라우드
+  [제외] '[아파트너스] 프론트엔드 개발자 (경력 3년 이상) 모집'  ← 프론트엔드
+  [제외] '[AI/클라우드] 소프트웨어 기술 영업 (경력) 채용'  ← 클라우드
+  [제외] '[글로벌엔지니어링] 협동로봇 자동화 시스템 SW개발자'  ← 로봇
+  [제외] '반도체 자동화 설비 제어 프로그램 개발'  ← 반도체
+  [제외] '[경력]자동화 로봇/공장/창고 3D시뮬레이션 개발(WebGL/Package)'  ← 비전
+  [제외] '(주)글로벌디펜스 협동로봇 자동화 시스템 SW 개발자'  ← 로봇
+  [제외] '[반도체 장비 제조업 ]자동화 개발로봇 프로그래머 경력 채용'  ← 반도체
+  [제외] '기구설계 (검사장비/자동화장비) 개발자 모집'  ← 설계
+  [제외] '[경력] 제조로보틱스 - 로봇 자동화 플랫폼 미들웨어 개발'  ← 로봇
+  [제외] '3D프린터 자동화 로봇 AS 및 연구개발 지원 (경력직)'  ← 로봇
+  [제외] '자동화 장비 개발 - 기구설계 엔지니어 모집'  ← 설계
+  [제외] '[분당/코스닥] HW 시스템 설계 및 개발 채용'  ← 설계
+  [제외] '[기흥연구소] 공장 설비 자동화 설계 및 개발 경력자 채용'  ← 설계
+  [제외] '시스템 설계 엔지니어(로봇 자동화)'  ← 로봇
+  [제외] '[LG전자 자회사] 로보스타 반도체 설비 기구 설계, SW 개발'  ← 반도체
+  [제외] '페이브텍(주)R&D 로봇 매니퓰레이터 제어 개발자 채용'  ← 로봇
+  [제외] '[정규직] 로봇 자동화 시스템 설계 및 제작 엔지니어 모집'  ← 로봇
+  [제외] '자동화 설비 PC제어/머신비전 신입/경력직 채용'  ← 비전
+  [제외] '기구설계(국내 개발팀)'  ← 설계
+  [제외] '[첨단로봇연구소] 로봇과 시스템 설계,개발 엔지니어(경력)'  ← 로봇
+  [제외] '[경력] 제조로보틱스 - 로봇 운영 어플리케이션 개발'  ← 로봇
+  [제외] '자동화 기구설계(디스플레이/2차전지/자동화장비) 채용(경력)'  ← 설계
+  [제외] '(주)페타엑스 자동화시스템 설계 / 기계조립 & CS담당자 모집'  ← 설계
+  [제외] '비젼시스템/로봇/PLC 프로그램 개발 및 기술지원 인재모집'  ← 로봇
+  [제외] '[장비설계] (주) 오엠티- 자동화 설비 기구 설계 / 경력자 채용'  ← 설계
+  [제외] '로봇 .자동화 신입사원'  ← 로봇
+  [제외] '코스닥상장사 (주)지아이텍 비전사업부[SW/제어(PC)]경력'  ← 비전
+  [제외] '[첨단로봇연구소] 로봇 및 자동화 제어 S/W 경력사원'  ← 로봇
+  [제외] '[GST] 스크러버 개발_기구설계 경력자 채용'  ← 설계
+  [제외] '[LG전자 자회사] 로보스타 전장 설계, 회로/FW 설계'  ← 설계
+  [제외] '자동제어 설계, PLC 프로그래밍 경력사원 모집'  ← 설계
+  [제외] '각 부문 채용(전장설계/PLC제어/PC제어/기계설계)'  ← 설계
+  [제외] '기구설계 경력(기술연구소)'  ← 설계
+  [제외] '[전문연구요원]로봇 제어 플랫폼 개발 엔지니어'  ← 로봇
+  [제외] '‘물류자동화 기구설계 채용’-연봉 4500만원'  ← 설계
+  [제외] '자동화설계, 기구설계, 기계설계 모집함.'  ← 설계
+  [제외] '자동화 장비 기구설계 엔지니어'  ← 설계
+  [제외] '[PC제어] 자동화 설비 SW 개발자 채용(C++/MFC)'  ← C++
+  [제외] '[코스닥 상장] ㈜에이프로 임베디드/펌웨어 개발자 채용'  ← 임베디드
+  [제외] '[로보티즈] 품질경영팀 지그펌웨어, 전장부 설계 모집의 건'  ← 펌웨어
+  [제외] '[HW개발실 설계팀] 기구설계 경력직 채용'  ← 설계
+  [제외] '물류 자동화 기구설계 채용-대리급:연봉 5300만원~'  ← 설계
+  [제외] '[경력모집] 설비제어 비전시스템 개발 담당자 모집'  ← 비전
+  [제외] '[시스템연구소] 기계설계 개발 경력자 채용의 건'  ← 설계
+  [제외] '2026년 상반기 에이로봇 S/W, H/W 채용'  ← H/W
+  [제외] '(주)져스텍 연구소/설계팀 경력사원 모집 공고'  ← 설계
+  [제외] '로봇핸드 AI 기술개발'  ← 로봇
+  [제외] '자율주행 로봇 / 협동 로봇 / ROS / Vision / AI 개발 직무'  ← 로봇
+  [제외] '기술연구소 H/W 담당자 모집(MCU 및 임베디스 H/W 설계)'  ← H/W
+  [제외] '자동화 설계 PM(5년이상)'  ← 설계
+  [제외] '(렌다) 머신비전 기구설계 개발자/엔지니어 모집'  ← 비전
+  [제외] '로보틱스 하드웨어 (설계) 엔지니어 모집 (신입/경력)'  ← 하드웨어
+  [제외] '로봇 전장 설계 엔지니어 채용'  ← 로봇
+  [제외] '[기술연구소/기구설계팀] 정규직 모집'  ← 설계
+  [제외] '자동화 장비 기구설계 경력직 채용'  ← 설계
+  [제외] '(주)다인정공 로봇 부문 담당자 채용[자동화기술/자동화제어]'  ← 로봇
+  [제외] '[신입/경력] 자동화 장비 설계 하드웨어(CAD,Solidworks)'  ← 하드웨어
+  [제외] '(주)이오테크닉스 광학 설계/개발 엔지니어 모집'  ← 설계
+  [제외] '(주) 저스템 신제품개발실 기구설계 경력직 채용'  ← 설계
+  [제외] '(주)티로보틱스 스마트 팩토리 & 물류 로봇 비젼 개발자 채용'  ← 로봇
+  [제외] '2026상반기 C++ 영상처리,자동화개발 신입·경력 프로그래머채용'  ← C++
+  [제외] '로봇 제어'  ← 로봇
+  [제외] '[주토스] 정밀 AOI 설계 개발자 모집'  ← 설계
+  [제외] '영업/기구설계/엔지니어/자동화 장비 설비 신입/경력 채용'  ← 설계
+  [제외] '[2차전지,Display,자동차,자동화장비,식품장비] 설계 경력 모집'  ← 설계
+  [제외] '기구 설계 연구개발 경력직 채용'  ← 설계
+  [제외] '[로보콘(주)] 기구설계 신규 개발 업무자(실무자)'  ← 설계
+  [제외] '[채용공고] 산업용 자동화 기계설계 엔지니어 모집'  ← 설계
+  [제외] '[코스닥상장](주)옵티코어 공정 자동화 설비 기구설계 엔지니어'  ← 설계
+  [제외] '[자회사]브이앤이(주)(안양 평촌) 머신비전개발자/필드엔지니어'  ← 비전
+  [제외] '[대연 C&I 연구소] 하드웨어(H/W) 개발자 채용'  ← 하드웨어
+  [제외] '자동차 관련 EOL 검사장비( Labview, C# ) 신입, 경력사원 채용'  ← C#
+  [제외] '3차원 머신비전 알고리즘 개발'  ← 비전
+  [제외] '2026년 ㈜플렉스시스템 부문별 인재 채용(경영지원, S/W, 전장설계, 기술영업, 품질, H/W, 기구설계)'  ← H/W
+  [제외] '기술연구소 메카 설계 담당자 모집'  ← 설계
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] 'AIR 부문 AI 전문 Engineer 채용 (경력)'  ← 클라우드
+  [제외] 'Deeper-I 임베디드 AI 응용/시스템 SW 엔지니어 채용'  ← 임베디드
+  [제외] '[딥파인] MLOps 엔지니어'  ← MLOps
+  [제외] 'MLOps 엔지니어'  ← MLOps
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] '리눅스 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'AI 모델 개발 엔지니어'  ← 로봇
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] 'MLOps 엔지니어 (3~10년)'  ← MLOps
+  [제외] '구글 클라우드 엔지니어 아키텍처 설계/기술지원 (Data,AI/ML)'  ← 클라우드
+  [제외] 'AI Spera [인텔리전스개발팀] 백엔드 개발자'  ← 백엔드
+  [제외] '클라우드 AI-SOC 전문가 채용 (CERT·운영·관제)'  ← 클라우드
+  [제외] 'Senior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] '정보보호 엔지니어 경력 채용'  ← 정보보호
+  [제외] 'Junior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] '[나비프라] 엣지 AI 최적화 엔지니어(컴퓨터비전)'  ← 비전
+  [제외] '[스카이웨어]신입 개발자 모집(Java / 웹서비스 / AI 활용개발)'  ← Java
+  [제외] '[경력] 제조AI - MLOps Engineer'  ← MLOps
+  [제외] '[메타크래프트] 신입 AWS 인프라 엔지니어 모집 안내'  ← 인프라
+  [제외] 'AI Engineer'  ← 클라우드
+  [제외] 'AI Spera [사업팀] 보안엔지니어 & 보안분석전문가'  ← 보안
+  [제외] '2026년 상반기 각 부분 신입/경력사원 채용(영업, 전략기획, 채널관리, 연구개발자, 기술엔지니어, QA인증)'  ← QA
+  [제외] '백엔드엔지니어(경력 3년 이상)'  ← 백엔드
+  [제외] '[경력] 서비스 플랫폼 풀스택 개발자'  ← 풀스택
+  [제외] '[다우키움 계열사] 데이터·AI 백엔드 엔지니어 (경력 무관)'  ← 백엔드
+  [제외] 'AWS 클라우드 아키텍트 v0.3 경력 채용'  ← AWS
+  [제외] 'MLOps Engineer'  ← MLOps
+  [제외] '데이터 엔지니어(경력) 채용'  ← 클라우드
+  [제외] '시니어 풀스택 엔지니어(8~10년)'  ← 풀스택
+  [제외] 'AWS 클라우드 영업/개발/엔지니어/SA/마케팅등 경력 채용'  ← AWS
+  [제외] '시니어 풀스택 엔지니어(5~7년)'  ← 풀스택
+  [제외] '클라우드 엔지니어 경력직 채용'  ← 클라우드
+  [제외] 'AI 기반 자연어 질의 시스템 개발자 (프론트 & 백엔드)'  ← 백엔드
+  [제외] '딥러닝 엔지니어 / 데이터사이언티스트'  ← 데이터사이언티스트
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'AI 서비스 백엔드 개발자(경력)'  ← 백엔드
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] '데이터 엔지니어(경력) 채용'  ← 클라우드
+  [제외] 'DevOps 엔지니어 (5년 이상)'  ← DevOps
+  [제외] 'AI 소프트웨어 풀스택 개발자'  ← 풀스택
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] '[부산/경력 7년 이상] 코어셀 - 프로덕트 엔지니어 (인프라)'  ← 인프라
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] 'AI 개발(Python), 데이터분석 및 사업 기획 인턴 모집'  ← 클라우드
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] '[코스닥상장사](주)브이씨 자율주행 로봇 AI 개발자 채용'  ← 로봇
+  [제외] '정보보호 담당자 경력직 채용 (4~7년차)'  ← 정보보호
+  [제외] '병원용AI Smart Desk 서비스 백엔드/풀스택 경력(3년이상)개발자'  ← 백엔드
+  [제외] 'AI 개발자 대신 데이터 엔지니어 수천명 뽑는 토스 왜'  ← UX
+  [제외] 'SKT 정예팀, 독파모 개발 참여 인턴 모집 “AI 인재 육성의 마중물 역할 기대”'  ← UX
+  [제외] '“합격하면 500만원 준다” “우린 2000만원 준다” 난리더니…결국 채용 ‘큰 장’ 선다'  ← .NET
+  [제외] '“멀티 LLM 체제서도 생존 목표”...SK텔레콤, 직원 채용 등 AI 챗봇 고도화 전력 - 조선비즈'  ← QA
+  [제외] '게임 제작과 AI 분야의 신입 사원 채용 | KRAFTON'  ← UX
+  [제외] 'SKT·크래프톤, 독자 AI 개발 참여 인턴 개발자 모집'  ← UX
+  [제외] '그렙, AI 인력 전쟁 본격화...기업 10곳 중 7곳 채용 나선다'  ← UX
+  [제외] '2년 전 인기였던 프롬프트 엔지니어, 지금은 어떻게 됐나..."직무에서 역량으로"'  ← UX
+  [제외] '[점선면] AI에 채용 맡겼더니 여성이 배제됐다…AI에 스며든 차별 없애려면'  ← UI
+  [제외] 'IT 채용 반토막에도 \'AI 개발자\' 수요는 증가…"중고신입 선호" - 머니투데이'  ← QA
+  [제외] "이통3사 채용 공고에서 사라진 '통신'…AI 인재 모시기 집중"  ← UX
+  [제외] '"인턴 급여가 하루 20만원"…난리난 \'딥시크\' 채용 공고'  ← UX
+  [제외] '한국딥러닝(주) 2026년 상반기 채용 | 기업리뷰 23건, 연봉정보 11건, 면접후기 35건, 복지정보 0건, 채용공고 11건'  ← UX
+  [제외] "[기획] 프롬프트 엔지니어링은 죽지 않았다, 다만 '시스템 설계'로 승화되었을 뿐"  ← UX
+  [제외] 'RAG vs. 미세 조정 vs. 프롬프트 엔지니어링'  ← UX
+  [제외] 'AI 확산에도 채용 시장의 중심은 ‘개발자’'  ← UX
+  [제외] 'HD현대·한화오션, 대규모 채용 드라이브…조선업 인재 확보전 본격화'  ← UI
+  [제외] '잡코리아, ‘AI 공고 자동 생성’ 기능 도입…채용 공고 작성 시간 70% 이상 단축'  ← UX
+  [제외] '“29년간 축적 데이터 활용”…잡코리아, AI 채용 효율 확대 본격화'  ← UX
+  [제외] '[초점] ‘AI는 필수\' 채용공고 300% 급증...구직자 절반은 "기준 혼동“'  ← UX
+  [제외] '[현장] "1만 3천명 공채를 3주 만에"… 마이다스인, \'AI 채용 에이전트\'로 HR 혁신 제시'  ← UX
+  [제외] '스타트업 채용 플랫폼 ‘그룹바이’…AI 활용 자동화 기술 개발 속도'  ← UX
+  [제외] '[초점] "AI 기반 채용 아웃소싱 서비스가 당신의 HR팀을 대체한다"'  ← QA
+  [제외] 'AI가 일자리를 바꾸고 있다…신입 채용 감소와 요구 조건 강화'  ← UX
+  [제외] '[AI 채용] “누가 나를 떨어뜨렸는가, 면접관인가 AI인가”'  ← UX
+  [제외] '그룹바이에이치알, AI 채용 자동화 솔루션 개발로 중기부 ‘벤처기업 인증 획득’'  ← AWS
+  [제외] '"반복 업무는 로봇이"…대형 로펌 \'AI 비서\' 속속 채용'  ← QA
+필터링 후: 631건
+최종 발송 대상: 30건
+
+📊 점수 분포:
+  14점: 4건
+  12점: 4건
+  9점: 6건
+  8점: 9건
+  7점: 7건
+
+📧 이메일 발송 중...
+[메일] GMAIL_SENDER / GMAIL_APP_PASSWORD 환경 변수 미설정
+
+✅ 완료 — 08:06:04
+
+🚀 Job Alert 시작 — 2026-04-29 08:05:01
+
+📡 채용 공고 수집 중...
+
+==================================================
+  [사람인] 수집 시작
+==================================================
+  [사람인] 'AI 엔지니어' 검색 중...
+  [사람인] 'LLM 개발' 검색 중...
+  [사람인] 'RAG 개발' 검색 중...
+  [사람인] '챗봇 개발' 검색 중...
+  [사람인] '자동화 개발' 검색 중...
+  [사람인] 'ML 엔지니어' 검색 중...
+  [사람인] '자연어처리' 검색 중...
+  [사람인] 수집 완료: 840건
+  [사람인] 원본 수집: 840건
+
+==================================================
+  [잡코리아] 수집 시작
+==================================================
+  [잡코리아] 'AI 엔지니어' 검색 중...
+  [잡코리아] 'LLM' 검색 중...
+  [잡코리아] 'RAG' 검색 중...
+  [잡코리아] '챗봇 개발' 검색 중...
+  [잡코리아] '자동화 개발' 검색 중...
+  [잡코리아] '자연어처리' 검색 중...
+  [잡코리아] 수집 완료: 0건
+  [잡코리아] 원본 수집: 0건
+
+==================================================
+  [프로그래머스] 수집 시작
+==================================================
+  [프로그래머스] 'AI' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=AI&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'LLM' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=LLM&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '챗봇' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%B1%97%EB%B4%87&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '자동화' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%9E%90%EB%8F%99%ED%99%94&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'NLP' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=NLP&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'RAG' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=RAG&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'Machine Learning' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=Machine+Learning&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 수집 완료: 0건
+  [프로그래머스] 원본 수집: 0건
+
+==================================================
+  [원티드] 수집 시작
+==================================================
+  [원티드] category=655 수집 중...
+  [원티드] category=1024 수집 중...
+  [원티드] category=1025 수집 중...
+  [원티드] 수집 완료: 0건
+  [원티드] 원본 수집: 0건
+
+==================================================
+  [LinkedIn] 수집 시작
+==================================================
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=LLM+AI+개발자+채용&hl=ko&gl=KR&ceid=KR...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=RAG+챗봇+AI+엔지니어+채용&hl=ko&gl=KR&cei...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=자동화+AI+개발+채용+공고&hl=ko&gl=KR&ceid=...
+  [LinkedIn] 수집 완료: 73건
+  [LinkedIn] 원본 수집: 73건
+
+총 원본 수집: 913건
+
+🔍 중복 공고 제거 중...
+  [중복→스킵] '에이전틱Agentic AI?개발자 채용이 위험해진 이유' (LinkedIn)
+  [중복→스킵] '오픈AI·앤트로픽, 국내서 엔지니어 최초 채용…‘솔루션 아키텍트’ 분야' (LinkedIn)
+  [중복→스킵] '"1371억 줄게" 연봉 쇼크…채용시장 발칵 뒤집어놓은 직업 [글로벌 머니 X파일]' (LinkedIn)
+  [중복→스킵] '메타, AI 채용 ‘일시 중단’…초지능팀 재편 후 숨고르기' (LinkedIn)
+  [중복→스킵] 'AI 시대의 취업 / 채용 전략' (LinkedIn)
+  [중복→스킵] "'채용 혹한기' 보낸 IT업계…유일하게 생존한 'AI 개발자'" (LinkedIn)
+  [중복→스킵] 'IT 업계 채용 41% 감소… AI 개발자 채용은 오히려 증가' (LinkedIn)
+  [중복→스킵] 'AI 개발자 수요 급증, IT 채용 시장 변화 주목' (LinkedIn)
+  [중복→스킵] '독파모 SKT 정예팀, 청년 인턴 모집..."AI 인재 육성"' (LinkedIn)
+  [중복→스킵] '“AI 고급 인력 모십니다”…채용 확대 나선 AI기업들' (LinkedIn)
+  [중복→스킵] '인공지능 채용이 활발한 분야와 연봉은 어느 정도 일까?' (LinkedIn)
+  [중복→스킵] '\'독파모\' SKT 정예팀, 인턴 개발자 모집…"성장 발판 마련"' (LinkedIn)
+  [중복→스킵] '크래프톤, 게임 제작·AI 분야 신입 채용...＂글로벌 인재로 성장 지원＂' (LinkedIn)
+  [중복→스킵] "일론 머스크 xAI, 시급 65달러 'AI 튜터' 수천명 채용" (LinkedIn)
+  [중복→스킵] '"대변혁 맞은 회계 업무…\'AI 회계사\' 채용 앞장설 것"' (LinkedIn)
+중복 제거 후: 898건
+
+🎯 키워드 필터링 및 점수 산정 중...
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 PhysicalAI 엔지니어모집'  ← 로봇
+  [제외] 'AI 엔지니어(백엔드 개발자)'  ← 백엔드
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] '임베디드 AI 시스템 엔지니어 (NPU)(신입,경력3년미만)'  ← 시스템 엔지니어
+  [제외] '[나비프라] 엣지 AI 최적화 엔지니어(컴퓨터비전)'  ← 비전
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 PhysicalAI 엔지니어모집'  ← 로봇
+  [제외] 'AI 시스템엔지니어 모십니다 (리눅스 NPU 서버)'  ← 시스템엔지니어
+  [제외] '.[유망 AI 관련 코스닥사] Postgre SQL & C code 엔지니어 팀장'  ← C (단독)
+  [제외] '[AI반도체] RTL 설계 엔지니어'  ← 반도체
+  [제외] '[AI컨택센터상위] 화상회의 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] '[연구개발/경력] AI 이미징 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] 'AI 모델 개발 엔지니어'  ← 로봇
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] '[클라우드/AI][잠실SDS] 기술지원 엔지니어 모집'  ← 클라우드
+  [제외] '[에티버스이피에이] X86 서버 및 AI 인프라 하드웨어 엔지니어'  ← 하드웨어
+  [제외] 'AI 채용솔루션(ATS) 백엔드 엔지니어'  ← 백엔드
+  [제외] '[Physical AI] 휴머노이드 전장 하드웨어(HW)엔지니어'  ← 하드웨어
+  [제외] '[광명] 인프라+AI 통합 엔지니어'  ← 인프라
+  [제외] '[서울] AI 인프라팀 엔지니어 채용 (GPU 서버)'  ← 인프라
+  [제외] '[AI/솔루션] 콜 인프라 엔지니어'  ← 인프라
+  [제외] '[협업툴 플로우] AI 풀스택 엔지니어'  ← 풀스택
+  [제외] 'AI/로봇/모터 제어 HW 설계 및 개발 엔지니어'  ← 로봇
+  [제외] '[피지컬AI 로봇] 휴머노이드 전장 HW 엔지니어'  ← 로봇
+  [제외] 'AI 엔지니어(백엔드 개발자)'  ← 백엔드
+  [제외] 'AI 이미징 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] 'LLM 챗봇 개발 프로젝트 / java, python / 중구'  ← Java
+  [제외] 'LLM 알고리즘 개발 연구원 / 광주 또는 울산 근무'  ← 알고리즘
+  [제외] 'AI Agent / LLM 기반 개발 (분석/설계/개발)'  ← 설계
+  [제외] '[정규직/코스닥/AI SW전문기업] LLM 풀스택 개발 경력직 채용'  ← 풀스택
+  [제외] '[AI 플랫폼 SW] 로봇 주행 / AI SW (LLM) / 임베디드 SW 개발'  ← 임베디드
+  [제외] 'AI 에이전트 백엔드 개발자 : Langraph/Langchain/LLM'  ← 백엔드
+  [제외] 'AI Scientist 모집(AI 클라우드)'  ← 클라우드
+  [제외] '[채용] 백엔드 개발자 (경력 1년 이상)'  ← 백엔드
+  [제외] '풀스택 경력 개발자'  ← 풀스택
+  [제외] '백엔드 프로그래머(5~10년)'  ← 백엔드
+  [제외] 'AI Engineer 모집(AI 클라우드)'  ← 클라우드
+  [제외] '웹 애플리케이션 개발자 (프론트엔드 중심 풀스택)'  ← 프론트엔드
+  [제외] '[타이드스퀘어] Java Backend Engineer 경력 채용'  ← Java
+  [제외] '[아정당 서울] DevOps 개발자 (5년 이상~)'  ← DevOps
+  [제외] '[국내 핀테크 유니콘기업] 백엔드 엔지니어'  ← 백엔드
+  [제외] 'AX기획부 경력직 채용 (백엔드 엔지니어)'  ← 백엔드
+  [제외] '[풀스택 경력 개발자(차장급)]'  ← 풀스택
+  [제외] '바이오 데이터 분석 툴 API 개발 및 클라우드 최적화'  ← 클라우드
+  [제외] '(주)시티파이브 풀스택 개발자(c#, Mobile, AI/ML) 채용'  ← C#
+  [제외] '[제조/물류 자동화 솔루션 기업] 풀스택 개발'  ← 풀스택
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] 'Python Backend 개발자 채용'  ← 알고리즘
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '휴머노이드 로봇 데이터 MLOps 엔지니어 모집'  ← MLOps
+  [제외] '(주)헤드고 PYTHON·FASTAPI 백엔드개발 경력 채용 공고'  ← 백엔드
+  [제외] '서비스 기획/UX 디자인 리드'  ← UX
+  [제외] "삼성이 찜한 로봇 파트너사 'AI/SW 개발 판교'"  ← 로봇
+  [제외] '병원용AI Smart Desk 서비스 백엔드/풀스택 경력(3년이상)개발자'  ← 백엔드
+  [제외] '백엔드 엔지니어'  ← 백엔드
+  [제외] "[이지시큐] AI 기반 보안 자동화 플랫폼 'AI 빌더' 채용 공고"  ← 보안
+  [제외] '[아정당 서울] DevOps 개발자 (5년 이상~)'  ← DevOps
+  [제외] '[WAUG]와그 백엔드 개발자(PHP, JAVA) 모집'  ← Java
+  [제외] '[보안 컨설팅] 수준높은 취약점 진단, 모의해킹 컨설팅'  ← 보안
+  [제외] '[아이브릭스] AI웹서비스 프론트엔드 ,Spring개발자 채용공고'  ← Spring
+  [제외] '[신입/경력] AI Growth Builder(바이브 코딩 개발) 채용'  ← UI
+  [제외] '사내 사이트 유지보수 및 신규 개발(Java, TypeScript)'  ← Java
+  [제외] 'ComfyUI AI/PO기반 솔루션기획(14년 이상)'  ← UI
+  [제외] '[Pre-IPO / AI 에듀테크] DevOps Engineer 채용'  ← DevOps
+  [제외] '[Pre-IPO / AI 에듀테크] MLOps Engineer 채용'  ← MLOps
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] '39. 보험사 IT팀 데이터 분석 담당자 [글로벌 보험사 자회사]'  ← 네트워크
+  [제외] 'AI 에이전트 백엔드 개발자 : RAG, 벡터DB 구축'  ← 백엔드
+  [제외] 'AI Scientist 모집(AI 클라우드)'  ← 클라우드
+  [제외] '풀스택 경력 개발자'  ← 풀스택
+  [제외] 'AI Engineer 모집(AI 클라우드)'  ← 클라우드
+  [제외] '웹 애플리케이션 개발자 (프론트엔드 중심 풀스택)'  ← 프론트엔드
+  [제외] 'AX기획부 경력직 채용 (백엔드 엔지니어)'  ← 백엔드
+  [제외] '[풀스택 경력 개발자(차장급)]'  ← 풀스택
+  [제외] '바이오 데이터 분석 툴 API 개발 및 클라우드 최적화'  ← 클라우드
+  [제외] '[제조/물류 자동화 솔루션 기업] 풀스택 개발'  ← 풀스택
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] "[이지시큐] AI 기반 보안 자동화 플랫폼 'AI 빌더' 채용 공고"  ← 보안
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] 'RAG 및 LLM 기반 시스템 설계 및 구축 경험/세계적게임사'  ← 설계
+  [제외] 'gro[중소/에듀테크/학습지/동작구]sla AI 백엔드 개발'  ← 네트워크
+  [제외] 'AI 및 라이브 기반 반려동물 양육 플랫폼 백엔드 개발자 채용'  ← 백엔드
+  [제외] 'IntCloud 플랫폼 백엔드 엔지니어 채용공고'  ← 백엔드
+  [제외] '[메가존클라우드 관계사] 알파코드 AI 서비스 개발자'  ← 클라우드
+  [제외] 'AI 서비스 백엔드 개발 리드'  ← 백엔드
+  [제외] '[시중 은행] IT설계개발 엔지니어(프론트엔드)'  ← 프론트엔드
+  [제외] '[협업툴 플로우] AI 풀스택 엔지니어'  ← 풀스택
+  [제외] 'LLM 알고리즘 개발 연구원 / 광주 또는 울산 근무'  ← 알고리즘
+  [제외] '풀스택 개발자 경력직 채용'  ← 풀스택
+  [제외] '온톨로지 기반 AI (sLLM) 항체개발 시스템 백엔드'  ← 백엔드
+  [제외] '[프론트엔드 개발자] 경력직 채용'  ← 프론트엔드
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] 'LLM챗봇 개발프로젝트 / java, python / 중구'  ← Java
+  [제외] '[탑코미디어] 챗봇 페르소나 설계자 모집'  ← 설계
+  [제외] '[TWC] AI SaaS 클라우드게이트 고객지원/운영 담당자 채용'  ← 클라우드
+  [제외] 'Cloud & DevOps Arichitect 경력사원 모집'  ← DevOps
+  [제외] 'AI 프로그래머(AI 시스템 설계 및 개발) 모집 - 병역특례 가능'  ← 설계
+  [제외] 'Power Platform(앱개발, RPA, BI, AI Agent) 엔지니어 모집'  ← 앱개발
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '[경력] 헬스케어 서비스 백엔드 개발자 채용'  ← 백엔드
+  [제외] '[인텔리코드] AI Agent 백엔드 개발자 모집 공고'  ← 백엔드
+  [제외] '(주)세피스 개발팀 MES,POP(C#, .NET, MVC )경력사원 채용'  ← .NET
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] '(주)지텔레마 AI 알고리즘 및 S/W 개발 담당(3D 모델 생성)'  ← 알고리즘
+  [제외] '[캐시워크] 백엔드개발 병역특례 대상자 모집'  ← 백엔드
+  [제외] '[캐시워크] 풀스택개발 병역특례 대상자 모집'  ← 풀스택
+  [제외] '[정규직/코스닥/AI SW전문기업] LLM 풀스택 개발 경력직 채용'  ← 풀스택
+  [제외] "생각하는집(thinkHOW's)에서 AI Builder·AI 네이티브 개발자 찾고 있어요"  ← UI
+  [제외] '인프라 엔지니어'  ← 인프라
+  [제외] 'React 기반 백엔드 개발자 구인'  ← 백엔드
+  [제외] 'AI 학습 및 평가 데이터 설계/구축 PL (재택근무)'  ← 설계
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] '[여의도] Salesforce 클라우드 개발 모집 공고 [4월-1년]'  ← 클라우드
+  [제외] '풀스택 경력 개발자'  ← 풀스택
+  [제외] '[풀스택 경력 개발자(차장급)]'  ← 풀스택
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] 'gro[중소/에듀테크/학습지/동작구]sla AI 백엔드 개발'  ← 네트워크
+  [제외] '산업기능요원(보충역) 시스템 엔지니어(SE) 채용'  ← 시스템 엔지니어
+  [제외] '인프라 아키텍트'  ← 인프라
+  [제외] '프론트엔드 개발자 (React / Next.js / Python)'  ← 프론트엔드
+  [제외] '풀스택 개발자 경력직 채용'  ← 풀스택
+  [제외] '[프론트엔드 개발자] 경력직 채용'  ← 프론트엔드
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] 'Backend Engineer(Node.js & Java/Kotlin)'  ← Java
+  [제외] '백엔드 개발 경력 모집'  ← 백엔드
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] '[제조/물류 자동화 솔루션 기업] 풀스택 개발'  ← 풀스택
+  [제외] '자동화 장비 개발 - 기구설계 엔지니어 모집'  ← 설계
+  [제외] '[경력]자동화 로봇/공장/창고 3D시뮬레이션 개발(WebGL/Package)'  ← 비전
+  [제외] 'Revit 기반 BIM 자동화 C# 개발자 채용 (WinForms, 3년이상)'  ← C#
+  [제외] '자동화 개발QA 엔지니어'  ← QA
+  [제외] '자동화 개발QA 엔지니어(11↑)'  ← QA
+  [제외] '3D프린터 자동화 로봇 AS 및 연구개발 지원 (경력직)'  ← 로봇
+  [제외] '반도체 자동화 설비 제어 프로그램 개발'  ← 반도체
+  [제외] '[자동화플랫폼팀] 백엔드 시스템 개발자 채용'  ← 백엔드
+  [제외] '[PC제어] 자동화 설비 SW 개발자 채용(C++/MFC)'  ← C++
+  [제외] '기구설계 (검사장비/자동화장비) 개발자 모집'  ← 설계
+  [제외] '[반도체 장비 제조업 ]자동화 개발로봇 프로그래머 경력 채용'  ← 반도체
+  [제외] 'AI 기반 정보통신 설계자동화 개발자 (신입/1명)'  ← 설계
+  [제외] '2026상반기 C++ 영상처리,자동화개발 신입·경력 프로그래머채용'  ← C++
+  [제외] '[기흥연구소] 공장 설비 자동화 설계 및 개발 경력자 채용'  ← 설계
+  [제외] '딥러닝 머신비전 기반 자동화 설비 SW개발자 (C++/MFC/Python)'  ← C++
+  [제외] '산업자동화 머신비전 Application SW 프로그램 개발'  ← 비전
+  [제외] '[2차전지 자동화 장비 개발] 설계'  ← 설계
+  [제외] '글로벌 eCommerce QA 차장급 자동화 시니어 개발자 모집'  ← QA
+  [제외] '[Welcome Bonus 지급] 보안 시스템자동화 개발자 영입'  ← 보안
+  [제외] '(주)글로벌디펜스 협동로봇 자동화 시스템 SW 개발자'  ← 로봇
+  [제외] '보안 시스템자동화 개발자'  ← 보안
+  [제외] '[글로벌엔지니어링] 협동로봇 자동화 시스템 SW개발자'  ← 로봇
+  [제외] '[픽스업] 풀스택 개발자 채용 (ERP · 데이터 · 크롤링 자동화)'  ← 풀스택
+  [제외] '[스마트브랜딩] 풀스택 개발 가능하신분 채용(웹/마케팅 자동화)'  ← 풀스택
+  [제외] '[수원 망포] 네트워크 엔지니어'  ← 네트워크
+  [제외] '[평택] 네트워크 엔지니어'  ← 네트워크
+  [제외] '[토스페이먼츠] QA Team Leader'  ← QA
+  [제외] '[서울] 네트워크 엔지니어 (경력)'  ← 네트워크
+  [제외] '[이천/청주] 네트워크 엔지니어'  ← 네트워크
+  [제외] '코아시아씨엠 연구소 모바일 렌즈 광학설계 경력사원 채용'  ← 설계
+  [제외] '(주)씨에이에스 2026년 정보보호사업부문 채용'  ← 정보보호
+  [제외] '[경력] JAVA개발자 플랫폼 운영 관리'  ← Java
+  [제외] '[글로벌 유명 게임 개발사 산하 스튜디오]프론트엔드 엔지니어'  ← 프론트엔드
+  [제외] '[동탄/코스닥] 레이저 응용광학 기구설계'  ← 설계
+  [제외] '[글로벌 게임 개발사] Slot UI Designer 채용'  ← UI
+  [제외] '[(주)케이알엠] 로봇 자율주행 소프트웨어 개발자 채용'  ← 로봇
+  [제외] '생산 비규격설계 경력직 채용'  ← 설계
+  [제외] '풀스택 경력 개발자'  ← 풀스택
+  [제외] '공장자동화 기계설계 담당 경력사원(3~15년) 2명 모집'  ← 설계
+  [제외] '[상품기획 BM] 전문의가 설계한 로직 위에 AI를 더하다'  ← 설계
+  [제외] '[머스트핀테크] 에이전시 사업부(AGN) CX팀-UI디자이너'  ← UI
+  [제외] 'AI Engineer 모집(AI 클라우드)'  ← 클라우드
+  [제외] '(주)아이지 설계팀 기구설계 경력 채용'  ← 설계
+  [제외] '(주)도화엔지니어링 웹 프론트엔드(Front-End) 개발자'  ← 프론트엔드
+  [제외] 'IT 인프라 운영/(3~ 10년)/(영어 필수)/천안 - 일본계 반도체'  ← 반도체
+  [제외] '[마곡/판교] 로봇 엔지니어(Operator, ML, 3D) 채용: 연4500이상'  ← 로봇
+  [제외] '구글 클라우드 엔지니어 아키텍처 설계/기술지원 (Data,AI/ML)'  ← 클라우드
+  [제외] 'ML Systems Runtime Engineer [신입/병특가능]'  ← 반도체
+  [제외] 'ML Systems Runtime Engineer [경력]'  ← 반도체
+  [제외] 'AWS 클라우드 아키텍처 경력 채용'  ← AWS
+  [제외] 'AI Engineer 모집(AI 클라우드)'  ← 클라우드
+  [제외] '[스카이웨어]신입 개발자 모집(Java / 웹서비스 / AI 활용개발)'  ← Java
+  [제외] '보안 솔루션 엔지니어 경력직 채용 [경력]'  ← 보안
+  [제외] '영상처리 알고리즘 개발자 (Vision S/W Engineer)'  ← 영상처리
+  [제외] '프론트엔드 개발자: Frontend Engineer'  ← 프론트엔드
+  [제외] '[AI Model R&D Engineer] / MCU 전문 반도체 기업'  ← 반도체
+  [제외] '백엔드 엔지니어'  ← 백엔드
+  [제외] 'Analog Circuit Design Technolog (신입/학사이상)'  ← 반도체
+  [제외] '[Pre-IPO / AI 에듀테크] DevOps Engineer 채용'  ← DevOps
+  [제외] '[Pre-IPO / AI 에듀테크] MLOps Engineer 채용'  ← MLOps
+  [제외] '이미지 프로세싱 알고리즘 개발 신입'  ← 알고리즘
+  [제외] 'AWS / Snowflake 기반의 데이터 웨어하우스 개발자 구인'  ← AWS
+  [제외] '[경력]자동화 로봇/공장/창고 3D시뮬레이션 개발(WebGL/Package)'  ← 비전
+  [제외] '[전문연구요원]로봇 시스템 비전 소프트웨어 엔지니어'  ← 비전
+  [제외] 'Cloud & DevOps Arichitect 경력사원 모집'  ← DevOps
+  [제외] '자율주행 로봇 / 협동 로봇 / ROS / Vision / AI 개발 직무'  ← 로봇
+  [제외] '[AI 법률번역 스타트업] 프론트엔드 개발자 (주니어)'  ← 프론트엔드
+  [제외] '반도체 검사(계측)설비 SW 개발 경력채용'  ← 반도체
+  [제외] 'AI머신비전 엔지니어 채용공고'  ← 비전
+  [제외] '로봇 모션 컨트롤 엔지니어(경력)'  ← 로봇
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] '[주식회사 한울반도체] AI 개발자 채용 (경력)'  ← 반도체
+  [제외] 'AWS Public Cloud Pre-sales & Consulting 경력사원 모집'  ← AWS
+  [제외] '[써큘러랩스] MLOps 채용'  ← MLOps
+  [제외] '[강남/AI/연봉상향] 컴퓨터비전 엔지니어 채용'  ← 비전
+  [제외] '[피앤피시큐어 및 관계사] 기술/QA 엔지니어 신입/경력 공개채용'  ← QA
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '서비스 기획/UX 디자인 리드'  ← UX
+  [제외] '병원용AI Smart Desk 서비스 백엔드/풀스택 경력(3년이상)개발자'  ← 백엔드
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] 'ComfyUI AI/PO기반 솔루션기획(14년 이상)'  ← UI
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] 'ComfyUI AI/PO기반 솔루션기획(10~13년)'  ← UI
+  [제외] 'ComfyUI AI/PO기반 솔루션기획(6~9년)'  ← UI
+  [제외] '주식회사 천천히 - 풀스택 개발자를 채용합니다.'  ← 풀스택
+  [제외] 'IntCloud 플랫폼 백엔드 엔지니어 채용공고'  ← 백엔드
+  [제외] 'LLM 알고리즘 개발 연구원 / 광주 또는 울산 근무'  ← 알고리즘
+  [제외] '2026년 상반기 에이로봇 S/W, H/W 채용'  ← H/W
+  [제외] 'PO.검색기획(8-10년.온라인모바일.쇼핑몰.이커머스.UIUX.서비스)'  ← UX
+  [제외] '노리스페이스와 함께 성장하실 DevOPS Engineer분을 모십니다'  ← DevOps
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] 'AI 기반 자연어 질의 시스템 개발자 (프론트 & 백엔드)'  ← 백엔드
+  [제외] 'AI 기술 개발 리더(면접 결과에 따라 C레벨 대우 가능)'  ← C (단독)
+  [제외] 'AI 개발자 대신 데이터 엔지니어 수천명 뽑는 토스 왜'  ← UX
+  [제외] 'SKT 정예팀, 독파모 개발 참여 인턴 모집 “AI 인재 육성의 마중물 역할 기대”'  ← UX
+  [제외] '“합격하면 500만원 준다” “우린 2000만원 준다” 난리더니…결국 채용 ‘큰 장’ 선다'  ← .NET
+  [제외] '크래프톤, 게임 제작과 AI 분야의 신입 사원 채용'  ← UX
+  [제외] 'SKT·크래프톤, 독자 AI 개발 참여 인턴 개발자 모집'  ← UX
+  [제외] '그렙, AI 인력 전쟁 본격화...기업 10곳 중 7곳 채용 나선다'  ← UX
+  [제외] '2년 전 인기였던 프롬프트 엔지니어, 지금은 어떻게 됐나..."직무에서 역량으로"'  ← UX
+  [제외] '[점선면] AI에 채용 맡겼더니 여성이 배제됐다…AI에 스며든 차별 없애려면'  ← UI
+  [제외] "이통3사 채용 공고에서 사라진 '통신'…AI 인재 모시기 집중"  ← UX
+  [제외] '"인턴 급여가 하루 20만원"…난리난 \'딥시크\' 채용 공고'  ← UX
+  [제외] 'IT 채용 반토막에도 \'AI 개발자\' 수요는 증가…"중고신입 선호" - 머니투데이'  ← QA
+  [제외] '한국딥러닝(주) 2026년 상반기 채용 | 기업리뷰 23건, 연봉정보 11건, 면접후기 35건, 복지정보 0건, 채용공고 12건'  ← UX
+  [제외] "AI 스타트업은 지금 개발자 '채용 전쟁'…리벨리온·뉴빌리티, 직원 수 3배 급증 [긱스]"  ← UI
+  [제외] "[기획] 프롬프트 엔지니어링은 죽지 않았다, 다만 '시스템 설계'로 승화되었을 뿐"  ← UX
+  [제외] 'RAG vs. 미세 조정 vs. 프롬프트 엔지니어링'  ← UX
+  [제외] 'AI 확산에도 채용 시장의 중심은 ‘개발자’'  ← UX
+  [제외] 'HD현대·한화오션, 대규모 채용 드라이브…조선업 인재 확보전 본격화'  ← UI
+  [제외] '잡코리아, ‘AI 공고 자동 생성’ 기능 도입…채용 공고 작성 시간 70% 이상 단축'  ← UX
+  [제외] '“29년간 축적 데이터 활용”…잡코리아, AI 채용 효율 확대 본격화'  ← UX
+  [제외] '[초점] ‘AI는 필수\' 채용공고 300% 급증...구직자 절반은 "기준 혼동“'  ← UX
+  [제외] '[현장] "1만 3천명 공채를 3주 만에"… 마이다스인, \'AI 채용 에이전트\'로 HR 혁신 제시'  ← UX
+  [제외] '스타트업 채용 플랫폼 ‘그룹바이’…AI 활용 자동화 기술 개발 속도'  ← UX
+  [제외] '[초점] "AI 기반 채용 아웃소싱 서비스가 당신의 HR팀을 대체한다"'  ← QA
+  [제외] 'AI가 일자리를 바꾸고 있다…신입 채용 감소와 요구 조건 강화'  ← UX
+  [제외] '[AI 채용] “누가 나를 떨어뜨렸는가, 면접관인가 AI인가”'  ← UX
+  [제외] '그룹바이에이치알, AI 채용 자동화 솔루션 개발로 중기부 ‘벤처기업 인증 획득’'  ← AWS
+  [제외] 'LG CNS, 상반기 세 자릿수 경력직 채용… AI·로보틱스 ‘실전형 인재’ 확보 나서'  ← UX
+  [제외] '"반복 업무는 로봇이"…대형 로펌 \'AI 비서\' 속속 채용'  ← QA
+필터링 후: 642건
+최종 발송 대상: 30건
+
+📊 점수 분포:
+  14점: 4건
+  12점: 6건
+  9점: 5건
+  8점: 4건
+  7점: 10건
+  5점: 1건
+
+📧 이메일 발송 중...
+[메일] GMAIL_SENDER / GMAIL_APP_PASSWORD 환경 변수 미설정
+
+✅ 완료 — 08:06:07
+
+🚀 Job Alert 시작 — 2026-04-30 08:05:02
+
+📡 채용 공고 수집 중...
+
+==================================================
+  [사람인] 수집 시작
+==================================================
+  [사람인] 'AI 엔지니어' 검색 중...
+  [사람인] 'LLM 개발' 검색 중...
+  [사람인] 'RAG 개발' 검색 중...
+  [사람인] '챗봇 개발' 검색 중...
+  [사람인] '자동화 개발' 검색 중...
+  [사람인] 'ML 엔지니어' 검색 중...
+  [사람인] '자연어처리' 검색 중...
+  [사람인] 수집 완료: 840건
+  [사람인] 원본 수집: 840건
+
+==================================================
+  [잡코리아] 수집 시작
+==================================================
+  [잡코리아] 'AI 엔지니어' 검색 중...
+  [잡코리아] 'LLM' 검색 중...
+  [잡코리아] 'RAG' 검색 중...
+  [잡코리아] '챗봇 개발' 검색 중...
+  [잡코리아] '자동화 개발' 검색 중...
+  [잡코리아] '자연어처리' 검색 중...
+  [잡코리아] 수집 완료: 0건
+  [잡코리아] 원본 수집: 0건
+
+==================================================
+  [프로그래머스] 수집 시작
+==================================================
+  [프로그래머스] 'AI' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=AI&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'LLM' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=LLM&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '챗봇' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%B1%97%EB%B4%87&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '자동화' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%9E%90%EB%8F%99%ED%99%94&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'NLP' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=NLP&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'RAG' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=RAG&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'Machine Learning' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=Machine+Learning&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 수집 완료: 0건
+  [프로그래머스] 원본 수집: 0건
+
+==================================================
+  [원티드] 수집 시작
+==================================================
+  [원티드] category=655 수집 중...
+  [원티드] category=1024 수집 중...
+  [원티드] category=1025 수집 중...
+  [원티드] 수집 완료: 0건
+  [원티드] 원본 수집: 0건
+
+==================================================
+  [LinkedIn] 수집 시작
+==================================================
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=LLM+AI+개발자+채용&hl=ko&gl=KR&ceid=KR...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=RAG+챗봇+AI+엔지니어+채용&hl=ko&gl=KR&cei...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=자동화+AI+개발+채용+공고&hl=ko&gl=KR&ceid=...
+  [LinkedIn] 수집 완료: 69건
+  [LinkedIn] 원본 수집: 69건
+
+총 원본 수집: 909건
+
+🔍 중복 공고 제거 중...
+  [중복→스킵] '에이전틱Agentic AI?개발자 채용이 위험해진 이유' (LinkedIn)
+  [중복→스킵] '독파모 SKT 정예팀, 청년 인턴 모집..."AI 인재 육성"' (LinkedIn)
+  [중복→스킵] '오픈AI·앤트로픽, 국내서 엔지니어 최초 채용…‘솔루션 아키텍트’ 분야' (LinkedIn)
+  [중복→스킵] '"1371억 줄게" 연봉 쇼크…채용시장 발칵 뒤집어놓은 직업 [글로벌 머니 X파일]' (LinkedIn)
+  [중복→스킵] '메타, AI 채용 ‘일시 중단’…초지능팀 재편 후 숨고르기' (LinkedIn)
+  [중복→스킵] 'AI 시대의 취업 / 채용 전략' (LinkedIn)
+  [중복→스킵] "'채용 혹한기' 보낸 IT업계…유일하게 생존한 'AI 개발자'" (LinkedIn)
+  [중복→스킵] 'IT 업계 채용 41% 감소… AI 개발자 채용은 오히려 증가' (LinkedIn)
+  [중복→스킵] '“AI 고급 인력 모십니다”…채용 확대 나선 AI기업들' (LinkedIn)
+  [중복→스킵] '인공지능 채용이 활발한 분야와 연봉은 어느 정도 일까?' (LinkedIn)
+  [중복→스킵] '\'독파모\' SKT 정예팀, 인턴 개발자 모집…"성장 발판 마련"' (LinkedIn)
+  [중복→스킵] '크래프톤, 게임 제작·AI 분야 신입 채용...＂글로벌 인재로 성장 지원＂' (LinkedIn)
+  [중복→스킵] "일론 머스크 xAI, 시급 65달러 'AI 튜터' 수천명 채용" (LinkedIn)
+  [중복→스킵] '"대변혁 맞은 회계 업무…\'AI 회계사\' 채용 앞장설 것"' (LinkedIn)
+중복 제거 후: 895건
+
+🎯 키워드 필터링 및 점수 산정 중...
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 PhysicalAI 엔지니어모집'  ← 로봇
+  [제외] 'AI 엔지니어(백엔드 개발자)'  ← 백엔드
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] '임베디드 AI 시스템 엔지니어 (NPU)(신입,경력3년미만)'  ← 시스템 엔지니어
+  [제외] 'AI SW Engineer [신입/병특가능]'  ← 반도체
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] '비전 AI 부문 엔지니어 경력직 채용'  ← 비전
+  [제외] 'AI 인프라 필드 엔지니어'  ← 인프라
+  [제외] '[㈜딥엑스][AI반도체] Field Application Engineer 모집'  ← 반도체
+  [제외] 'AI 모델 개발 엔지니어'  ← 로봇
+  [제외] '[강남/AI/연봉상향] 컴퓨터비전 엔지니어 채용'  ← 비전
+  [제외] '[AI반도체] RTL 설계 엔지니어'  ← 반도체
+  [제외] 'AIR 부문 AI 전문 Engineer 채용 (경력)'  ← 클라우드
+  [제외] '[AI컨택센터상위] 화상회의 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] '[나비프라] 엣지 AI 최적화 엔지니어(컴퓨터비전)'  ← 비전
+  [제외] 'AI 영상 분석 백엔드 엔지니어'  ← 백엔드
+  [제외] '(주)스탁브릭스에서 풀스택 엔지니어(AI·임베디드·플랫폼)를 찾고 있어요'  ← 임베디드
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] 'LLM 챗봇 개발 프로젝트 / java, python / 중구'  ← Java
+  [제외] '[정규직/코스닥/AI SW전문기업] LLM 풀스택 개발 경력직 채용'  ← 풀스택
+  [제외] 'AI 에이전트 백엔드 개발자 : Langraph/Langchain/LLM'  ← 백엔드
+  [제외] 'AI Agent / LLM 기반 개발 (분석/설계/개발)'  ← 설계
+  [제외] 'LLM 알고리즘 개발 연구원 / 광주 또는 울산 근무'  ← 알고리즘
+  [제외] '2026년 상반기 각 부분 신입/경력사원 채용(영업, 전략기획, 채널관리, 연구개발자, 기술엔지니어, QA인증)'  ← QA
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] '주식회사엠에이치앤티(MH&T)에서 풀스택 개발자(React/Spring)로 함께해요'  ← Spring
+  [제외] '[서울 - 신입, 경력 3년이상] 프론트엔드 / 풀스택 개발자 채용'  ← 프론트엔드
+  [제외] '[신입/경력] AI Growth Builder(바이브 코딩 개발) 채용'  ← UI
+  [제외] '[수산그룹]수산INT 부문별 채용(개발/영업/정보보호컨설팅 등)'  ← 정보보호
+  [제외] 'AI 및 라이브 기반 반려동물 양육 플랫폼 백엔드 개발자 채용'  ← 백엔드
+  [제외] '백엔드 개발자 채용'  ← 백엔드
+  [제외] '[다우키움 계열사] 데이터·AI 백엔드 엔지니어 (경력 무관)'  ← 백엔드
+  [제외] '생성형 AI 빅데이터 마케팅 플랫폼 백엔드(JAVA) 개발자 채용'  ← Java
+  [제외] '백엔드 개발 경력 모집'  ← 백엔드
+  [제외] '프론트엔드 개발자 (경력)'  ← 프론트엔드
+  [제외] 'AX기획부 경력직 채용 (백엔드 엔지니어)'  ← 백엔드
+  [제외] 'Python Backend 개발자 채용'  ← 알고리즘
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] '풀스택 개발자(Junior)를 찾습니다'  ← 풀스택
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] '온채널 백엔드 개발자(경력)'  ← 백엔드
+  [제외] '[솔루션엔지니어링팀] IDC 인프라 엔지니어 모집'  ← 인프라
+  [제외] '생성형 AI 데이터사이언티스트'  ← 데이터사이언티스트
+  [제외] '[채용] 백엔드 개발자 (경력 1년 이상)'  ← 백엔드
+  [제외] '[AI반도체] Entry-level HW Engineering (학/석/박사, 전문연)'  ← 반도체
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 Physical AI 엔지니어 모집'  ← 로봇
+  [제외] 'AI 에이전트 백엔드 개발자 : RAG, 벡터DB 구축'  ← 백엔드
+  [제외] 'Wanted: AI 에이전트 백엔드 개발자( RAG, 벡터DB 구축 )'  ← 백엔드
+  [제외] '2026년 상반기 각 부분 신입/경력사원 채용(영업, 전략기획, 채널관리, 연구개발자, 기술엔지니어, QA인증)'  ← QA
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] 'AI 및 라이브 기반 반려동물 양육 플랫폼 백엔드 개발자 채용'  ← 백엔드
+  [제외] '생성형 AI 빅데이터 마케팅 플랫폼 백엔드(JAVA) 개발자 채용'  ← Java
+  [제외] 'AX기획부 경력직 채용 (백엔드 엔지니어)'  ← 백엔드
+  [제외] '생성형 AI 데이터사이언티스트'  ← 데이터사이언티스트
+  [제외] '[협업툴 플로우] AI 풀스택 엔지니어'  ← 풀스택
+  [제외] '[프론트엔드 개발자] 경력직 채용'  ← 프론트엔드
+  [제외] 'AI Agent (OpenAI,GPT,Gemini 기반)기술개발 및 고객 지원'  ← 클라우드
+  [제외] 'IntCloud 플랫폼 백엔드 엔지니어 채용공고'  ← 백엔드
+  [제외] '온톨로지 기반 AI (sLLM) 항체개발 시스템 백엔드'  ← 백엔드
+  [제외] 'DevOps Engineer'  ← DevOps
+  [제외] 'AI기반 풀스택 프로덕트 크리에이터-기획에서 개발 배포운영까지'  ← 풀스택
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] '프론트엔드/백엔드 개발자 모집'  ← 백엔드
+  [제외] '웹 애플리케이션 개발자 (프론트엔드 중심 풀스택)'  ← 프론트엔드
+  [제외] '바이오 데이터 분석 툴 API 개발 및 클라우드 최적화'  ← 클라우드
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] '[메타빌드] 보안/네트워크 솔루션 개발 및 유지관리 채용'  ← 네트워크
+  [제외] '[인텔리코드] AI Agent 백엔드 개발자 모집 공고'  ← 백엔드
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] 'LLM챗봇 개발프로젝트 / java, python / 중구'  ← Java
+  [제외] "생각하는집(thinkHOW's)에서 AI Builder·AI 네이티브 개발자 찾고 있어요"  ← UI
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] '[정규직/코스닥/AI SW전문기업] LLM 풀스택 개발 경력직 채용'  ← 풀스택
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] 'React 기반 백엔드 개발자 구인'  ← 백엔드
+  [제외] '[경력] 헬스케어 서비스 백엔드 개발자 채용'  ← 백엔드
+  [제외] 'Power Platform(앱개발, RPA, BI, AI Agent) 엔지니어 모집'  ← 앱개발
+  [제외] '인프라 엔지니어'  ← 인프라
+  [제외] 'AI 학습 및 평가 데이터 설계/구축 PL (재택근무)'  ← 설계
+  [제외] 'AI 프로그래머(AI 시스템 설계 및 개발) 모집 - 병역특례 가능'  ← 설계
+  [제외] '[탑코미디어] 주니어 풀스택 개발자 모집'  ← 풀스택
+  [제외] '[인텔리코드] AI Agent 백엔드 개발자 모집 공고'  ← 백엔드
+  [제외] '(주)세피스 개발팀 MES,POP(C#, .NET, MVC )경력사원 채용'  ← .NET
+  [제외] '[탑코미디어] 챗봇 페르소나 설계자 모집'  ← 설계
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '[TWC] AI SaaS 클라우드게이트 고객지원/운영 담당자 채용'  ← 클라우드
+  [제외] '[캐시워크] 풀스택개발 병역특례 대상자 모집'  ← 풀스택
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] '[캐시워크] 백엔드개발 병역특례 대상자 모집'  ← 백엔드
+  [제외] '[여의도] Salesforce 클라우드 개발 모집 공고 [4월-1년]'  ← 클라우드
+  [제외] 'Cloud & DevOps Arichitect 경력사원 모집'  ← DevOps
+  [제외] '(주)지텔레마 AI 알고리즘 및 S/W 개발 담당(3D 모델 생성)'  ← 알고리즘
+  [제외] '[AI-DATA] 웹 개발자 채용(백엔드) - 판교1'  ← 백엔드
+  [제외] '(주35시간) AI Cloud Service 웹개발자 경력직 채용'  ← 웹개발
+  [제외] '백엔드 개발 경력 모집'  ← 백엔드
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] '프론트엔드 개발자 (React / Next.js / Python)'  ← 프론트엔드
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] '[프론트엔드 개발자] 경력직 채용'  ← 프론트엔드
+  [제외] '[경력] 언리얼 개발자 (Unity3D전환가능)'  ← 비전
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] '[아파트너스] 프론트엔드 개발자 (경력 3년 이상) 모집'  ← 프론트엔드
+  [제외] 'AI 기반 자연어 질의 시스템 개발자 (프론트 & 백엔드)'  ← 백엔드
+  [제외] '[SW] 프론트엔드 개발자 인턴 (정규직 전환 가능)'  ← 프론트엔드
+  [제외] '주식회사 아이티앤 웹개발자 경력직 채용'  ← 웹개발
+  [제외] 'KIOSK 및 전산 자동화 C# 주니어 개발자 모집'  ← C#
+  [제외] '[자동화플랫폼팀] 백엔드 시스템 개발자 채용'  ← 백엔드
+  [제외] '[스마트브랜딩] 풀스택 개발 가능하신분 채용(웹/마케팅 자동화)'  ← 풀스택
+  [제외] '[픽스업] 풀스택 개발자 채용 (ERP · 데이터 · 크롤링 자동화)'  ← 풀스택
+  [제외] '기구설계 (검사장비/자동화장비) 개발자 모집'  ← 설계
+  [제외] '반도체 자동화 설비 제어 프로그램 개발'  ← 반도체
+  [제외] '[반도체 장비 제조업 ]자동화 개발로봇 프로그래머 경력 채용'  ← 반도체
+  [제외] '자동화 장비 개발 - 기구설계 엔지니어 모집'  ← 설계
+  [제외] '[경력]자동화 로봇/공장/창고 3D시뮬레이션 개발(WebGL/Package)'  ← 비전
+  [제외] '(주)코어메이트 반도체 자동화 설비 소프트웨어 개발자 모집'  ← 반도체
+  [제외] 'AI 기반 정보통신 설계자동화 개발자 (신입/1명)'  ← 설계
+  [제외] '3D프린터 자동화 로봇 AS 및 연구개발 지원 (경력직)'  ← 로봇
+  [제외] '[제조/물류 자동화 솔루션 기업] 풀스택 개발'  ← 풀스택
+  [제외] 'Revit 기반 BIM 자동화 C# 개발자 채용 (WinForms, 3년이상)'  ← C#
+  [제외] '2026상반기 C++ 영상처리,자동화개발 신입·경력 프로그래머채용'  ← C++
+  [제외] '자동화 개발QA 엔지니어'  ← QA
+  [제외] '(주)글로벌디펜스 협동로봇 자동화 시스템 SW 개발자'  ← 로봇
+  [제외] '자동화 개발QA 엔지니어(11↑)'  ← QA
+  [제외] '[글로벌엔지니어링] 협동로봇 자동화 시스템 SW개발자'  ← 로봇
+  [제외] '딥러닝 머신비전 기반 자동화 설비 SW개발자 (C++/MFC/Python)'  ← C++
+  [제외] '[Welcome Bonus 지급] 보안 시스템자동화 개발자 영입'  ← 보안
+  [제외] '[기흥연구소] 공장 설비 자동화 설계 및 개발 경력자 채용'  ← 설계
+  [제외] '[PC제어] 자동화 설비 SW 개발자 채용(C++/MFC)'  ← C++
+  [제외] '보안 시스템자동화 개발자'  ← 보안
+  [제외] 'MFC개발(자동화장비,대리~차장급)'  ← 네트워크
+  [제외] '글로벌 eCommerce QA 차장급 자동화 시니어 개발자 모집'  ← QA
+  [제외] '레이저 장비 제어 프로그램 개발(자동화장비,대리~차장급)'  ← 네트워크
+  [제외] '산업자동화 머신비전 Application SW 프로그램 개발'  ← 비전
+  [제외] '[2차전지 자동화 장비 개발] 설계'  ← 설계
+  [제외] '자동화설비 SW(비전제어) 개발 경력 모집'  ← 비전
+  [제외] '[마곡/판교] 로봇 엔지니어(Operator, ML, 3D) 채용: 연4500이상'  ← 로봇
+  [제외] 'ML Systems Runtime Engineer [신입/병특가능]'  ← 반도체
+  [제외] '구글 클라우드 엔지니어 아키텍처 설계/기술지원 (Data,AI/ML)'  ← 클라우드
+  [제외] 'ML Systems Runtime Engineer [경력]'  ← 반도체
+  [제외] '대일시스템 상반기 채용(영업/생산/연구개발팀장/펌웨어/아날로그회로 개발) 채용'  ← 펌웨어
+  [제외] '2026년 상반기 각 부분 신입/경력사원 채용(영업, 전략기획, 채널관리, 연구개발자, 기술엔지니어, QA인증)'  ← QA
+  [제외] '엔디소프트 QA/TEST 채용공고'  ← QA
+  [제외] 'Analog Circuit Design Technolog (신입/학사이상)'  ← 반도체
+  [제외] '로아스(LOAS)-로봇(HW)제조 및 QA 신입 및 경력직 모집'  ← QA
+  [제외] '[수산그룹]수산INT 부문별 채용(개발/영업/정보보호컨설팅 등)'  ← 정보보호
+  [제외] '[다우키움 계열사] 데이터·AI 백엔드 엔지니어 (경력 무관)'  ← 백엔드
+  [제외] '[피앤피시큐어 및 관계사] 기술/QA 엔지니어 신입/경력 공개채용'  ← QA
+  [제외] '영상처리 알고리즘 개발자 (Vision S/W Engineer)'  ← 영상처리
+  [제외] 'AI머신비전 엔지니어 채용공고'  ← 비전
+  [제외] '시큐리티아카데미 8기 안랩트랙/파이오링크트랙 교육생 모집'  ← 정보보호
+  [제외] '[메타크래프트] 신입 AWS 인프라 엔지니어 모집 안내'  ← 인프라
+  [제외] '[주식회사 한울반도체] AI 개발자 채용 (경력)'  ← 반도체
+  [제외] '보안솔루션 기술엔지니어 채용'  ← 보안
+  [제외] '[정규직/코스닥/AI SW전문기업] LLM 풀스택 개발 경력직 채용'  ← 풀스택
+  [제외] '[그림] 머신비전 SW 소프트웨어 개발자(C++/MFC) 채용'  ← C++
+  [제외] '자율주행 AMR SW Engineer 모집'  ← 자율주행
+  [제외] 'IntCloud 플랫폼 백엔드 엔지니어 채용공고'  ← 백엔드
+  [제외] '자율주행 로봇 / 협동 로봇 / ROS / Vision / AI 개발 직무'  ← 로봇
+  [제외] '[경력] 언리얼 개발자 (Unity3D전환가능)'  ← 비전
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] '주식회사 천천히 - 풀스택 개발자를 채용합니다.'  ← 풀스택
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] '[정규직/코스닥/AI SW전문기업] LLM 풀스택 개발 경력직 채용'  ← 풀스택
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] 'IntCloud 플랫폼 백엔드 엔지니어 채용공고'  ← 백엔드
+  [제외] '백엔드 개발자 채용합니다.'  ← 백엔드
+  [제외] '[미디어젠(주)] QT팀 (SW Test-QA/QC) 계약직 채용'  ← QA
+  [제외] 'AI 학습 및 평가 데이터 설계/구축 PL (재택근무)'  ← 설계
+  [제외] 'AI 기반 자연어 질의 시스템 개발자 (프론트 & 백엔드)'  ← 백엔드
+  [제외] '딥러닝 엔지니어 / 데이터사이언티스트'  ← 데이터사이언티스트
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] '(주)레디올소프트 백엔드 웹개발자(깃허브,포트폴리오 제출필수)'  ← 백엔드
+  [제외] '[미디어젠(주)] 파이썬 백엔드/서버 개발자(경력)'  ← 백엔드
+  [제외] '(주)인스케이프 AI비전 및 제어S/W개발 경력 인재 채용'  ← 비전
+  [제외] '병원용AI Smart Desk 서비스 백엔드/풀스택 경력(3년이상)개발자'  ← 백엔드
+  [제외] 'AI SW Engineer [신입/병특가능]'  ← 반도체
+  [제외] '[경력] 기구 설계 담당자(팀장급) / 2D설계 및 3D모델링'  ← 설계
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'AI 기술 개발 리더(면접 결과에 따라 C레벨 대우 가능)'  ← C (단독)
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] 'AI 소프트웨어 풀스택 개발자'  ← 풀스택
+  [제외] '노리스페이스와 함께 성장하실 DevOPS Engineer분을 모십니다'  ← DevOps
+  [제외] 'AI 개발자 대신 데이터 엔지니어 수천명 뽑는 토스 왜'  ← UX
+  [제외] 'SKT 정예팀, 독파모 개발 참여 인턴 모집 “AI 인재 육성의 마중물 역할 기대”'  ← UX
+  [제외] '크래프톤, 게임 제작과 AI 분야의 신입 사원 채용'  ← UX
+  [제외] '“멀티 LLM 체제서도 생존 목표”...SK텔레콤, 직원 채용 등 AI 챗봇 고도화 전력 - 조선비즈'  ← QA
+  [제외] 'SKT·크래프톤, 독자 AI 개발 참여 인턴 개발자 모집'  ← UX
+  [제외] '그렙, AI 인력 전쟁 본격화...기업 10곳 중 7곳 채용 나선다'  ← UX
+  [제외] '2년 전 인기였던 프롬프트 엔지니어, 지금은 어떻게 됐나..."직무에서 역량으로"'  ← UX
+  [제외] '[점선면] AI에 채용 맡겼더니 여성이 배제됐다…AI에 스며든 차별 없애려면'  ← UI
+  [제외] 'IT 채용 반토막에도 \'AI 개발자\' 수요는 증가…"중고신입 선호" - 머니투데이'  ← QA
+  [제외] "이통3사 채용 공고에서 사라진 '통신'…AI 인재 모시기 집중"  ← UX
+  [제외] '"인턴 급여가 하루 20만원"…난리난 \'딥시크\' 채용 공고'  ← UX
+  [제외] '한국딥러닝(주) 2026년 상반기 채용 | 기업리뷰 23건, 연봉정보 11건, 면접후기 35건, 복지정보 0건, 채용공고 12건'  ← UX
+  [제외] "AI 스타트업은 지금 개발자 '채용 전쟁'…리벨리온·뉴빌리티, 직원 수 3배 급증 [긱스]"  ← UI
+  [제외] 'AI 확산에도 채용 시장의 중심은 ‘개발자’'  ← UX
+  [제외] 'HD현대·한화오션, 대규모 채용 드라이브…조선업 인재 확보전 본격화'  ← UI
+  [제외] '잡코리아, ‘AI 공고 자동 생성’ 기능 도입…채용 공고 작성 시간 70% 이상 단축'  ← UX
+  [제외] '“29년간 축적 데이터 활용”…잡코리아, AI 채용 효율 확대 본격화'  ← UX
+  [제외] '[초점] ‘AI는 필수\' 채용공고 300% 급증...구직자 절반은 "기준 혼동“'  ← UX
+  [제외] '[현장] "1만 3천명 공채를 3주 만에"… 마이다스인, \'AI 채용 에이전트\'로 HR 혁신 제시'  ← UX
+  [제외] '스타트업 채용 플랫폼 ‘그룹바이’…AI 활용 자동화 기술 개발 속도'  ← UX
+  [제외] '[초점] "AI 기반 채용 아웃소싱 서비스가 당신의 HR팀을 대체한다"'  ← QA
+  [제외] 'AI가 일자리를 바꾸고 있다…신입 채용 감소와 요구 조건 강화'  ← UX
+  [제외] '[AI 채용] “누가 나를 떨어뜨렸는가, 면접관인가 AI인가”'  ← UX
+  [제외] '그룹바이에이치알, AI 채용 자동화 솔루션 개발로 중기부 ‘벤처기업 인증 획득’'  ← AWS
+  [제외] '코딩 가능한 회계사 찾습니다… 신입 채용에 ‘디지털’ 전형 신설한 삼일회계법인 - 조선비즈'  ← QA
+  [제외] 'LG CNS, 상반기 세 자릿수 경력직 채용… AI·로보틱스 ‘실전형 인재’ 확보 나서'  ← UX
+  [제외] '"반복 업무는 로봇이"…대형 로펌 \'AI 비서\' 속속 채용'  ← QA
+필터링 후: 682건
+최종 발송 대상: 30건
+
+📊 점수 분포:
+  14점: 3건
+  12점: 6건
+  9점: 2건
+  8점: 5건
+  7점: 9건
+  5점: 3건
+  4점: 2건
+
+📧 이메일 발송 중...
+[메일] GMAIL_SENDER / GMAIL_APP_PASSWORD 환경 변수 미설정
+
+✅ 완료 — 08:06:07
+
+🚀 Job Alert 시작 — 2026-05-01 08:05:01
+
+📡 채용 공고 수집 중...
+
+==================================================
+  [사람인] 수집 시작
+==================================================
+  [사람인] 'AI 엔지니어' 검색 중...
+  [사람인] 'LLM 개발' 검색 중...
+  [사람인] 'RAG 개발' 검색 중...
+  [사람인] '챗봇 개발' 검색 중...
+  [사람인] '자동화 개발' 검색 중...
+  [사람인] 'ML 엔지니어' 검색 중...
+  [사람인] '자연어처리' 검색 중...
+  [사람인] 수집 완료: 840건
+  [사람인] 원본 수집: 840건
+
+==================================================
+  [잡코리아] 수집 시작
+==================================================
+  [잡코리아] 'AI 엔지니어' 검색 중...
+  [잡코리아] 'LLM' 검색 중...
+  [잡코리아] 'RAG' 검색 중...
+  [잡코리아] '챗봇 개발' 검색 중...
+  [잡코리아] '자동화 개발' 검색 중...
+  [잡코리아] '자연어처리' 검색 중...
+  [잡코리아] 수집 완료: 0건
+  [잡코리아] 원본 수집: 0건
+
+==================================================
+  [프로그래머스] 수집 시작
+==================================================
+  [프로그래머스] 'AI' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=AI&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'LLM' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=LLM&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '챗봇' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%B1%97%EB%B4%87&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '자동화' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%9E%90%EB%8F%99%ED%99%94&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'NLP' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=NLP&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'RAG' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=RAG&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'Machine Learning' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=Machine+Learning&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 수집 완료: 0건
+  [프로그래머스] 원본 수집: 0건
+
+==================================================
+  [원티드] 수집 시작
+==================================================
+  [원티드] category=655 수집 중...
+  [원티드] category=1024 수집 중...
+  [원티드] category=1025 수집 중...
+  [원티드] 수집 완료: 0건
+  [원티드] 원본 수집: 0건
+
+==================================================
+  [LinkedIn] 수집 시작
+==================================================
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=LLM+AI+개발자+채용&hl=ko&gl=KR&ceid=KR...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=RAG+챗봇+AI+엔지니어+채용&hl=ko&gl=KR&cei...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=자동화+AI+개발+채용+공고&hl=ko&gl=KR&ceid=...
+  [LinkedIn] 수집 완료: 62건
+  [LinkedIn] 원본 수집: 62건
+
+총 원본 수집: 902건
+
+🔍 중복 공고 제거 중...
+  [중복→스킵] '에이전틱Agentic AI?개발자 채용이 위험해진 이유' (LinkedIn)
+  [중복→스킵] '오픈AI·앤트로픽, 국내서 엔지니어 최초 채용…‘솔루션 아키텍트’ 분야' (LinkedIn)
+  [중복→스킵] '"1371억 줄게" 연봉 쇼크…채용시장 발칵 뒤집어놓은 직업 [글로벌 머니 X파일]' (LinkedIn)
+  [중복→스킵] '메타, AI 채용 ‘일시 중단’…초지능팀 재편 후 숨고르기' (LinkedIn)
+  [중복→스킵] 'AI 시대의 취업 / 채용 전략' (LinkedIn)
+  [중복→스킵] "'채용 혹한기' 보낸 IT업계…유일하게 생존한 'AI 개발자'" (LinkedIn)
+  [중복→스킵] 'IT 업계 채용 41% 감소… AI 개발자 채용은 오히려 증가' (LinkedIn)
+  [중복→스킵] '“AI 고급 인력 모십니다”…채용 확대 나선 AI기업들' (LinkedIn)
+  [중복→스킵] '독파모 SKT 정예팀, 청년 인턴 모집..."AI 인재 육성"' (LinkedIn)
+  [중복→스킵] '인공지능 채용이 활발한 분야와 연봉은 어느 정도 일까?' (LinkedIn)
+  [중복→스킵] '크래프톤, 게임 제작·AI 분야 신입 채용...＂글로벌 인재로 성장 지원＂' (LinkedIn)
+  [중복→스킵] '"대변혁 맞은 회계 업무…\'AI 회계사\' 채용 앞장설 것"' (LinkedIn)
+중복 제거 후: 890건
+
+🎯 키워드 필터링 및 점수 산정 중...
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 PhysicalAI 엔지니어모집'  ← 로봇
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] 'AI 엔지니어(백엔드 개발자)'  ← 백엔드
+  [제외] 'AI Research Engineer 엔지니어 채용'  ← 클라우드
+  [제외] 'AI 인프라 필드 엔지니어'  ← 인프라
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] 'AI 플랫폼 시스템 엔지니어(신입)'  ← 시스템 엔지니어
+  [제외] 'AI인프라 엔지니어(경력)'  ← 인프라
+  [제외] '(주)스탁브릭스에서 풀스택 엔지니어(AI·임베디드·플랫폼)를 찾고 있어요'  ← 임베디드
+  [제외] '[메타엠] AICC개발실 IPCC 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] '[에티버스이피에이] X86 서버 및 AI 인프라 하드웨어 엔지니어'  ← 하드웨어
+  [제외] 'AI 플랫폼 시스템 엔지니어(경력)'  ← 시스템 엔지니어
+  [제외] 'AI 시스템엔지니어 모십니다 (리눅스 NPU 서버)'  ← 시스템엔지니어
+  [제외] 'AI 채용솔루션(ATS) 백엔드 엔지니어'  ← 백엔드
+  [제외] '[퀀텀씨엔에스] 쿠버네티스 기반 AI 인프라 운영 엔지니어 채용'  ← 인프라
+  [제외] '[나비프라] 엣지 AI 최적화 엔지니어(컴퓨터비전)'  ← 비전
+  [제외] 'Junior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] 'Senior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] '[연구개발/경력] AI 이미징 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] 'AX기획부 경력직 채용 (백엔드 엔지니어)'  ← 백엔드
+  [제외] 'LLM 챗봇 개발 프로젝트 / java, python / 중구'  ← Java
+  [제외] '백엔드 개발 경력 모집'  ← 백엔드
+  [제외] '[그림] 머신비전 SW 소프트웨어 개발자(C++/MFC) 채용'  ← C++
+  [제외] '동명기술공단 부설연구소 AI / 백엔드 개발자 채용 공고'  ← 백엔드
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] '풀스택 S/W개발 경력사원 채용'  ← 풀스택
+  [제외] '[주4.5일] 백엔드 개발자(JAVA) 채용'  ← Java
+  [제외] 'AI 에이전트 백엔드 개발자 : Langraph/Langchain/LLM'  ← 백엔드
+  [제외] '[서비스개발센터] 경력 개발자(프론트엔드, 백엔드) 채용'  ← 백엔드
+  [제외] '[메타빌드] 보안/네트워크 솔루션 개발 및 유지관리 채용'  ← 네트워크
+  [제외] '경력 개발자(프론트엔드) 채용'  ← 프론트엔드
+  [제외] '[CJ 그룹-CJ 메조미디어] 백엔드 개발자 경력채용'  ← 백엔드
+  [제외] '프론트엔드/백엔드 개발자 모집'  ← 백엔드
+  [제외] '[Leading the AI] 유라클 AI 에이전트 백엔드 연구 개발'  ← 백엔드
+  [제외] '[STEALIEN] 취약점 분석가/보안 개발자(R&D) 채용 (선제대응팀)'  ← 보안
+  [제외] '통신사 차세대 BSS 프로젝트 개발자(Java, React, AI Agent)'  ← Java
+  [제외] '[AI서비스] 백엔드개발 경력직 채용'  ← 백엔드
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '신성델타테크(주) 로봇센터(서울) 로봇 소프트웨어 개발직 채용'  ← 로봇
+  [제외] '[채용] 백엔드 개발자 (경력 1년 이상)'  ← 백엔드
+  [제외] '[WAUG]와그 백엔드 개발자(PHP, JAVA) 모집'  ← Java
+  [제외] '(주)인스케이프 AI비전 및 제어S/W개발 경력 인재 채용'  ← 비전
+  [제외] '[서울 - 신입, 경력 3년이상] 프론트엔드 / 풀스택 개발자 채용'  ← 프론트엔드
+  [제외] 'AI 서비스 백엔드 개발자(경력)'  ← 백엔드
+  [제외] '보안분야 공공/전략 사업개발 채용'  ← 보안
+  [제외] '[C++] 서비스 개발자 채용'  ← C++
+  [제외] 'AI기반 풀스택 프로덕트 크리에이터-기획에서 개발 배포운영까지'  ← 풀스택
+  [제외] '이커머스 플랫폼(카페24,고도몰) 백엔드 개발 (2년 이상)'  ← 백엔드
+  [제외] '이커머스 테크 풀스택 개발자'  ← 풀스택
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] '온채널 백엔드 개발자(경력)'  ← 백엔드
+  [제외] '백엔드 개발자 채용'  ← 백엔드
+  [제외] '[아정당 서울] DevOps 개발자 (5년 이상~)'  ← DevOps
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] 'AI 에이전트 백엔드 개발자 : RAG, 벡터DB 구축'  ← 백엔드
+  [제외] '[메타빌드] 보안/네트워크 솔루션 개발 및 유지관리 채용'  ← 네트워크
+  [제외] '프론트엔드/백엔드 개발자 모집'  ← 백엔드
+  [제외] '[Leading the AI] 유라클 AI 에이전트 백엔드 연구 개발'  ← 백엔드
+  [제외] '통신사 차세대 BSS 프로젝트 개발자(Java, React, AI Agent)'  ← Java
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] 'AI기반 풀스택 프로덕트 크리에이터-기획에서 개발 배포운영까지'  ← 풀스택
+  [제외] 'AI 엔지니어 (백엔드 개발자)'  ← 백엔드
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] 'AI 기술 개발 리더(면접 결과에 따라 C레벨 대우 가능)'  ← C (단독)
+  [제외] 'AI 소프트웨어 풀스택 개발자'  ← 풀스택
+  [제외] '[경력] 서비스 플랫폼 풀스택 개발자'  ← 풀스택
+  [제외] '[인텔리코드] AI Agent 백엔드 개발자 모집 공고'  ← 백엔드
+  [제외] '온톨로지 기반 AI (sLLM) 항체개발 시스템 백엔드'  ← 백엔드
+  [제외] '[AX] AI 에이전트 개발자 (백엔드 + 데이터 엔지니어링)'  ← 백엔드
+  [제외] 'AI 및 라이브 기반 반려동물 양육 플랫폼 백엔드 개발자 채용'  ← 백엔드
+  [제외] '생성형 AI 빅데이터 마케팅 플랫폼 백엔드(JAVA) 개발자 채용'  ← Java
+  [제외] 'LLM챗봇 개발프로젝트 / java, python / 중구'  ← Java
+  [제외] '[AI-DATA] 웹 개발자 채용(백엔드) - 판교1'  ← 백엔드
+  [제외] '백엔드 개발 경력 모집'  ← 백엔드
+  [제외] '[캐시워크] 풀스택개발 병역특례 대상자 모집'  ← 풀스택
+  [제외] '[인텔리코드] AI Agent 백엔드 개발자 모집 공고'  ← 백엔드
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] '[캐시워크] 백엔드개발 병역특례 대상자 모집'  ← 백엔드
+  [제외] '(주35시간) AI Cloud Service 웹개발자 경력직 채용'  ← 웹개발
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] '(주)세피스 개발팀 MES,POP(C#, .NET, MVC )경력사원 채용'  ← .NET
+  [제외] '[여의도] Salesforce 클라우드 개발 모집 공고 [4월-1년]'  ← 클라우드
+  [제외] 'React 기반 백엔드 개발자 구인'  ← 백엔드
+  [제외] '[SW] 프론트엔드 개발자 인턴 (정규직 전환 가능)'  ← 프론트엔드
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] '업무시스템 개발 PM (Java/Python 기반)'  ← Java
+  [제외] '[프론트엔드 개발자] 경력직 채용'  ← 프론트엔드
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] 'AI 프로그래머(AI 시스템 설계 및 개발) 모집 - 병역특례 가능'  ← 설계
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] '주식회사 아이티앤 웹개발자 경력직 채용'  ← 웹개발
+  [제외] '시니어 풀스택 엔지니어(5~7년)'  ← 풀스택
+  [제외] '시니어 풀스택 엔지니어(8~10년)'  ← 풀스택
+  [제외] '인프라 아키텍트'  ← 인프라
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] 'Microsoft Engineer(AI Agent/Security Consultant)'  ← 클라우드
+  [제외] '[AI 전문기업 아크릴] 프론트엔드 앱 개발자 경력직 채용'  ← 프론트엔드
+  [제외] '딥러닝 엔지니어 / 데이터사이언티스트'  ← 데이터사이언티스트
+  [제외] "생각하는집(thinkHOW's)에서 AI Builder·AI 네이티브 개발자 찾고 있어요"  ← UI
+  [제외] '[삼성생명] RPA 개발자 (Brity / Java / 서초 근무)'  ← Java
+  [제외] 'Backend Engineer(Node.js & Java/Kotlin)'  ← Java
+  [제외] '프론트엔드 개발자 (React / Next.js / Python)'  ← 프론트엔드
+  [제외] '인프라 엔지니어'  ← 인프라
+  [제외] '[경력] 헬스케어 서비스 백엔드 개발자 채용'  ← 백엔드
+  [제외] 'AI 학습 및 평가 데이터 설계/구축 PL (재택근무)'  ← 설계
+  [제외] '(주)지텔레마 AI 알고리즘 및 S/W 개발 담당(3D 모델 생성)'  ← 알고리즘
+  [제외] '[경력] 언리얼 개발자 (Unity3D전환가능)'  ← 비전
+  [제외] '정보보호 담당자 경력직 채용 (4~7년차)'  ← 정보보호
+  [제외] '백엔드 엔지니어(운영 자동화 / LLM 응용 워크플로우)'  ← 백엔드
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] '[TWC] AI SaaS 클라우드게이트 고객지원/운영 담당자 채용'  ← 클라우드
+  [제외] '[아파트너스] 프론트엔드 개발자 (경력 3년 이상) 모집'  ← 프론트엔드
+  [제외] '[AI/클라우드] 소프트웨어 기술 영업 (경력) 채용'  ← 클라우드
+  [제외] '[글로벌엔지니어링] 협동로봇 자동화 시스템 SW개발자'  ← 로봇
+  [제외] '반도체 자동화 설비 제어 프로그램 개발'  ← 반도체
+  [제외] '[경력]자동화 로봇/공장/창고 3D시뮬레이션 개발(WebGL/Package)'  ← 비전
+  [제외] '[반도체 장비 제조업 ]자동화 개발로봇 프로그래머 경력 채용'  ← 반도체
+  [제외] '기구설계 (검사장비/자동화장비) 개발자 모집'  ← 설계
+  [제외] '기술연구소 로봇선행개발팀(기구설계) 경력사원 채용'  ← 로봇
+  [제외] '(주)글로벌디펜스 협동로봇 자동화 시스템 SW 개발자'  ← 로봇
+  [제외] '3D프린터 자동화 로봇 AS 및 연구개발 지원 (경력직)'  ← 로봇
+  [제외] '[분당/코스닥] HW 시스템 설계 및 개발 채용'  ← 설계
+  [제외] '[기흥연구소] 공장 설비 자동화 설계 및 개발 경력자 채용'  ← 설계
+  [제외] '시스템 설계 엔지니어(로봇 자동화)'  ← 로봇
+  [제외] '[LG전자 자회사] 로보스타 반도체 설비 기구 설계, SW 개발'  ← 반도체
+  [제외] '[(주)케이알엠] 로봇 자율주행 소프트웨어 개발자 채용'  ← 로봇
+  [제외] '2026년 효림그룹 전장ㆍ로봇 연구직 대규모 채용'  ← 로봇
+  [제외] '[LG전자 자회사] 로보스타 물류 자동화 기구 설계(경력)'  ← 설계
+  [제외] '영업/기구설계/엔지니어/자동화 장비 설비 신입/경력 채용'  ← 설계
+  [제외] '[정규직] 로봇 자동화 시스템 설계 및 제작 엔지니어 모집'  ← 로봇
+  [제외] '자동화 설비 PC제어/머신비전 신입/경력직 채용'  ← 비전
+  [제외] '로봇 공장자동화 기구 설계 엔지니어 모집-서울지사 근무'  ← 로봇
+  [제외] '[첨단로봇연구소] 로봇과 시스템 설계,개발 엔지니어(경력)'  ← 로봇
+  [제외] '2026년 ㈜플렉스시스템 부문별 인재 채용(경영지원, S/W, 전장설계, 기술영업, 품질, H/W, 기구설계)'  ← H/W
+  [제외] '기구 설계 연구개발 경력직 채용'  ← 설계
+  [제외] '자동화 기구설계(디스플레이/2차전지/자동화장비) 채용(경력)'  ← 설계
+  [제외] 'C# 기반 반도체/디스플레이/자동차 부품 검사 장비 제어 SW 개발'  ← 반도체
+  [제외] '기구설계(국내 개발팀)'  ← 설계
+  [제외] '(주)페타엑스 자동화시스템 설계 / 기계조립 & CS담당자 모집'  ← 설계
+  [제외] '비젼시스템/로봇/PLC 프로그램 개발 및 기술지원 인재모집'  ← 로봇
+  [제외] '[장비설계] (주) 오엠티- 자동화 설비 기구 설계 / 경력자 채용'  ← 설계
+  [제외] '코스닥상장사 (주)지아이텍 비전사업부[SW/제어(PC)]경력'  ← 비전
+  [제외] '[첨단로봇연구소] 로봇 및 자동화 제어 S/W 경력사원'  ← 로봇
+  [제외] '자동제어 설계, PLC 프로그래밍 경력사원 모집'  ← 설계
+  [제외] '[전문연구요원]로봇 제어 플랫폼 개발 엔지니어'  ← 로봇
+  [제외] '자동화설계, 기구설계, 기계설계 모집함.'  ← 설계
+  [제외] '[PC제어] 자동화 설비 SW 개발자 채용(C++/MFC)'  ← C++
+  [제외] '[AI머신비전플랫폼] 자동화 및 광학 기기 설계 엔지니어 모집'  ← 비전
+  [제외] '[코스닥 상장] ㈜에이프로 임베디드/펌웨어 개발자 채용'  ← 임베디드
+  [제외] '[로보티즈] 품질경영팀 지그펌웨어, 전장부 설계 모집의 건'  ← 펌웨어
+  [제외] '[경력모집] 설비제어 비전시스템 개발 담당자 모집'  ← 비전
+  [제외] '[시스템연구소] 기계설계 개발 경력자 채용의 건'  ← 설계
+  [제외] '[신입/경력] 자동화 장비 설계 하드웨어(CAD,Solidworks)'  ← 하드웨어
+  [제외] '[큐비콘] 자동화솔루션 장비 설계 인원 채용'  ← 설계
+  [제외] '로봇핸드 AI 기술개발'  ← 로봇
+  [제외] '자율주행 로봇 / 협동 로봇 / ROS / Vision / AI 개발 직무'  ← 로봇
+  [제외] '(렌다) 머신비전 기구설계 개발자/엔지니어 모집'  ← 비전
+  [제외] '자동화 장비 기구설계 엔지니어'  ← 설계
+  [제외] '물류 자동화 기구설계 채용-과장급:연봉 6500만원~'  ← 설계
+  [제외] '로보틱스 하드웨어 (설계) 엔지니어 모집 (신입/경력)'  ← 하드웨어
+  [제외] 'EV 충전기 분야 전장설계 전장개발 경력자 모집'  ← 설계
+  [제외] '자동화 설계 PM(5년이상)'  ← 설계
+  [제외] '2026상반기 C++ 영상처리,자동화개발 신입·경력 프로그래머채용'  ← C++
+  [제외] '로봇 전장 설계 엔지니어 채용'  ← 로봇
+  [제외] '자동화 장비 기구설계 경력직 채용'  ← 설계
+  [제외] '(주)다인정공 로봇 부문 담당자 채용[자동화기술/자동화제어]'  ← 로봇
+  [제외] '(주) 저스템 신제품개발실 기구설계 경력직 채용'  ← 설계
+  [제외] '(주)티로보틱스 스마트 팩토리 & 물류 로봇 비젼 개발자 채용'  ← 로봇
+  [제외] '[기술연구소/기구설계팀] 정규직 모집'  ← 설계
+  [제외] '‘물류자동화 기구설계 채용’-연봉 4500만원'  ← 설계
+  [제외] '레이저 공정 개발 / 전기 및 전장 설계 엔지니어 채용'  ← 설계
+  [제외] '[주토스] 정밀 AOI 설계 개발자 모집'  ← 설계
+  [제외] '[2차전지,Display,자동차,자동화장비,식품장비] 설계 경력 모집'  ← 설계
+  [제외] '[채용공고] 산업용 자동화 기계설계 엔지니어 모집'  ← 설계
+  [제외] '[코스닥상장](주)옵티코어 공정 자동화 설비 기구설계 엔지니어'  ← 설계
+  [제외] '[자회사]브이앤이(주)(안양 평촌) 머신비전개발자/필드엔지니어'  ← 비전
+  [제외] '[대연 C&I 연구소] 하드웨어(H/W) 개발자 채용'  ← 하드웨어
+  [제외] '[기계설계] 로봇 설계 및 하드웨어 개발자 경력 채용'  ← 하드웨어
+  [제외] '3차원 머신비전 알고리즘 개발'  ← 비전
+  [제외] '(주)티더블유 2차전지 관련 기계설계 신입/경력 모집'  ← 설계
+  [제외] '(케이엠테크) 머신비전 기구설계 개발자/엔지니어 모집'  ← 비전
+  [제외] '브이엠(주) 반도체 식각장비 개발/설계 엔지니어 모집'  ← 반도체
+  [제외] '[VIRNECT] 컴퓨터 비전 검사 / 비전 AI / VLM 핵심 개발자 채용'  ← 비전
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] 'AIR 부문 AI 전문 Engineer 채용 (경력)'  ← 클라우드
+  [제외] '[피앤피시큐어 및 관계사] 기술/QA 엔지니어 신입/경력 공개채용'  ← QA
+  [제외] 'Deeper-I 임베디드 AI 응용/시스템 SW 엔지니어 채용'  ← 임베디드
+  [제외] '[딥파인] MLOps 엔지니어'  ← MLOps
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'IntCloud 플랫폼 백엔드 엔지니어 채용공고'  ← 백엔드
+  [제외] '보안솔루션 기술엔지니어 채용'  ← 보안
+  [제외] 'AI 모델 개발 엔지니어'  ← 로봇
+  [제외] 'AI Agent (MS Farbic/BI/ML/openai/AI) 신입/경력 채용'  ← 클라우드
+  [제외] '구글 클라우드 엔지니어 아키텍처 설계/기술지원 (Data,AI/ML)'  ← 클라우드
+  [제외] 'AI Spera [인텔리전스개발팀] 백엔드 개발자'  ← 백엔드
+  [제외] 'AWS 클라우드 아키텍처 경력 채용'  ← AWS
+  [제외] '보안 솔루션 엔지니어 경력직 채용 [경력]'  ← 보안
+  [제외] '[메타크래프트] 신입 AWS 인프라 엔지니어 모집 안내'  ← 인프라
+  [제외] 'Senior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] '정보보호 엔지니어 경력 채용'  ← 정보보호
+  [제외] 'Junior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] '[나비프라] 엣지 AI 최적화 엔지니어(컴퓨터비전)'  ← 비전
+  [제외] '로아스(LOAS)-웹 프론트엔드(Fronted Engineer) 개발자 채용'  ← 프론트엔드
+  [제외] 'AI Engineer'  ← 클라우드
+  [제외] '클라우드 AI-SOC 전문가 채용 (CERT·운영·관제)'  ← 클라우드
+  [제외] 'AI Spera [사업팀] 보안엔지니어 & 보안분석전문가'  ← 보안
+  [제외] '[경력] 서비스 플랫폼 풀스택 개발자'  ← 풀스택
+  [제외] 'MLOps Engineer'  ← MLOps
+  [제외] '데이터 엔지니어(경력) 채용'  ← 클라우드
+  [제외] '시니어 풀스택 엔지니어(8~10년)'  ← 풀스택
+  [제외] '시니어 풀스택 엔지니어(5~7년)'  ← 풀스택
+  [제외] '클라우드 엔지니어 경력직 채용'  ← 클라우드
+  [제외] '[다우키움 계열사] 데이터·AI 백엔드 엔지니어 (경력 무관)'  ← 백엔드
+  [제외] '(주)스탁브릭스에서 풀스택 엔지니어(AI·임베디드·플랫폼)를 찾고 있어요'  ← 임베디드
+  [제외] 'SDK 시스템 엔지니어 (온디바이스/백엔드 통합) 정규직 채용'  ← 시스템 엔지니어
+  [제외] '[CTILAB] MLOps Engineer 채용'  ← MLOps
+  [제외] '[이노션] 백엔드 소프트웨어 엔지니어(마케팅 플랫폼) (계약직)'  ← 백엔드
+  [제외] '딥러닝 엔지니어 / 데이터사이언티스트'  ← 데이터사이언티스트
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] 'AI 서비스 백엔드 개발자(경력)'  ← 백엔드
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] 'AI 소프트웨어 풀스택 개발자'  ← 풀스택
+  [제외] '[코스닥 상장예정] JAVA 및 WEB 개발자 모집'  ← Java
+  [제외] '데이터 엔지니어(경력) 채용'  ← 클라우드
+  [제외] 'DevOps 엔지니어 (5년 이상)'  ← DevOps
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] '[부산/경력 7년 이상] 코어셀 - 프로덕트 엔지니어 (인프라)'  ← 인프라
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] 'IntCloud 플랫폼 백엔드 엔지니어 채용공고'  ← 백엔드
+  [제외] '[미디어젠(주)] 파이썬 백엔드/서버 개발자(경력)'  ← 백엔드
+  [제외] 'AI 서비스 백엔드 엔지니어 채용'  ← 백엔드
+  [제외] '로아스(LOAS)-웹 프론트엔드(Fronted Engineer) 개발자 채용'  ← 프론트엔드
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] 'AI 기술 개발 리더(면접 결과에 따라 C레벨 대우 가능)'  ← C (단독)
+  [제외] '병원용AI Smart Desk 서비스 백엔드/풀스택 경력(3년이상)개발자'  ← 백엔드
+  [제외] '정보보호 담당자 경력직 채용 (4~7년차)'  ← 정보보호
+  [제외] '[ARKAiN] 풀스택 엔지니어 채용(경력)'  ← 풀스택
+  [제외] '서버/네트워크 엔지니어 및 PJ관리자 모집(신입 및 경력)'  ← 네트워크
+  [제외] '[(주)토마토시스템] 분석/설계 채용(경력)'  ← 설계
+  [제외] 'AI 개발자 대신 데이터 엔지니어 수천명 뽑는 토스 왜'  ← UX
+  [제외] 'SKT 정예팀, 독파모 개발 참여 인턴 모집 “AI 인재 육성의 마중물 역할 기대”'  ← UX
+  [제외] '크래프톤, 게임 제작과 AI 분야의 신입 사원 채용'  ← UX
+  [제외] '“멀티 LLM 체제서도 생존 목표”...SK텔레콤, 직원 채용 등 AI 챗봇 고도화 전력 - 조선비즈'  ← QA
+  [제외] 'SKT·크래프톤, 독자 AI 개발 참여 인턴 개발자 모집'  ← UX
+  [제외] '그렙, AI 인력 전쟁 본격화...기업 10곳 중 7곳 채용 나선다'  ← UX
+  [제외] '2년 전 인기였던 프롬프트 엔지니어, 지금은 어떻게 됐나..."직무에서 역량으로"'  ← UX
+  [제외] '[점선면] AI에 채용 맡겼더니 여성이 배제됐다…AI에 스며든 차별 없애려면'  ← UI
+  [제외] 'IT 채용 반토막에도 \'AI 개발자\' 수요는 증가…"중고신입 선호" - 머니투데이'  ← QA
+  [제외] "이통3사 채용 공고에서 사라진 '통신'…AI 인재 모시기 집중"  ← UX
+  [제외] '"인턴 급여가 하루 20만원"…난리난 \'딥시크\' 채용 공고'  ← UX
+  [제외] '한국딥러닝(주) 2026년 상반기 채용 | 기업리뷰 23건, 연봉정보 11건, 면접후기 35건, 복지정보 0건, 채용공고 12건'  ← UX
+  [제외] "[기획] 프롬프트 엔지니어링은 죽지 않았다, 다만 '시스템 설계'로 승화되었을 뿐"  ← UX
+  [제외] 'AI 확산에도 채용 시장의 중심은 ‘개발자’'  ← UX
+  [제외] 'HD현대·한화오션, 대규모 채용 드라이브…조선업 인재 확보전 본격화'  ← UI
+  [제외] '잡코리아, ‘AI 공고 자동 생성’ 기능 도입…채용 공고 작성 시간 70% 이상 단축'  ← UX
+  [제외] '[초점] ‘AI는 필수\' 채용공고 300% 급증...구직자 절반은 "기준 혼동“'  ← UX
+  [제외] '[현장] "1만 3천명 공채를 3주 만에"… 마이다스인, \'AI 채용 에이전트\'로 HR 혁신 제시'  ← UX
+  [제외] '스타트업 채용 플랫폼 ‘그룹바이’…AI 활용 자동화 기술 개발 속도'  ← UX
+  [제외] '[초점] "AI 기반 채용 아웃소싱 서비스가 당신의 HR팀을 대체한다"'  ← QA
+  [제외] 'AI가 일자리를 바꾸고 있다…신입 채용 감소와 요구 조건 강화'  ← UX
+  [제외] '[AI 채용] “누가 나를 떨어뜨렸는가, 면접관인가 AI인가”'  ← UX
+  [제외] '그룹바이에이치알, AI 채용 자동화 솔루션 개발로 중기부 ‘벤처기업 인증 획득’'  ← AWS
+필터링 후: 620건
+최종 발송 대상: 30건
+
+📊 점수 분포:
+  14점: 4건
+  12점: 6건
+  9점: 2건
+  8점: 4건
+  7점: 9건
+  4점: 1건
+  3점: 4건
+
+📧 이메일 발송 중...
+[메일] GMAIL_SENDER / GMAIL_APP_PASSWORD 환경 변수 미설정
+
+✅ 완료 — 08:06:03
+
+🚀 Job Alert 시작 — 2026-05-02 08:05:01
+
+📡 채용 공고 수집 중...
+
+==================================================
+  [사람인] 수집 시작
+==================================================
+  [사람인] 'AI 엔지니어' 검색 중...
+  [사람인] 'LLM 개발' 검색 중...
+  [사람인] 'RAG 개발' 검색 중...
+  [사람인] '챗봇 개발' 검색 중...
+  [사람인] '자동화 개발' 검색 중...
+  [사람인] 'ML 엔지니어' 검색 중...
+  [사람인] '자연어처리' 검색 중...
+  [사람인] 수집 완료: 840건
+  [사람인] 원본 수집: 840건
+
+==================================================
+  [잡코리아] 수집 시작
+==================================================
+  [잡코리아] 'AI 엔지니어' 검색 중...
+  [잡코리아] 'LLM' 검색 중...
+  [잡코리아] 'RAG' 검색 중...
+  [잡코리아] '챗봇 개발' 검색 중...
+  [잡코리아] '자동화 개발' 검색 중...
+  [잡코리아] '자연어처리' 검색 중...
+  [잡코리아] 수집 완료: 0건
+  [잡코리아] 원본 수집: 0건
+
+==================================================
+  [프로그래머스] 수집 시작
+==================================================
+  [프로그래머스] 'AI' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=AI&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'LLM' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=LLM&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '챗봇' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%B1%97%EB%B4%87&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '자동화' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%9E%90%EB%8F%99%ED%99%94&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'NLP' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=NLP&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'RAG' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=RAG&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'Machine Learning' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=Machine+Learning&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 수집 완료: 0건
+  [프로그래머스] 원본 수집: 0건
+
+==================================================
+  [원티드] 수집 시작
+==================================================
+  [원티드] category=655 수집 중...
+  [원티드] category=1024 수집 중...
+  [원티드] category=1025 수집 중...
+  [원티드] 수집 완료: 0건
+  [원티드] 원본 수집: 0건
+
+==================================================
+  [LinkedIn] 수집 시작
+==================================================
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=LLM+AI+개발자+채용&hl=ko&gl=KR&ceid=KR...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=RAG+챗봇+AI+엔지니어+채용&hl=ko&gl=KR&cei...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=자동화+AI+개발+채용+공고&hl=ko&gl=KR&ceid=...
+  [LinkedIn] 수집 완료: 63건
+  [LinkedIn] 원본 수집: 63건
+
+총 원본 수집: 903건
+
+🔍 중복 공고 제거 중...
+  [중복→스킵] '에이전틱Agentic AI?개발자 채용이 위험해진 이유' (LinkedIn)
+  [중복→스킵] '오픈AI·앤트로픽, 국내서 엔지니어 최초 채용…‘솔루션 아키텍트’ 분야' (LinkedIn)
+  [중복→스킵] '메타, AI 채용 ‘일시 중단’…초지능팀 재편 후 숨고르기' (LinkedIn)
+  [중복→스킵] 'AI 시대의 취업 / 채용 전략' (LinkedIn)
+  [중복→스킵] "'채용 혹한기' 보낸 IT업계…유일하게 생존한 'AI 개발자'" (LinkedIn)
+  [중복→스킵] 'IT 업계 채용 41% 감소… AI 개발자 채용은 오히려 증가' (LinkedIn)
+  [중복→스킵] 'AI 개발자 수요 급증, IT 채용 시장 변화 주목' (LinkedIn)
+  [중복→스킵] '“AI 고급 인력 모십니다”…채용 확대 나선 AI기업들' (LinkedIn)
+  [중복→스킵] '독파모 SKT 정예팀, 청년 인턴 모집..."AI 인재 육성"' (LinkedIn)
+  [중복→스킵] '"1371억 줄게" 연봉 쇼크…채용시장 발칵 뒤집어놓은 직업 [글로벌 머니 X파일]' (LinkedIn)
+  [중복→스킵] '인공지능 채용이 활발한 분야와 연봉은 어느 정도 일까?' (LinkedIn)
+  [중복→스킵] '크래프톤, 게임 제작·AI 분야 신입 채용...＂글로벌 인재로 성장 지원＂' (LinkedIn)
+  [중복→스킵] '"대변혁 맞은 회계 업무…\'AI 회계사\' 채용 앞장설 것"' (LinkedIn)
+중복 제거 후: 890건
+
+🎯 키워드 필터링 및 점수 산정 중...
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 PhysicalAI 엔지니어모집'  ← 로봇
+  [제외] 'AI 엔지니어(백엔드 개발자)'  ← 백엔드
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] 'VisionAI 엔지니어'  ← 비전
+  [제외] '[나비프라] 엣지 AI 최적화 엔지니어(컴퓨터비전)'  ← 비전
+  [제외] 'AI머신비전 엔지니어 채용공고'  ← 비전
+  [제외] '로봇 전문 스타트업 I 인공지능(AI) 엔지니어'  ← 로봇
+  [제외] 'AI 시스템엔지니어 모십니다 (리눅스 NPU 서버)'  ← 시스템엔지니어
+  [제외] '[AI반도체] RTL 설계 엔지니어'  ← 반도체
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 PhysicalAI 엔지니어모집'  ← 로봇
+  [제외] '[연구개발/경력] AI 이미징 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] 'AI 모델 개발 엔지니어'  ← 로봇
+  [제외] '로봇 전문 성장기업 I 인공지능(AI) 엔지니어'  ← 로봇
+  [제외] '[AI컨택센터상위] 화상회의 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] 'AI 서비스 백엔드 엔지니어 채용'  ← 백엔드
+  [제외] 'AI 채용솔루션(ATS) 백엔드 엔지니어'  ← 백엔드
+  [제외] '[에티버스이피에이] X86 서버 및 AI 인프라 하드웨어 엔지니어'  ← 하드웨어
+  [제외] '[Physical AI] 휴머노이드 전장 하드웨어(HW)엔지니어'  ← 하드웨어
+  [제외] '2D, 3D, AI 머신비전 엔지니어 (신입)'  ← 비전
+  [제외] 'AI/로봇/모터 제어 HW 설계 및 개발 엔지니어'  ← 로봇
+  [제외] 'AI 엔지니어(백엔드 개발자)'  ← 백엔드
+  [제외] 'AI 이미징 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] '[AI/솔루션] 시스템 엔지니어(SE)'  ← 시스템 엔지니어
+  [제외] '[광명] 인프라+AI 통합 엔지니어'  ← 인프라
+  [제외] '[리빌더AI] QA 엔지니어'  ← QA
+  [제외] '[서울] AI 인프라팀 엔지니어 채용 (GPU 서버)'  ← 인프라
+  [제외] 'AI Spera [사업팀] 보안엔지니어 & 보안분석전문가'  ← 보안
+  [제외] '[(주)트리플렛] AI 풀스택 엔지니어 채용'  ← 풀스택
+  [제외] '[피지컬AI 로봇] 휴머노이드 전장 HW 엔지니어'  ← 로봇
+  [제외] '[다우키움 계열사] 데이터·AI 백엔드 엔지니어 (경력 무관)'  ← 백엔드
+  [제외] 'AI Agent / LLM 기반 개발 (분석/설계/개발)'  ← 설계
+  [제외] 'LLM 챗봇 개발 프로젝트 / java, python / 중구'  ← Java
+  [제외] '[정규직/코스닥/AI SW전문기업] LLM 풀스택 개발 경력직 채용'  ← 풀스택
+  [제외] 'AI 에이전트 백엔드 개발자 : Langraph/Langchain/LLM'  ← 백엔드
+  [제외] '[아기유니콘] DevOps Engineer (Intern)'  ← DevOps
+  [제외] '[채용] 백엔드 개발자 (경력 1년 이상)'  ← 백엔드
+  [제외] '(주)키스템프그룹 LLM·풀스택·자동화 경력 채용 공고'  ← 풀스택
+  [제외] 'Python 백엔드 개발자 모집(잠실 상주, 고급/특급)'  ← 백엔드
+  [제외] '[타이드스퀘어] Java Backend Engineer 경력 채용'  ← Java
+  [제외] 'Wanted: 클라우드 엔지니어, 구글 프리미어파트너인 DX선도기업'  ← 클라우드
+  [제외] '[국내 핀테크 유니콘기업] 백엔드 엔지니어'  ← 백엔드
+  [제외] '백엔드 엔지니어(운영 자동화 / LLM 응용 워크플로우)'  ← 백엔드
+  [제외] '백엔드 개발자 채용'  ← 백엔드
+  [제외] '풀스택 경력 개발자'  ← 풀스택
+  [제외] '시니어 백엔드 엔지니어 (Python)'  ← 백엔드
+  [제외] 'AI 서비스 백엔드 엔지니어 채용'  ← 백엔드
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] 'Python Backend 개발자 채용'  ← 알고리즘
+  [제외] '백엔드 프로그래머(5~10년)'  ← 백엔드
+  [제외] '백엔드 엔지니어'  ← 백엔드
+  [제외] '웹 애플리케이션 개발자 (프론트엔드 중심 풀스택)'  ← 프론트엔드
+  [제외] '[제조/물류 자동화 솔루션 기업] 풀스택 개발'  ← 풀스택
+  [제외] '병원용AI Smart Desk 서비스 백엔드/풀스택 경력(3년이상)개발자'  ← 백엔드
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] '[아정당 서울] DevOps 개발자 (5년 이상~)'  ← DevOps
+  [제외] '[아정당 서울] DevOps 개발자 (5년 이상~)'  ← DevOps
+  [제외] '[WAUG]와그 백엔드 개발자(PHP, JAVA) 모집'  ← Java
+  [제외] '(주)콩시어지/ AI 기반 컨시어지 백엔드 개발자'  ← 백엔드
+  [제외] '[보안 컨설팅] 수준높은 취약점 진단, 모의해킹 컨설팅'  ← 보안
+  [제외] '[아이브릭스] AI웹서비스 프론트엔드 ,Spring개발자 채용공고'  ← Spring
+  [제외] '(피지컬AI) AI 휴머노이드 로봇 기업 RnD 정부 과제 담당'  ← 로봇
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] '바이오 데이터 분석 툴 API 개발 및 클라우드 최적화'  ← 클라우드
+  [제외] '보안분야 공공/전략 사업개발 채용'  ← 보안
+  [제외] '풀스택개발 7년이상 / MAX 구천'  ← 풀스택
+  [제외] '[인빅]프론트엔드 개발자(Svelte 중심) 경력 채용'  ← 프론트엔드
+  [제외] '[CJ 그룹-CJ 메조미디어] 백엔드 개발자 경력채용'  ← 백엔드
+  [제외] 'DevOps Engineer'  ← DevOps
+  [제외] '[부산/경력 7년 이상] 코어셀 - 프로덕트 엔지니어 (인프라)'  ← 인프라
+  [제외] 'AX기획부 경력직 채용 (백엔드 엔지니어)'  ← 백엔드
+  [제외] '[풀스택 경력 개발자(차장급)]'  ← 풀스택
+  [제외] 'Wanted: AI 에이전트 백엔드 개발자( RAG, 벡터DB 구축 )'  ← 백엔드
+  [제외] 'AI 에이전트 백엔드 개발자 : RAG, 벡터DB 구축'  ← 백엔드
+  [제외] '백엔드 엔지니어(운영 자동화 / LLM 응용 워크플로우)'  ← 백엔드
+  [제외] '풀스택 경력 개발자'  ← 풀스택
+  [제외] 'AI 서비스 백엔드 엔지니어 채용'  ← 백엔드
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] '웹 애플리케이션 개발자 (프론트엔드 중심 풀스택)'  ← 프론트엔드
+  [제외] '[제조/물류 자동화 솔루션 기업] 풀스택 개발'  ← 풀스택
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] '바이오 데이터 분석 툴 API 개발 및 클라우드 최적화'  ← 클라우드
+  [제외] '풀스택개발 7년이상 / MAX 구천'  ← 풀스택
+  [제외] 'AI Agent / LLM 기반 개발 (분석/설계/개발)'  ← 설계
+  [제외] 'AX기획부 경력직 채용 (백엔드 엔지니어)'  ← 백엔드
+  [제외] '[풀스택 경력 개발자(차장급)]'  ← 풀스택
+  [제외] 'AI 및 라이브 기반 반려동물 양육 플랫폼 백엔드 개발자 채용'  ← 백엔드
+  [제외] "[이지시큐] AI 기반 보안 자동화 플랫폼 'AI 빌더' 채용 공고"  ← 보안
+  [제외] '온톨로지 기반 AI (sLLM) 항체개발 시스템 백엔드'  ← 백엔드
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] 'AI기반 풀스택 프로덕트 크리에이터-기획에서 개발 배포운영까지'  ← 풀스택
+  [제외] '[AI/클라우드] 콘텐츠 마케터'  ← 클라우드
+  [제외] '[메가존클라우드 관계사] 알파코드 AI 서비스 개발자'  ← 클라우드
+  [제외] 'LLM챗봇 개발프로젝트 / java, python / 중구'  ← Java
+  [제외] '[탑코미디어] 챗봇 페르소나 설계자 모집'  ← 설계
+  [제외] '[TWC] AI SaaS 클라우드게이트 고객지원/운영 담당자 채용'  ← 클라우드
+  [제외] 'Cloud & DevOps Arichitect 경력사원 모집'  ← DevOps
+  [제외] 'AI 프로그래머(AI 시스템 설계 및 개발) 모집 - 병역특례 가능'  ← 설계
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] '[인텔리코드] AI Agent 백엔드 개발자 모집 공고'  ← 백엔드
+  [제외] '(주)세피스 개발팀 MES,POP(C#, .NET, MVC )경력사원 채용'  ← .NET
+  [제외] '(주)지텔레마 AI 알고리즘 및 S/W 개발 담당(3D 모델 생성)'  ← 알고리즘
+  [제외] '[경력] 헬스케어 서비스 백엔드 개발자 채용'  ← 백엔드
+  [제외] '[캐시워크] 백엔드개발 병역특례 대상자 모집'  ← 백엔드
+  [제외] '[캐시워크] 풀스택개발 병역특례 대상자 모집'  ← 풀스택
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] '[정규직/코스닥/AI SW전문기업] LLM 풀스택 개발 경력직 채용'  ← 풀스택
+  [제외] '인프라 엔지니어'  ← 인프라
+  [제외] 'React 기반 백엔드 개발자 구인'  ← 백엔드
+  [제외] "생각하는집(thinkHOW's)에서 AI Builder·AI 네이티브 개발자 찾고 있어요"  ← UI
+  [제외] 'AI 학습 및 평가 데이터 설계/구축 PL (재택근무)'  ← 설계
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] '[여의도] Salesforce 클라우드 개발 모집 공고 [4월-1년]'  ← 클라우드
+  [제외] '백엔드 엔지니어(운영 자동화 / LLM 응용 워크플로우)'  ← 백엔드
+  [제외] '풀스택 경력 개발자'  ← 풀스택
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] '풀스택개발 7년이상 / MAX 구천'  ← 풀스택
+  [제외] '[풀스택 경력 개발자(차장급)]'  ← 풀스택
+  [제외] '업무시스템 개발 PM (Java/Python 기반)'  ← Java
+  [제외] '(주35시간) AI Cloud Service 웹개발자 경력직 채용'  ← 웹개발
+  [제외] '인프라 아키텍트'  ← 인프라
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] 'Backend Engineer(Node.js & Java/Kotlin)'  ← Java
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] 'gro[중소/에듀테크/학습지/동작구]sla AI 백엔드 개발'  ← 네트워크
+  [제외] '프론트엔드 개발자 (React / Next.js / Python)'  ← 프론트엔드
+  [제외] '산업기능요원(보충역) 시스템 엔지니어(SE) 채용'  ← 시스템 엔지니어
+  [제외] '[AI-DATA] 웹 개발자 채용(백엔드) - 판교1'  ← 백엔드
+  [제외] '[삼성생명] RPA 개발자 (Brity / Java / 서초 근무)'  ← Java
+  [제외] '풀스택 개발자 경력직 채용'  ← 풀스택
+  [제외] '[제조/물류 자동화 솔루션 기업] 풀스택 개발'  ← 풀스택
+  [제외] '자동화설비 SW(비전제어) 개발 경력 모집'  ← 비전
+  [제외] 'Revit 기반 BIM 자동화 C# 개발자 채용 (WinForms, 3년이상)'  ← C#
+  [제외] '[경력]자동화 로봇/공장/창고 3D시뮬레이션 개발(WebGL/Package)'  ← 비전
+  [제외] '자동화 개발QA 엔지니어'  ← QA
+  [제외] '[기흥연구소] 공장 설비 자동화 설계 및 개발 경력자 채용'  ← 설계
+  [제외] '3D프린터 자동화 로봇 AS 및 연구개발 지원 (경력직)'  ← 로봇
+  [제외] '자동화 개발QA 엔지니어(11↑)'  ← QA
+  [제외] '반도체 자동화 설비 제어 프로그램 개발'  ← 반도체
+  [제외] '글로벌 eCommerce QA 차장급 자동화 시니어 개발자 모집'  ← QA
+  [제외] 'KIOSK 및 전산 자동화 C# 주니어 개발자 모집'  ← C#
+  [제외] '[자동화플랫폼팀] 백엔드 시스템 개발자 채용'  ← 백엔드
+  [제외] '[PC제어] 자동화 설비 SW 개발자 채용(C++/MFC)'  ← C++
+  [제외] '기구설계 (검사장비/자동화장비) 개발자 모집'  ← 설계
+  [제외] '[반도체 장비 제조업 ]자동화 개발로봇 프로그래머 경력 채용'  ← 반도체
+  [제외] '2026상반기 C++ 영상처리,자동화개발 신입·경력 프로그래머채용'  ← C++
+  [제외] 'AI 기반 정보통신 설계자동화 개발자 (신입/1명)'  ← 설계
+  [제외] '딥러닝 머신비전 기반 자동화 설비 SW개발자 (C++/MFC/Python)'  ← C++
+  [제외] '산업자동화 머신비전 Application SW 프로그램 개발'  ← 비전
+  [제외] '[2차전지 자동화 장비 개발] 설계'  ← 설계
+  [제외] '(주)코어메이트 반도체 자동화 설비 소프트웨어 개발자 모집'  ← 반도체
+  [제외] '[Welcome Bonus 지급] 보안 시스템자동화 개발자 영입'  ← 보안
+  [제외] '(주)글로벌디펜스 협동로봇 자동화 시스템 SW 개발자'  ← 로봇
+  [제외] '보안 시스템자동화 개발자'  ← 보안
+  [제외] '[글로벌엔지니어링] 협동로봇 자동화 시스템 SW개발자'  ← 로봇
+  [제외] '[픽스업] 풀스택 개발자 채용 (ERP · 데이터 · 크롤링 자동화)'  ← 풀스택
+  [제외] '[스마트브랜딩] 풀스택 개발 가능하신분 채용(웹/마케팅 자동화)'  ← 풀스택
+  [제외] '레이저 장비 제어 프로그램 개발(자동화장비,대리~차장급)'  ← 네트워크
+  [제외] 'MFC개발(자동화장비,대리~차장급)'  ← 네트워크
+  [제외] '[아기유니콘] DevOps Engineer (Intern)'  ← DevOps
+  [제외] '[이천/청주] 네트워크 엔지니어'  ← 네트워크
+  [제외] '[수원 망포] 네트워크 엔지니어'  ← 네트워크
+  [제외] '[평택] 네트워크 엔지니어'  ← 네트워크
+  [제외] '생산 비규격설계 경력직 채용'  ← 설계
+  [제외] '(주)씨에이에스 2026년 정보보호사업부문 채용'  ← 정보보호
+  [제외] '[경력] JAVA개발자 플랫폼 운영 관리'  ← Java
+  [제외] '(주)도화엔지니어링 웹 프론트엔드(Front-End) 개발자'  ← 프론트엔드
+  [제외] '기술연구소 로봇선행개발팀(기구설계) 경력사원 채용'  ← 로봇
+  [제외] '시니어 인프라 네트워크 엔지니어'  ← 네트워크
+  [제외] '[서울] 네트워크 엔지니어 (경력)'  ← 네트워크
+  [제외] '카카오VX AI부스트 스크린골프 글로벌 풀스택 웹 개발자 채용'  ← 풀스택
+  [제외] '[동탄/코스닥] 레이저 응용광학 기구설계'  ← 설계
+  [제외] '코아시아씨엠 연구소 모바일 렌즈 광학설계 경력사원 채용'  ← 설계
+  [제외] '[토스페이먼츠] QA Team Leader'  ← QA
+  [제외] '대기업 시스템엔지니어 4년이상'  ← 시스템엔지니어
+  [제외] 'IT 인프라 운영/(3~ 10년)/(영어 필수)/천안 - 반도체장비'  ← 반도체
+  [제외] '(주)키스템프그룹 LLM·풀스택·자동화 경력 채용 공고'  ← 풀스택
+  [제외] '반도체설계업체 SoC Physical Implementation Engineer'  ← 반도체
+  [제외] '[머스트핀테크] 에이전시 사업부(AGN) CX팀-UI디자이너'  ← UI
+  [제외] '구스텍(주) 웹서버 Python 백엔드 개발자'  ← 백엔드
+  [제외] '[마곡/판교] 로봇 엔지니어(Operator, ML, 3D) 채용: 연4500이상'  ← 로봇
+  [제외] '구글 클라우드 엔지니어 아키텍처 설계/기술지원 (Data,AI/ML)'  ← 클라우드
+  [제외] 'ML Systems Runtime Engineer [경력]'  ← 반도체
+  [제외] 'ML Systems Runtime Engineer [신입/병특가능]'  ← 반도체
+  [제외] 'AWS 클라우드 아키텍처 경력 채용'  ← AWS
+  [제외] '영상처리 알고리즘 개발자 (Vision S/W Engineer)'  ← 영상처리
+  [제외] '[AI Model R&D Engineer] / MCU 전문 반도체 기업'  ← 반도체
+  [제외] '백엔드 엔지니어'  ← 백엔드
+  [제외] '[전문연구요원]로봇 시스템 비전 소프트웨어 엔지니어'  ← 비전
+  [제외] '프론트엔드 개발자: Frontend Engineer'  ← 프론트엔드
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] '보안솔루션 기술엔지니어 채용'  ← 보안
+  [제외] '[EUV 반도체 장비 기업] Deep learning(PHM, Data analysis)'  ← 반도체
+  [제외] '[반도체/엔지니어] 시뮬레이션 엔지니어'  ← 반도체
+  [제외] '이미지 프로세싱 알고리즘 개발 신입'  ← 알고리즘
+  [제외] '로아스(LOAS)-로봇(HW)제조 및 QA 신입 및 경력직 모집'  ← QA
+  [제외] '[VIRNECT] 컴퓨터 비전 검사 / 비전 AI / VLM 핵심 개발자 채용'  ← 비전
+  [제외] 'AI Agent (MS Farbic/BI/ML/openai/AI) 신입/경력 채용'  ← 클라우드
+  [제외] '보안 솔루션 엔지니어 경력직 채용 [경력]'  ← 보안
+  [제외] '로봇 전문 스타트업 I 로봇(휴머노이드) 엔지니어'  ← 로봇
+  [제외] '[이노션] 백엔드 소프트웨어 엔지니어(마케팅 플랫폼) (계약직)'  ← 백엔드
+  [제외] '[경력]자동화 로봇/공장/창고 3D시뮬레이션 개발(WebGL/Package)'  ← 비전
+  [제외] 'Cloud & DevOps Arichitect 경력사원 모집'  ← DevOps
+  [제외] '반도체 검사(계측)설비 SW 개발 경력채용'  ← 반도체
+  [제외] '로봇 모션 컨트롤 엔지니어(경력)'  ← 로봇
+  [제외] '[강남/연~7,280만]AI머신비전(PCB 도메인) 기업-Field Engineer'  ← 비전
+  [제외] 'AWS Public Cloud Pre-sales & Consulting 경력사원 모집'  ← AWS
+  [제외] '[써큘러랩스] MLOps 채용'  ← MLOps
+  [제외] '[강남/AI/연봉상향] 컴퓨터비전 엔지니어 채용'  ← 비전
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] '(주)키스템프그룹 LLM·풀스택·자동화 경력 채용 공고'  ← 풀스택
+  [제외] 'AI 서비스 백엔드 엔지니어 채용'  ← 백엔드
+  [제외] '병원용AI Smart Desk 서비스 백엔드/풀스택 경력(3년이상)개발자'  ← 백엔드
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] '[코스닥 상장예정] JAVA 및 WEB 개발자 모집'  ← Java
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] 'PO.검색기획(8-10년.온라인모바일.쇼핑몰.이커머스.UIUX.서비스)'  ← UX
+  [제외] '주식회사 천천히 - 풀스택 개발자를 채용합니다.'  ← 풀스택
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '노리스페이스와 함께 성장하실 DevOPS Engineer분을 모십니다'  ← DevOps
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] 'IntCloud 플랫폼 백엔드 엔지니어 채용공고'  ← 백엔드
+  [제외] '(주)인스케이프 AI비전 및 제어S/W개발 경력 인재 채용'  ← 비전
+  [제외] 'AI 개발자 대신 데이터 엔지니어 수천명 뽑는 토스 왜'  ← UX
+  [제외] 'SKT 정예팀, 독파모 개발 참여 인턴 모집 “AI 인재 육성의 마중물 역할 기대”'  ← UX
+  [제외] '크래프톤, 게임 제작과 AI 분야의 신입 사원 채용'  ← UX
+  [제외] '“멀티 LLM 체제서도 생존 목표”...SK텔레콤, 직원 채용 등 AI 챗봇 고도화 전력 - 조선비즈'  ← QA
+  [제외] '2년 전 인기였던 프롬프트 엔지니어, 지금은 어떻게 됐나..."직무에서 역량으로"'  ← UX
+  [제외] '[점선면] AI에 채용 맡겼더니 여성이 배제됐다…AI에 스며든 차별 없애려면'  ← UI
+  [제외] "이통3사 채용 공고에서 사라진 '통신'…AI 인재 모시기 집중"  ← UX
+  [제외] '"인턴 급여가 하루 20만원"…난리난 \'딥시크\' 채용 공고'  ← UX
+  [제외] '한국딥러닝(주) 2026년 상반기 채용 | 기업리뷰 23건, 연봉정보 11건, 면접후기 35건, 복지정보 0건, 채용공고 12건'  ← UX
+  [제외] "[기획] 프롬프트 엔지니어링은 죽지 않았다, 다만 '시스템 설계'로 승화되었을 뿐"  ← UX
+  [제외] 'AI 확산에도 채용 시장의 중심은 ‘개발자’'  ← UX
+  [제외] 'HD현대·한화오션, 대규모 채용 드라이브…조선업 인재 확보전 본격화'  ← UI
+  [제외] '잡코리아, ‘AI 공고 자동 생성’ 기능 도입…채용 공고 작성 시간 70% 이상 단축'  ← UX
+  [제외] '“29년간 축적 데이터 활용”…잡코리아, AI 채용 효율 확대 본격화'  ← UX
+  [제외] '[초점] ‘AI는 필수\' 채용공고 300% 급증...구직자 절반은 "기준 혼동“'  ← UX
+  [제외] '[현장] "1만 3천명 공채를 3주 만에"… 마이다스인, \'AI 채용 에이전트\'로 HR 혁신 제시'  ← UX
+  [제외] '스타트업 채용 플랫폼 ‘그룹바이’…AI 활용 자동화 기술 개발 속도'  ← UX
+  [제외] '[초점] "AI 기반 채용 아웃소싱 서비스가 당신의 HR팀을 대체한다"'  ← QA
+  [제외] 'AI가 일자리를 바꾸고 있다…신입 채용 감소와 요구 조건 강화'  ← UX
+  [제외] '[AI 채용] “누가 나를 떨어뜨렸는가, 면접관인가 AI인가”'  ← UX
+  [제외] '“채용 데이터, 대화하듯 분석한다” 라운드HR, 국내 최초 AI 채팅 기반 데이터 분석 기능 출시'  ← UX
+  [제외] '그룹바이, 채용공고 · 정성적 평가 조건 반영 ‘AI 인재 평가 기능’ 출시'  ← UX
+  [제외] '삼성전자, AI분야 경력사원 채용'  ← Java
+  [제외] "삼성판 '챗GPT' 개발 나선 삼성전자…AI 인력 대규모 채용"  ← UX
+  [제외] '"반복 업무는 로봇이"…대형 로펌 \'AI 비서\' 속속 채용'  ← QA
+필터링 후: 635건
+최종 발송 대상: 30건
+
+📊 점수 분포:
+  14점: 4건
+  12점: 6건
+  9점: 2건
+  8점: 2건
+  7점: 6건
+  5점: 4건
+  4점: 2건
+  3점: 4건
+
+📧 이메일 발송 중...
+[메일] GMAIL_SENDER / GMAIL_APP_PASSWORD 환경 변수 미설정
+
+✅ 완료 — 08:06:05
+
+🚀 Job Alert 시작 — 2026-05-03 08:05:02
+
+📡 채용 공고 수집 중...
+
+==================================================
+  [사람인] 수집 시작
+==================================================
+  [사람인] 'AI 엔지니어' 검색 중...
+  [사람인] 'LLM 개발' 검색 중...
+  [사람인] 'RAG 개발' 검색 중...
+  [사람인] '챗봇 개발' 검색 중...
+  [사람인] '자동화 개발' 검색 중...
+  [사람인] 'ML 엔지니어' 검색 중...
+  [사람인] '자연어처리' 검색 중...
+  [사람인] 수집 완료: 840건
+  [사람인] 원본 수집: 840건
+
+==================================================
+  [잡코리아] 수집 시작
+==================================================
+  [잡코리아] 'AI 엔지니어' 검색 중...
+  [잡코리아] 'LLM' 검색 중...
+  [잡코리아] 'RAG' 검색 중...
+  [잡코리아] '챗봇 개발' 검색 중...
+  [잡코리아] '자동화 개발' 검색 중...
+  [잡코리아] '자연어처리' 검색 중...
+  [잡코리아] 수집 완료: 0건
+  [잡코리아] 원본 수집: 0건
+
+==================================================
+  [프로그래머스] 수집 시작
+==================================================
+  [프로그래머스] 'AI' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=AI&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'LLM' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=LLM&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '챗봇' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%B1%97%EB%B4%87&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] '자동화' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=%EC%9E%90%EB%8F%99%ED%99%94&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'NLP' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=NLP&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'RAG' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=RAG&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 'Machine Learning' 검색 중...
+  [프로그래머스] 오류 (page=1): HTTPSConnectionPool(host='career.programmers.co.kr', port=443): Max retries exceeded with url: /api/job_positions?page=1&per_page=20&keyword=Machine+Learning&order_by=recent (Caused by NameResolutionError("HTTPSConnection(host='career.programmers.co.kr', port=443): Failed to resolve 'career.programmers.co.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+  [프로그래머스] 수집 완료: 0건
+  [프로그래머스] 원본 수집: 0건
+
+==================================================
+  [원티드] 수집 시작
+==================================================
+  [원티드] category=655 수집 중...
+  [원티드] category=1024 수집 중...
+  [원티드] category=1025 수집 중...
+  [원티드] 수집 완료: 0건
+  [원티드] 원본 수집: 0건
+
+==================================================
+  [LinkedIn] 수집 시작
+==================================================
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=LLM+AI+개발자+채용&hl=ko&gl=KR&ceid=KR...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=RAG+챗봇+AI+엔지니어+채용&hl=ko&gl=KR&cei...
+  [LinkedIn/RSS] 피드 수집: https://news.google.com/rss/search?q=자동화+AI+개발+채용+공고&hl=ko&gl=KR&ceid=...
+  [LinkedIn] 수집 완료: 65건
+  [LinkedIn] 원본 수집: 65건
+
+총 원본 수집: 905건
+
+🔍 중복 공고 제거 중...
+  [중복→스킵] '에이전틱Agentic AI?개발자 채용이 위험해진 이유' (LinkedIn)
+  [중복→스킵] '오픈AI·앤트로픽, 국내서 엔지니어 최초 채용…‘솔루션 아키텍트’ 분야' (LinkedIn)
+  [중복→스킵] '"1371억 줄게" 연봉 쇼크…채용시장 발칵 뒤집어놓은 직업 [글로벌 머니 X파일]' (LinkedIn)
+  [중복→스킵] '메타, AI 채용 ‘일시 중단’…초지능팀 재편 후 숨고르기' (LinkedIn)
+  [중복→스킵] 'AI 시대의 취업 / 채용 전략' (LinkedIn)
+  [중복→스킵] "'채용 혹한기' 보낸 IT업계…유일하게 생존한 'AI 개발자'" (LinkedIn)
+  [중복→스킵] 'IT 업계 채용 41% 감소… AI 개발자 채용은 오히려 증가' (LinkedIn)
+  [중복→스킵] 'AI 개발자 수요 급증, IT 채용 시장 변화 주목' (LinkedIn)
+  [중복→스킵] '“AI 고급 인력 모십니다”…채용 확대 나선 AI기업들' (LinkedIn)
+  [중복→스킵] '독파모 SKT 정예팀, 청년 인턴 모집..."AI 인재 육성"' (LinkedIn)
+  [중복→스킵] '인공지능 채용이 활발한 분야와 연봉은 어느 정도 일까?' (LinkedIn)
+  [중복→스킵] '크래프톤, 게임 제작·AI 분야 신입 채용...＂글로벌 인재로 성장 지원＂' (LinkedIn)
+  [중복→스킵] "일론 머스크 xAI, 시급 65달러 'AI 튜터' 수천명 채용" (LinkedIn)
+  [중복→스킵] '"대변혁 맞은 회계 업무…\'AI 회계사\' 채용 앞장설 것"' (LinkedIn)
+중복 제거 후: 891건
+
+🎯 키워드 필터링 및 점수 산정 중...
+  [제외] '[로보티즈AI] 배송로봇 매니퓰레이션 PhysicalAI 엔지니어모집'  ← 로봇
+  [제외] 'AI 엔지니어(백엔드 개발자)'  ← 백엔드
+  [제외] '풀스택AI 엔지니어채용'  ← 풀스택
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] 'VisionAI 엔지니어'  ← 비전
+  [제외] 'AI Research Engineer 엔지니어 채용'  ← 클라우드
+  [제외] 'AI 인프라 필드 엔지니어'  ← 인프라
+  [제외] '[하이브랩] 풀스택AI 엔지니어채용 (5년차 이상)'  ← 풀스택
+  [제외] 'AI 플랫폼 시스템 엔지니어(신입)'  ← 시스템 엔지니어
+  [제외] 'AI인프라 엔지니어(경력)'  ← 인프라
+  [제외] '(주)스탁브릭스에서 풀스택 엔지니어(AI·임베디드·플랫폼)를 찾고 있어요'  ← 임베디드
+  [제외] '[메타엠] AICC개발실 IPCC 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] 'AI 채용솔루션(ATS) 백엔드 엔지니어'  ← 백엔드
+  [제외] '[에티버스이피에이] X86 서버 및 AI 인프라 하드웨어 엔지니어'  ← 하드웨어
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] 'AI 플랫폼 시스템 엔지니어(경력)'  ← 시스템 엔지니어
+  [제외] 'AI 시스템엔지니어 모십니다 (리눅스 NPU 서버)'  ← 시스템엔지니어
+  [제외] '[퀀텀씨엔에스] 쿠버네티스 기반 AI 인프라 운영 엔지니어 채용'  ← 인프라
+  [제외] '[나비프라] 엣지 AI 최적화 엔지니어(컴퓨터비전)'  ← 비전
+  [제외] 'Junior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] 'Senior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] '[연구개발/경력] AI 이미징 시스템 엔지니어 채용'  ← 시스템 엔지니어
+  [제외] 'AX기획부 경력직 채용 (백엔드 엔지니어)'  ← 백엔드
+  [제외] '[AX] AI 에이전트 개발자 (백엔드 + 데이터 엔지니어링)'  ← 백엔드
+  [제외] 'LLM 챗봇 개발 프로젝트 / java, python / 중구'  ← Java
+  [제외] '백엔드 개발 경력 모집'  ← 백엔드
+  [제외] '[그림] 머신비전 SW 소프트웨어 개발자(C++/MFC) 채용'  ← C++
+  [제외] '동명기술공단 부설연구소 AI / 백엔드 개발자 채용 공고'  ← 백엔드
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] '[주4.5일] 백엔드 개발자(JAVA) 채용'  ← Java
+  [제외] 'AI 에이전트 백엔드 개발자 : Langraph/Langchain/LLM'  ← 백엔드
+  [제외] '[서비스개발센터] 경력 개발자(프론트엔드, 백엔드) 채용'  ← 백엔드
+  [제외] '[메타빌드] 보안/네트워크 솔루션 개발 및 유지관리 채용'  ← 네트워크
+  [제외] '경력 개발자(프론트엔드) 채용'  ← 프론트엔드
+  [제외] '[CJ 그룹-CJ 메조미디어] 백엔드 개발자 경력채용'  ← 백엔드
+  [제외] '풀스택 S/W개발 경력사원 채용'  ← 풀스택
+  [제외] 'AI 엔지니어 (백엔드 개발자)'  ← 백엔드
+  [제외] '프론트엔드/백엔드 개발자 모집'  ← 백엔드
+  [제외] '[STEALIEN] 취약점 분석가/보안 개발자(R&D) 채용 (선제대응팀)'  ← 보안
+  [제외] '[AI서비스] 백엔드개발 경력직 채용'  ← 백엔드
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '통신사 차세대 BSS 프로젝트 개발자(Java, React, AI Agent)'  ← Java
+  [제외] '신성델타테크(주) 로봇센터(서울) 로봇 소프트웨어 개발직 채용'  ← 로봇
+  [제외] '[서울 - 신입, 경력 3년이상] 프론트엔드 / 풀스택 개발자 채용'  ← 프론트엔드
+  [제외] '(주)인스케이프 AI비전 및 제어S/W개발 경력 인재 채용'  ← 비전
+  [제외] 'AI 서비스 백엔드 개발자(경력)'  ← 백엔드
+  [제외] 'AI기반 풀스택 프로덕트 크리에이터-기획에서 개발 배포운영까지'  ← 풀스택
+  [제외] '보안분야 공공/전략 사업개발 채용'  ← 보안
+  [제외] '이커머스 테크 풀스택 개발자'  ← 풀스택
+  [제외] '온채널 백엔드 개발자(경력)'  ← 백엔드
+  [제외] '백엔드 개발자 채용'  ← 백엔드
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] '[경력] 언리얼 개발자 (Unity3D전환가능)'  ← 비전
+  [제외] '[아정당 서울] DevOps 개발자 (5년 이상~)'  ← DevOps
+  [제외] '[신입/경력] 백엔드 개발자'  ← 백엔드
+  [제외] 'AI 에이전트 백엔드 개발자 : RAG, 벡터DB 구축'  ← 백엔드
+  [제외] '[메타빌드] 보안/네트워크 솔루션 개발 및 유지관리 채용'  ← 네트워크
+  [제외] 'AI 엔지니어 (백엔드 개발자)'  ← 백엔드
+  [제외] '프론트엔드/백엔드 개발자 모집'  ← 백엔드
+  [제외] '통신사 차세대 BSS 프로젝트 개발자(Java, React, AI Agent)'  ← Java
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] 'AI기반 풀스택 프로덕트 크리에이터-기획에서 개발 배포운영까지'  ← 풀스택
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] 'AI 기술 개발 리더(면접 결과에 따라 C레벨 대우 가능)'  ← C (단독)
+  [제외] '[Leading the AI] 유라클 AI 에이전트 백엔드 연구 개발'  ← 백엔드
+  [제외] '[경력] 서비스 플랫폼 풀스택 개발자'  ← 풀스택
+  [제외] '온톨로지 기반 AI (sLLM) 항체개발 시스템 백엔드'  ← 백엔드
+  [제외] '[인텔리코드] AI Agent 백엔드 개발자 모집 공고'  ← 백엔드
+  [제외] '[AX] AI 에이전트 개발자 (백엔드 + 데이터 엔지니어링)'  ← 백엔드
+  [제외] 'AI 소프트웨어 풀스택 개발자'  ← 풀스택
+  [제외] 'AI 및 라이브 기반 반려동물 양육 플랫폼 백엔드 개발자 채용'  ← 백엔드
+  [제외] '생성형 AI 빅데이터 마케팅 플랫폼 백엔드(JAVA) 개발자 채용'  ← Java
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] 'LLM챗봇 개발프로젝트 / java, python / 중구'  ← Java
+  [제외] '백엔드 개발 경력 모집'  ← 백엔드
+  [제외] '[AI-DATA] 웹 개발자 채용(백엔드) - 판교1'  ← 백엔드
+  [제외] '[캐시워크] 풀스택개발 병역특례 대상자 모집'  ← 풀스택
+  [제외] '[인텔리코드] AI Agent 백엔드 개발자 모집 공고'  ← 백엔드
+  [제외] '[미소정보기술] JAVA, Python 및 인공지능(AI) 플랫폼 개발자'  ← Java
+  [제외] '[캐시워크] 백엔드개발 병역특례 대상자 모집'  ← 백엔드
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] '(주)세피스 개발팀 MES,POP(C#, .NET, MVC )경력사원 채용'  ← .NET
+  [제외] '(주35시간) AI Cloud Service 웹개발자 경력직 채용'  ← 웹개발
+  [제외] '[여의도] Salesforce 클라우드 개발 모집 공고 [4월-1년]'  ← 클라우드
+  [제외] 'React 기반 백엔드 개발자 구인'  ← 백엔드
+  [제외] '[SW] 프론트엔드 개발자 인턴 (정규직 전환 가능)'  ← 프론트엔드
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] '업무시스템 개발 PM (Java/Python 기반)'  ← Java
+  [제외] 'AI Agent / 컴퓨터비전 개발자 모집'  ← 비전
+  [제외] 'AI 프로그래머(AI 시스템 설계 및 개발) 모집 - 병역특례 가능'  ← 설계
+  [제외] '주식회사 아이티앤 웹개발자 경력직 채용'  ← 웹개발
+  [제외] '시니어 풀스택 엔지니어(5~7년)'  ← 풀스택
+  [제외] '시니어 풀스택 엔지니어(8~10년)'  ← 풀스택
+  [제외] '인프라 아키텍트'  ← 인프라
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] '[프론트엔드 개발자] 경력직 채용'  ← 프론트엔드
+  [제외] 'Microsoft Engineer(AI Agent/Security Consultant)'  ← 클라우드
+  [제외] '[AI 전문기업 아크릴] 프론트엔드 앱 개발자 경력직 채용'  ← 프론트엔드
+  [제외] '딥러닝 엔지니어 / 데이터사이언티스트'  ← 데이터사이언티스트
+  [제외] "생각하는집(thinkHOW's)에서 AI Builder·AI 네이티브 개발자 찾고 있어요"  ← UI
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] 'Backend Engineer(Node.js & Java/Kotlin)'  ← Java
+  [제외] '[삼성생명] RPA 개발자 (Brity / Java / 서초 근무)'  ← Java
+  [제외] '[경력] 헬스케어 서비스 백엔드 개발자 채용'  ← 백엔드
+  [제외] '프론트엔드 개발자 (React / Next.js / Python)'  ← 프론트엔드
+  [제외] 'AI 학습 및 평가 데이터 설계/구축 PL (재택근무)'  ← 설계
+  [제외] '(주)지텔레마 AI 알고리즘 및 S/W 개발 담당(3D 모델 생성)'  ← 알고리즘
+  [제외] '[경력] 언리얼 개발자 (Unity3D전환가능)'  ← 비전
+  [제외] '정보보호 담당자 경력직 채용 (4~7년차)'  ← 정보보호
+  [제외] '백엔드 엔지니어(운영 자동화 / LLM 응용 워크플로우)'  ← 백엔드
+  [제외] 'Physical AI 및 로봇 자율주행 개발자 모집'  ← 로봇
+  [제외] '[도이치모터스㈜] AX실 백엔드 엔지니어 경력'  ← 백엔드
+  [제외] '[TWC] AI SaaS 클라우드게이트 고객지원/운영 담당자 채용'  ← 클라우드
+  [제외] '[아파트너스] 프론트엔드 개발자 (경력 3년 이상) 모집'  ← 프론트엔드
+  [제외] '[AI/클라우드] 소프트웨어 기술 영업 (경력) 채용'  ← 클라우드
+  [제외] '[글로벌엔지니어링] 협동로봇 자동화 시스템 SW개발자'  ← 로봇
+  [제외] '반도체 자동화 설비 제어 프로그램 개발'  ← 반도체
+  [제외] '[경력]자동화 로봇/공장/창고 3D시뮬레이션 개발(WebGL/Package)'  ← 비전
+  [제외] '[반도체 장비 제조업 ]자동화 개발로봇 프로그래머 경력 채용'  ← 반도체
+  [제외] '기구설계 (검사장비/자동화장비) 개발자 모집'  ← 설계
+  [제외] '(주)글로벌디펜스 협동로봇 자동화 시스템 SW 개발자'  ← 로봇
+  [제외] '기술연구소 로봇선행개발팀(기구설계) 경력사원 채용'  ← 로봇
+  [제외] '3D프린터 자동화 로봇 AS 및 연구개발 지원 (경력직)'  ← 로봇
+  [제외] '[기흥연구소] 공장 설비 자동화 설계 및 개발 경력자 채용'  ← 설계
+  [제외] '[분당/코스닥] HW 시스템 설계 및 개발 채용'  ← 설계
+  [제외] '시스템 설계 엔지니어(로봇 자동화)'  ← 로봇
+  [제외] '[(주)케이알엠] 로봇 자율주행 소프트웨어 개발자 채용'  ← 로봇
+  [제외] '2026년 효림그룹 전장ㆍ로봇 연구직 대규모 채용'  ← 로봇
+  [제외] '[LG전자 자회사] 로보스타 반도체 설비 기구 설계, SW 개발'  ← 반도체
+  [제외] '영업/기구설계/엔지니어/자동화 장비 설비 신입/경력 채용'  ← 설계
+  [제외] '[정규직] 로봇 자동화 시스템 설계 및 제작 엔지니어 모집'  ← 로봇
+  [제외] '자동화 설비 PC제어/머신비전 신입/경력직 채용'  ← 비전
+  [제외] '[LG전자 자회사] 로보스타 물류 자동화 기구 설계(경력)'  ← 설계
+  [제외] '기구 설계 연구개발 경력직 채용'  ← 설계
+  [제외] '자동화 기구설계(디스플레이/2차전지/자동화장비) 채용(경력)'  ← 설계
+  [제외] '기구설계(국내 개발팀)'  ← 설계
+  [제외] '(주)페타엑스 자동화시스템 설계 / 기계조립 & CS담당자 모집'  ← 설계
+  [제외] '비젼시스템/로봇/PLC 프로그램 개발 및 기술지원 인재모집'  ← 로봇
+  [제외] '로봇 공장자동화 기구 설계 엔지니어 모집-서울지사 근무'  ← 로봇
+  [제외] '코스닥상장사 (주)지아이텍 비전사업부[SW/제어(PC)]경력'  ← 비전
+  [제외] '자동제어 설계, PLC 프로그래밍 경력사원 모집'  ← 설계
+  [제외] '2026년 ㈜플렉스시스템 부문별 인재 채용(경영지원, S/W, 전장설계, 기술영업, 품질, H/W, 기구설계)'  ← H/W
+  [제외] '[전문연구요원]로봇 제어 플랫폼 개발 엔지니어'  ← 로봇
+  [제외] '자동화설계, 기구설계, 기계설계 모집함.'  ← 설계
+  [제외] '[PC제어] 자동화 설비 SW 개발자 채용(C++/MFC)'  ← C++
+  [제외] '[AI머신비전플랫폼] 자동화 및 광학 기기 설계 엔지니어 모집'  ← 비전
+  [제외] 'C# 기반 반도체/디스플레이/자동차 부품 검사 장비 제어 SW 개발'  ← 반도체
+  [제외] '[코스닥 상장] ㈜에이프로 임베디드/펌웨어 개발자 채용'  ← 임베디드
+  [제외] '[로보티즈] 품질경영팀 지그펌웨어, 전장부 설계 모집의 건'  ← 펌웨어
+  [제외] '[경력모집] 설비제어 비전시스템 개발 담당자 모집'  ← 비전
+  [제외] '[시스템연구소] 기계설계 개발 경력자 채용의 건'  ← 설계
+  [제외] '[신입/경력] 자동화 장비 설계 하드웨어(CAD,Solidworks)'  ← 하드웨어
+  [제외] '[큐비콘] 자동화솔루션 장비 설계 인원 채용'  ← 설계
+  [제외] '로봇핸드 AI 기술개발'  ← 로봇
+  [제외] '(렌다) 머신비전 기구설계 개발자/엔지니어 모집'  ← 비전
+  [제외] '자동화 장비 기구설계 엔지니어'  ← 설계
+  [제외] '물류 자동화 기구설계 채용-과장급:연봉 6500만원~'  ← 설계
+  [제외] '로보틱스 하드웨어 (설계) 엔지니어 모집 (신입/경력)'  ← 하드웨어
+  [제외] '자동화 설계 PM(5년이상)'  ← 설계
+  [제외] '로봇 전장 설계 엔지니어 채용'  ← 로봇
+  [제외] '자동화 장비 기구설계 경력직 채용'  ← 설계
+  [제외] '(주)다인정공 로봇 부문 담당자 채용[자동화기술/자동화제어]'  ← 로봇
+  [제외] '(주) 저스템 신제품개발실 기구설계 경력직 채용'  ← 설계
+  [제외] '(주)티로보틱스 스마트 팩토리 & 물류 로봇 비젼 개발자 채용'  ← 로봇
+  [제외] '[기술연구소/기구설계팀] 정규직 모집'  ← 설계
+  [제외] '‘물류자동화 기구설계 채용’-연봉 4500만원'  ← 설계
+  [제외] '레이저 공정 개발 / 전기 및 전장 설계 엔지니어 채용'  ← 설계
+  [제외] '[2차전지,Display,자동차,자동화장비,식품장비] 설계 경력 모집'  ← 설계
+  [제외] '[채용공고] 산업용 자동화 기계설계 엔지니어 모집'  ← 설계
+  [제외] '[코스닥상장](주)옵티코어 공정 자동화 설비 기구설계 엔지니어'  ← 설계
+  [제외] '[대연 C&I 연구소] 하드웨어(H/W) 개발자 채용'  ← 하드웨어
+  [제외] '3차원 머신비전 알고리즘 개발'  ← 비전
+  [제외] 'EV 충전기 분야 전장설계 전장개발 경력자 모집'  ← 설계
+  [제외] '브이엠(주) 반도체 식각장비 개발/설계 엔지니어 모집'  ← 반도체
+  [제외] '[VIRNECT] 컴퓨터 비전 검사 / 비전 AI / VLM 핵심 개발자 채용'  ← 비전
+  [제외] '로봇/로보틱스 필드엔지니어(FSE) 모집 (경력)'  ← 로봇
+  [제외] 'ICT/ISP System H/W 설계,검증,기술지원 엔지니어'  ← H/W
+  [제외] '(주)이오테크닉스 광학 설계/개발 엔지니어 모집'  ← 설계
+  [제외] '자동화설비 기구설계 경력자 모집'  ← 설계
+  [제외] '산업용 제어기(모션컨트롤러,I/O) 펌웨어/하드웨어 개발자 모집'  ← 펌웨어
+  [제외] 'AI 시스템 엔지니어 (Linux / Kubernetes / AI Infra) 모집'  ← 시스템 엔지니어
+  [제외] 'AIR 부문 AI 전문 Engineer 채용 (경력)'  ← 클라우드
+  [제외] '[피앤피시큐어 및 관계사] 기술/QA 엔지니어 신입/경력 공개채용'  ← QA
+  [제외] 'Deeper-I 임베디드 AI 응용/시스템 SW 엔지니어 채용'  ← 임베디드
+  [제외] '[딥파인] MLOps 엔지니어'  ← MLOps
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'IntCloud 플랫폼 백엔드 엔지니어 채용공고'  ← 백엔드
+  [제외] 'AI 모델 개발 엔지니어'  ← 로봇
+  [제외] '보안솔루션 기술엔지니어 채용'  ← 보안
+  [제외] 'AI Agent (MS Farbic/BI/ML/openai/AI) 신입/경력 채용'  ← 클라우드
+  [제외] '구글 클라우드 엔지니어 아키텍처 설계/기술지원 (Data,AI/ML)'  ← 클라우드
+  [제외] '[정보보안 & 보안솔루션] 기술지원 엔지니어 신입 모집'  ← 보안
+  [제외] 'AI Spera [인텔리전스개발팀] 백엔드 개발자'  ← 백엔드
+  [제외] '보안 솔루션 엔지니어 경력직 채용 [경력]'  ← 보안
+  [제외] '클라우드 AI-SOC 전문가 채용 (CERT·운영·관제)'  ← 클라우드
+  [제외] '[메타크래프트] 신입 AWS 인프라 엔지니어 모집 안내'  ← 인프라
+  [제외] 'Senior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] '정보보호 엔지니어 경력 채용'  ← 정보보호
+  [제외] 'Junior AI Engineer(E2E 자율주행)'  ← 자율주행
+  [제외] '[나비프라] 엣지 AI 최적화 엔지니어(컴퓨터비전)'  ← 비전
+  [제외] 'AWS 클라우드 아키텍처 경력 채용'  ← AWS
+  [제외] 'AI Engineer'  ← 클라우드
+  [제외] 'AI Spera [사업팀] 보안엔지니어 & 보안분석전문가'  ← 보안
+  [제외] '[경력] 서비스 플랫폼 풀스택 개발자'  ← 풀스택
+  [제외] 'MLOps Engineer'  ← MLOps
+  [제외] '데이터 엔지니어(경력) 채용'  ← 클라우드
+  [제외] '로아스(LOAS)-웹 프론트엔드(Fronted Engineer) 개발자 채용'  ← 프론트엔드
+  [제외] '시니어 풀스택 엔지니어(8~10년)'  ← 풀스택
+  [제외] '시니어 풀스택 엔지니어(5~7년)'  ← 풀스택
+  [제외] '클라우드 엔지니어 경력직 채용'  ← 클라우드
+  [제외] '[다우키움 계열사] 데이터·AI 백엔드 엔지니어 (경력 무관)'  ← 백엔드
+  [제외] '(주)스탁브릭스에서 풀스택 엔지니어(AI·임베디드·플랫폼)를 찾고 있어요'  ← 임베디드
+  [제외] 'SDK 시스템 엔지니어 (온디바이스/백엔드 통합) 정규직 채용'  ← 시스템 엔지니어
+  [제외] '[CTILAB] MLOps Engineer 채용'  ← MLOps
+  [제외] '딥러닝 엔지니어 / 데이터사이언티스트'  ← 데이터사이언티스트
+  [제외] '[수행본부] AI기반 서비스아키텍처 설계 및 백앤드개발'  ← 설계
+  [제외] '[SOOP] AI 기반 개인화 추천 시스템 엔지니어'  ← 시스템 엔지니어
+  [제외] 'AI 서비스 백엔드 개발자(경력)'  ← 백엔드
+  [제외] 'SW 개발(풀스택) 및 생성형/Agentic AI 개발 등 (중급, 고급)'  ← 풀스택
+  [제외] 'AI Research Engineer (Vision & NLP)'  ← 비전
+  [제외] '데이터 엔지니어(경력) 채용'  ← 클라우드
+  [제외] 'DevOps 엔지니어 (5년 이상)'  ← DevOps
+  [제외] '[메가존클라우드] Solution Architect 채용'  ← 클라우드
+  [제외] 'AI 소프트웨어 풀스택 개발자'  ← 풀스택
+  [제외] '[부산/경력 7년 이상] 코어셀 - 프로덕트 엔지니어 (인프라)'  ← 인프라
+  [제외] '자바 백엔드 경력 채용'  ← 백엔드
+  [제외] '[코스닥 상장예정] JAVA 및 WEB 개발자 모집'  ← Java
+  [제외] 'IntCloud 플랫폼 백엔드 엔지니어 채용공고'  ← 백엔드
+  [제외] '[미디어젠(주)] 파이썬 백엔드/서버 개발자(경력)'  ← 백엔드
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] 'AI 서비스 백엔드 엔지니어 채용'  ← 백엔드
+  [제외] '로아스(LOAS)-웹 프론트엔드(Fronted Engineer) 개발자 채용'  ← 프론트엔드
+  [제외] '병원용 AI Smart Desk 서비스 백엔드/풀스택 경력개발자 채용'  ← 백엔드
+  [제외] 'AI 기술 개발 리더(면접 결과에 따라 C레벨 대우 가능)'  ← C (단독)
+  [제외] '병원용AI Smart Desk 서비스 백엔드/풀스택 경력(3년이상)개발자'  ← 백엔드
+  [제외] '정보보호 담당자 경력직 채용 (4~7년차)'  ← 정보보호
+  [제외] '[ARKAiN] 풀스택 엔지니어 채용(경력)'  ← 풀스택
+  [제외] '서버/네트워크 엔지니어 및 PJ관리자 모집(신입 및 경력)'  ← 네트워크
+  [제외] 'AI 개발자 대신 데이터 엔지니어 수천명 뽑는 토스 왜'  ← UX
+  [제외] 'SKT 정예팀, 독파모 개발 참여 인턴 모집 “AI 인재 육성의 마중물 역할 기대”'  ← UX
+  [제외] '“합격하면 500만원 준다” “우린 2000만원 준다” 난리더니…결국 채용 ‘큰 장’ 선다'  ← .NET
+  [제외] '크래프톤, 게임 제작과 AI 분야의 신입 사원 채용'  ← UX
+  [제외] '“멀티 LLM 체제서도 생존 목표”...SK텔레콤, 직원 채용 등 AI 챗봇 고도화 전력 - 조선비즈'  ← QA
+  [제외] 'SKT·크래프톤, 독자 AI 개발 참여 인턴 개발자 모집'  ← UX
+  [제외] '2년 전 인기였던 프롬프트 엔지니어, 지금은 어떻게 됐나..."직무에서 역량으로"'  ← UX
+  [제외] '[점선면] AI에 채용 맡겼더니 여성이 배제됐다…AI에 스며든 차별 없애려면'  ← UI
+  [제외] "이통3사 채용 공고에서 사라진 '통신'…AI 인재 모시기 집중"  ← UX
+  [제외] 'IT 채용 반토막에도 \'AI 개발자\' 수요는 증가…"중고신입 선호" - 머니투데이'  ← QA
+  [제외] '"인턴 급여가 하루 20만원"…난리난 \'딥시크\' 채용 공고'  ← UX
+  [제외] '한국딥러닝(주) 2026년 상반기 채용 | 기업리뷰 23건, 연봉정보 11건, 면접후기 35건, 복지정보 0건, 채용공고 12건'  ← UX
+  [제외] "[기획] 프롬프트 엔지니어링은 죽지 않았다, 다만 '시스템 설계'로 승화되었을 뿐"  ← UX
+  [제외] 'AI 확산에도 채용 시장의 중심은 ‘개발자’'  ← UX
+  [제외] '[현장] "1만 3천명 공채를 3주 만에"… 마이다스인, \'AI 채용 에이전트\'로 HR 혁신 제시'  ← UX
+  [제외] 'HD현대·한화오션, 대규모 채용 드라이브…조선업 인재 확보전 본격화'  ← UI
+  [제외] '“29년간 축적 데이터 활용”…잡코리아, AI 채용 효율 확대 본격화'  ← UX
+  [제외] '잡코리아, ‘AI 공고 자동 생성’ 기능 도입…채용 공고 작성 시간 70% 이상 단축'  ← UX
+  [제외] '[초점] ‘AI는 필수\' 채용공고 300% 급증...구직자 절반은 "기준 혼동“'  ← UX
+  [제외] '스타트업 채용 플랫폼 ‘그룹바이’…AI 활용 자동화 기술 개발 속도'  ← UX
+  [제외] '신입 채용 비중 14% 바늘구멍… 글로벌 AI 3강, 한국서 격돌 [캠퍼스 뉴스]'  ← UX
+  [제외] '[초점] "AI 기반 채용 아웃소싱 서비스가 당신의 HR팀을 대체한다"'  ← QA
+  [제외] 'AI가 일자리를 바꾸고 있다…신입 채용 감소와 요구 조건 강화'  ← UX
+  [제외] '[AI 채용] “누가 나를 떨어뜨렸는가, 면접관인가 AI인가”'  ← UX
+  [제외] '그룹바이에이치알, AI 채용 자동화 솔루션 개발로 중기부 ‘벤처기업 인증 획득’'  ← AWS
+  [제외] '코딩 가능한 회계사 찾습니다… 신입 채용에 ‘디지털’ 전형 신설한 삼일회계법인 - 조선비즈'  ← QA
+  [제외] 'LG CNS, 상반기 세 자릿수 경력직 채용… AI·로보틱스 ‘실전형 인재’ 확보 나서'  ← UX
+필터링 후: 624건
+최종 발송 대상: 30건
+
+📊 점수 분포:
+  14점: 4건
+  12점: 6건
+  9점: 2건
+  8점: 5건
+  7점: 8건
+  6점: 1건
+  4점: 1건
+  3점: 3건
+
+📧 이메일 발송 중...
+[메일] GMAIL_SENDER / GMAIL_APP_PASSWORD 환경 변수 미설정
+
+✅ 완료 — 08:06:08

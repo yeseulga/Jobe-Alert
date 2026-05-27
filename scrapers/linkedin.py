@@ -1,82 +1,121 @@
 """
-LinkedIn RSS 피드 스크래퍼
-수집 방식: feedparser (RSS)
+LinkedIn 채용 공고 스크래퍼
+수집 방식: LinkedIn Guest Jobs API (인증 불필요 공개 엔드포인트)
 """
 from __future__ import annotations
-import feedparser
+import time
+from typing import Optional
+import requests
+from bs4 import BeautifulSoup
 from core.text_cleaner import clean_text
 
-# LinkedIn Job RSS 피드 URL 패턴
-# keywords와 location으로 구성
-RSS_FEEDS = [
-    "https://www.linkedin.com/jobs/search/?keywords=LLM+engineer&location=Seoul&f_TPR=r86400&f_JT=F&f_WT=2",
-    "https://www.linkedin.com/jobs/search/?keywords=AI+engineer&location=Seoul",
-    "https://www.linkedin.com/jobs/search/?keywords=RAG+developer&location=Seoul",
-    "https://www.linkedin.com/jobs/search/?keywords=chatbot+developer&location=Korea",
-    "https://www.linkedin.com/jobs/search/?keywords=NLP+engineer&location=Seoul",
+BASE_API = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8",
+}
+
+SEARCH_QUERIES = [
+    "LLM engineer",
+    "AI engineer Korea",
+    "RAG developer",
+    "NLP engineer Korea",
+    "chatbot developer Korea",
+    "generative AI developer",
 ]
 
-# feedparser용 RSS URL (LinkedIn은 직접 RSS를 지원하지 않으므로 RSSHub 또는 공개 RSS 사용)
-RSSBRIDGE_FEEDS = [
-    # 직접 RSS 없을 시 대안: 구글 News RSS (채용 관련)
-    "https://news.google.com/rss/search?q=LLM+채용+AI+개발자&hl=ko&gl=KR&ceid=KR:ko",
-    "https://news.google.com/rss/search?q=RAG+챗봇+채용&hl=ko&gl=KR&ceid=KR:ko",
-]
+
+def _parse_job_card(card: BeautifulSoup) -> Optional[dict]:
+    try:
+        # 제목
+        title_tag = card.select_one(".base-search-card__title") or card.select_one("h3")
+        if not title_tag:
+            return None
+        title = clean_text(title_tag.get_text(strip=True))
+
+        # 회사명
+        company_tag = card.select_one(".base-search-card__subtitle") or card.select_one("h4")
+        company = clean_text(company_tag.get_text(strip=True)) if company_tag else "?"
+
+        # 근무지
+        location_tag = card.select_one(".job-search-card__location") or card.select_one(".base-search-card__metadata span")
+        location = clean_text(location_tag.get_text(strip=True)) if location_tag else ""
+
+        # URL
+        link_tag = card.select_one("a.base-card__full-link") or card.select_one("a[href*='linkedin.com/jobs']")
+        url = link_tag.get("href", "").split("?")[0] if link_tag else ""
+        if not url:
+            return None
+
+        # 게시일
+        date_tag = card.select_one("time")
+        posted = clean_text(date_tag.get_text(strip=True)) if date_tag else ""
+
+        return {
+            "platform": "LinkedIn",
+            "title": title,
+            "company": company,
+            "position": title,
+            "location": location,
+            "deadline": "상시모집",
+            "salary": "협의",
+            "rating": "",
+            "company_size": "",
+            "url": url,
+            "description": f"{title} | {company} | {location} | {posted}",
+        }
+    except Exception as e:
+        print(f"  [LinkedIn] 파싱 오류: {e}")
+        return None
 
 
-def _parse_entry(entry: dict, feed_url: str) -> dict:
-    title = clean_text(getattr(entry, "title", "") or "")
-    url = getattr(entry, "link", "") or ""
-    summary = clean_text(getattr(entry, "summary", "") or "")
-    published = getattr(entry, "published", "") or ""
-
-    # 회사명 추출 시도 (LinkedIn 타이틀 포맷: "직무명 - 회사명")
-    company = "?"
-    if " - " in title:
-        parts = title.split(" - ")
-        if len(parts) >= 2:
-            company = clean_text(parts[-1])
-            title = clean_text(parts[0])
-
-    return {
-        "platform": "LinkedIn",
-        "title": title,
-        "company": company,
-        "position": title,
-        "location": "서울/원격",
-        "deadline": "상시모집",
-        "salary": "협의",
-        "rating": "",
-        "company_size": "",
-        "url": url,
-        "description": summary,
-    }
-
-
-def scrape() -> list[dict]:
-    jobs = []
+def scrape(max_pages: int = 2) -> list[dict]:
+    session = requests.Session()
+    session.headers.update(HEADERS)
+    jobs: list[dict] = []
     seen_urls: set[str] = set()
 
-    feeds_to_try = RSSBRIDGE_FEEDS
+    for query in SEARCH_QUERIES:
+        print(f"  [LinkedIn] '{query}' 검색 중...")
+        for page in range(max_pages):
+            try:
+                params = {
+                    "keywords": query,
+                    "location": "South Korea",
+                    "f_JT": "F",        # 정규직
+                    "f_WT": "1,2,3",    # 오피스/하이브리드/리모트
+                    "start": page * 25,
+                }
+                resp = session.get(BASE_API, params=params, timeout=15)
+                if resp.status_code != 200:
+                    break
 
-    for feed_url in feeds_to_try:
-        print(f"  [LinkedIn/RSS] 피드 수집 중: {feed_url[:60]}...")
-        try:
-            feed = feedparser.parse(feed_url)
-            entries = feed.get("entries", [])
+                soup = BeautifulSoup(resp.text, "lxml")
+                cards = soup.select("li")
 
-            for entry in entries:
-                url = getattr(entry, "link", "") or ""
-                if url in seen_urls:
-                    continue
-                seen_urls.add(url)
+                if not cards:
+                    break
 
-                job = _parse_entry(entry, feed_url)
-                # 채용 관련 항목만 필터 (뉴스 RSS 사용 시)
-                if any(kw in job["title"] + job["description"] for kw in ["채용", "모집", "recruit", "engineer", "developer"]):
+                found = 0
+                for card in cards:
+                    job = _parse_job_card(card)
+                    if not job or job["url"] in seen_urls:
+                        continue
+                    seen_urls.add(job["url"])
                     jobs.append(job)
-        except Exception as e:
-            print(f"  [LinkedIn] RSS 수집 오류: {e}")
+                    found += 1
+
+                if found == 0:
+                    break
+
+                time.sleep(1.5)
+            except Exception as e:
+                print(f"  [LinkedIn] 오류 (query={query}, page={page}): {e}")
+                break
 
     print(f"  [LinkedIn] 수집 완료: {len(jobs)}건")
     return jobs

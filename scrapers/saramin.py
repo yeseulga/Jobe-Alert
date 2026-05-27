@@ -3,8 +3,8 @@
 수집 방식: requests + BeautifulSoup (+ RSS 피드)
 """
 from __future__ import annotations
-import re
 import time
+from urllib.parse import urlparse, parse_qs
 from typing import Optional
 import requests
 from bs4 import BeautifulSoup
@@ -12,6 +12,16 @@ from core.text_cleaner import clean_text, normalize_salary
 from core.config import ALLOWED_REGIONS
 
 BASE_URL = "https://www.saramin.co.kr"
+
+
+def _canonical_url(raw_url: str) -> str:
+    """rec_idx만 남긴 정규 URL 반환 — 검색어 파라미터로 인한 중복 방지."""
+    parsed = urlparse(raw_url)
+    qs = parse_qs(parsed.query)
+    rec_idx = qs.get("rec_idx", [""])[0]
+    if rec_idx:
+        return f"{BASE_URL}/zf_user/jobs/relay/view?rec_idx={rec_idx}"
+    return raw_url
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -41,7 +51,7 @@ def _parse_job_card(card: BeautifulSoup) -> Optional[dict]:
         if not title_tag:
             return None
         title = clean_text(title_tag.get_text(strip=True))
-        url = BASE_URL + title_tag.get("href", "")
+        url = _canonical_url(BASE_URL + title_tag.get("href", ""))
 
         # 회사명
         company_tag = card.select_one(".corp_name a")

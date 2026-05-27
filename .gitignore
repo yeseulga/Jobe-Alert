@@ -43,3 +43,10 @@ htmlcov/
 # IDE
 .vscode/
 .idea/
+
+# 개인 정보 (로컬 전용)
+profile/
+cv/
+
+# prompts 아카이브 (로컬 전용)
+prompts/archive/

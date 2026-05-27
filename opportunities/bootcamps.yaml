@@ -1,0 +1,79 @@
+# 부트캠프 목록
+# 마지막 업데이트: 2026-05-18  (URL 전수 검증 완료)
+
+bootcamps:
+
+  # ── 커널아카데미 (⭐ 최우선) ─────────────────────
+  # 실제 도메인: kernel.fastcampus.co.kr (패스트캠퍼스 부트캠프 브랜드)
+  - name: "커널아카데미 AI 과정"
+    provider: "커널아카데미 (패스트캠퍼스)"
+    category: "AI/LLM"
+    note: "⭐ 중요 — 반드시 확인. Upstage 협력 AI 개발 부트캠프"
+    cost_range: "국비지원 (내일배움카드)"
+    duration: "6개월"
+    deadline: "상시모집 (기수별 오픈)"
+    support:
+      - "취업 연계"
+      - "국비지원 (K-Digital Training)"
+    check_url: "https://kernel.fastcampus.co.kr"
+    status: 확인필요  # 확인필요 / 지원예정 / 지원완료 / 수강중
+
+  # ── 패스트캠퍼스 Upstage AI ──────────────────────
+  - name: "패스트캠퍼스 Upstage AI Lab"
+    provider: "패스트캠퍼스"
+    category: "AI/ML"
+    note: "세계 1위 Upstage 협력 AI 취업 부트캠프"
+    cost_range: "국비지원 (K-Digital Training)"
+    duration: "6개월"
+    deadline: "상시모집 (기수별 상이)"
+    support:
+      - "취업 연계"
+      - "K-Digital Training 국비지원"
+    check_url: "https://fastcampus.co.kr/b2g_kdigitaltraining_ai"
+    status: 확인필요
+
+  # ── 구름 부트캠프 ────────────────────────────────
+  - name: "구름 부트캠프"
+    provider: "goorm"
+    category: "AI/클라우드"
+    cost_range: "국비지원 (무료~일부 자부담)"
+    duration: "5~6개월"
+    deadline: "상시모집 (내일배움카드 필요)"
+    support:
+      - "국비지원 과정 (내일배움카드)"
+      - "취업 연계"
+    check_url: "https://goorm.io/edu/bootcamp"
+    status: 확인필요
+
+  # ── 엘리스 ──────────────────────────────────────
+  - name: "엘리스 AI 트랙"
+    provider: "엘리스"
+    category: "AI/SW"
+    cost_range: "국비지원 가능"
+    duration: "5개월"
+    deadline: "상시모집 (기수별 마감 상이)"
+    support:
+      - "국비지원"
+      - "취업 연계"
+    check_url: "https://elice.io/ko"
+    status: 확인필요
+
+  # ── 스파르타코딩클럽 ─────────────────────────────
+  - name: "스파르타코딩클럽 AI 트랙"
+    provider: "스파르타코딩클럽"
+    category: "AI"
+    cost_range: "50만원~200만원"
+    duration: "4~8주"
+    deadline: "상시모집"
+    check_url: "https://spartacodingclub.kr"
+    status: 확인필요
+
+  # ── 멋쟁이사자처럼 ──────────────────────────────
+  - name: "멋쟁이사자처럼 AI 스쿨"
+    provider: "멋쟁이사자처럼"
+    category: "AI"
+    cost_range: "국비지원 가능"
+    duration: "5개월"
+    deadline: "상시모집"
+    check_url: "https://likelion.net"
+    status: 확인필요

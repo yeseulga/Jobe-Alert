@@ -1,0 +1,104 @@
+# 공모전/해커톤 목록
+# 마지막 업데이트: 2026-05-18  (URL 전수 검증 완료)
+
+competitions:
+
+  # ── AI 공모전 ─────────────────────────────────────
+  - name: "공개 SW 개발자 대회"
+    organizer: "정보통신산업진흥원 (NIPA)"
+    category: "SW 공모전"
+    description: "오픈소스 기반 SW 개발 (AI 트랙 포함)"
+    prize:
+      total: "최대 1,000만원"
+      details:
+        - "대상: 1,000만원"
+        - "최우수: 500만원"
+        - "우수: 300만원"
+    cost: "무료"
+    eligibility: "대학생/일반인"
+    deadline: "매년 5~8월 접수 (홈페이지 확인)"
+    check_url: "https://www.oss.kr/dev_competition"
+    status: 확인필요
+
+  - name: "Upstage AI Stages"
+    organizer: "업스테이지"
+    category: "AI 경진대회"
+    description: "LLM/NLP 특화 AI 경진대회 플랫폼 (상시 대회 운영)"
+    prize:
+      total: "대회별 상이 (수십만원~수백만원)"
+    cost: "무료"
+    deadline: "대회별 상이 (플랫폼 상시 운영)"
+    check_url: "https://stages.ai"
+    status: 확인필요
+
+  - name: "서울 AI 허브 공모전"
+    organizer: "서울시 AI 허브 (양재)"
+    category: "AI 공모전"
+    description: "AI 스타트업/개인 대상 AI 서비스 아이디어 공모"
+    prize:
+      total: "수천만원 규모"
+    cost: "무료"
+    eligibility: "개인/팀"
+    deadline: "수시 공모 (사이트 확인)"
+    check_url: "https://www.seoulaihub.kr"
+    status: 확인필요
+
+  - name: "카카오 if(kakao) 해커톤"
+    organizer: "카카오"
+    category: "해커톤/컨퍼런스"
+    description: "카카오 AI/개발자 이벤트 — 해커톤·공모전 공지 채널"
+    prize:
+      total: "확인 필요"
+    cost: "무료"
+    deadline: "연 1회 (공지 확인)"
+    check_url: "https://if.kakao.com"
+    status: 확인필요
+
+  - name: "네이버 AI 해커톤"
+    organizer: "네이버 CLOVA"
+    category: "해커톤"
+    description: "HyperCLOVA X 활용 서비스 개발"
+    prize:
+      total: "확인 필요"
+    cost: "무료"
+    deadline: "연 1회 (공지 확인)"
+    check_url: "https://clova.ai/ko"
+    status: 확인필요
+
+hackathons:
+
+  - name: "Junction Asia"
+    organizer: "Junction"
+    category: "국제 해커톤"
+    description: "아시아 최대 규모 국제 해커톤, AI 트랙 포함"
+    prize:
+      total: "트랙별 상금 + 기업 인턴십 기회"
+    cost: "무료 (교통/숙박 지원)"
+    eligibility: "학생/취준생"
+    held: "연 1회 (보통 8-9월)"
+    deadline: "보통 6~7월 접수"
+    check_url: "https://asia.hackjunction.com"
+    status: 확인필요
+
+  - name: "AWS GameDay Korea"
+    organizer: "AWS"
+    category: "클라우드/AI 해커톤"
+    description: "AWS 서비스 활용 팀 경쟁"
+    prize:
+      total: "AWS 크레딧 + 기프트카드"
+    cost: "무료"
+    deadline: "수시 개최 (AWS KR 커뮤니티 확인)"
+    check_url: "https://aws.amazon.com/ko/gameday"
+    status: 확인필요
+
+  - name: "데이터 청년 캠퍼스"
+    organizer: "한국데이터산업진흥원 (KDATA)"
+    category: "교육 + 프로젝트"
+    description: "데이터/AI 집중 교육 + 프로젝트 (취업 연계)"
+    prize:
+      total: "교육비 무료 + 장학금"
+    cost: "무료"
+    eligibility: "대학생/대학원생"
+    deadline: "매년 4~5월 접수 (공지사항 확인)"
+    check_url: "https://www.kdata.or.kr"
+    status: 확인필요

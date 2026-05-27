@@ -44,6 +44,7 @@ jobs:
           GMAIL_SENDER: ${{ secrets.GMAIL_SENDER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         # --skip-playwright: 리멤버 스크래퍼 제외 (GitHub Actions에서 Playwright 미지원)
         run: python main.py --skip-playwright
 

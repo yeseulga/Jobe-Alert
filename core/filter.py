@@ -50,29 +50,47 @@ def is_excluded(job: dict) -> tuple[bool, Optional[str]]:
     return False, None
 
 
-def calc_score(job: dict) -> int:
+_RAW_SCORE_MAX = 20  # 100점 환산 기준 (raw 20 = 100점)
+
+
+def calc_score(job: dict) -> tuple[int, str]:
     """
     포함 키워드 가중치 기반 점수를 계산한다.
+    반환값: (0~100 정규화 점수, 매칭 근거 문자열)
     """
     search_text = _make_search_text(job)
     matched = set()
-    score = 0
+    raw = 0
+    combos_hit = []
 
     for kw in INCLUDE_KEYWORDS:
-        # 대소문자 무시, 부분 포함 허용
         if kw.lower() in search_text.lower():
             if kw not in matched:
                 matched.add(kw)
-                score += KEYWORD_WEIGHTS.get(kw, 1)
+                raw += KEYWORD_WEIGHTS.get(kw, 1)
 
-    # 콤보 보너스
     for combo_set, bonus in COMBO_BONUSES:
         normalized_matched = {m.upper() for m in matched}
         normalized_combo = {c.upper() for c in combo_set}
         if normalized_combo.issubset(normalized_matched):
-            score += bonus
+            raw += bonus
+            combos_hit.append(f"+{bonus} ({'+'.join(sorted(combo_set))} 콤보)")
 
-    return score
+    score = min(100, round(raw / _RAW_SCORE_MAX * 100))
+
+    # 근거 문자열 생성 — 각 키워드가 기여한 점수를 "+N" 형식으로 표시
+    kw_parts = []
+    for kw in sorted(matched, key=lambda k: -KEYWORD_WEIGHTS.get(k, 1)):
+        w = KEYWORD_WEIGHTS.get(kw, 1)
+        kw_parts.append(f"{kw} +{w}")
+
+    combo_parts = [f"콤보({'+'.join(sorted(cs))}) +{b}" for cs, b in COMBO_BONUSES
+                   if {c.upper() for c in cs}.issubset({m.upper() for m in matched})]
+
+    reason_parts = kw_parts + combo_parts
+    reason = " · ".join(reason_parts) if reason_parts else "매칭 키워드 없음"
+
+    return score, reason
 
 
 def filter_and_score(jobs: list[dict]) -> list[dict]:
@@ -87,8 +105,9 @@ def filter_and_score(jobs: list[dict]) -> list[dict]:
             print(f"  [제외] {job.get('title', '')} — 사유: {reason}")
             continue
 
-        score = calc_score(job)
+        score, reason = calc_score(job)
         job["score"] = score
+        job["score_reason"] = reason
         results.append(job)
 
     # 점수 내림차순 정렬

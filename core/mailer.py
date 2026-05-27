@@ -69,6 +69,24 @@ def build_text_body(jobs: list[dict]) -> str:
 # HTML 이메일 템플릿
 # ==============================================================
 
+def _format_cv_draft_html(draft: str) -> str:
+    """자소서 초안이 있으면 접이식 섹션으로 렌더링."""
+    if not draft:
+        return ""
+    # 마크다운 줄바꿈 → <br>로 변환 (간단 처리)
+    draft_html = draft.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace("\n", "<br>")
+    return f"""
+      <details style="margin-top:12px; border-top:1px dashed #ddd; padding-top:10px;">
+        <summary style="cursor:pointer; font-size:13px; font-weight:bold; color:#764ba2;">
+          ✍️ 자소서 초안 보기 (클릭)
+        </summary>
+        <div style="margin-top:8px; padding:12px; background:#f9f5ff; border-radius:6px;
+                    font-size:13px; line-height:1.7; color:#333; white-space:pre-wrap;">
+          {draft_html}
+        </div>
+      </details>"""
+
+
 def _format_job_html(idx: int, job: dict) -> str:
     score = job.get("score", 0)
     stars = "⭐" * min(score, 5) if score > 0 else "📄"
@@ -79,35 +97,120 @@ def _format_job_html(idx: int, job: dict) -> str:
         "리멤버": "#6554C0",
         "프로그래머스": "#00875A",
         "LinkedIn": "#0A66C2",
+        "로켓펀치": "#FF5B35",
     }
     platform = job.get("platform", "?")
     color = platform_colors.get(platform, "#888888")
 
+    # Track A 뱃지
+    track = job.get("track_badge", "")
+    track_badge = ""
+    if track == "A":
+        track_badge = '<span style="background:#7c3aed; color:#fff; font-size:10px; font-weight:bold; padding:2px 7px; border-radius:10px; margin-left:4px;">🏆 AI 자체솔루션</span>'
+    elif track == "B":
+        track_badge = '<span style="background:#0369a1; color:#fff; font-size:10px; font-weight:bold; padding:2px 7px; border-radius:10px; margin-left:4px;">🤖 AI 활용</span>'
+
+    # 잡플래닛 평점 + 후기
+    jp_rating = job.get("jobplanet_rating")
+    jp_reviews = job.get("jobplanet_reviews", [])
+    jp_url = job.get("jobplanet_url", "")
+    jp_block = ""
+    if jp_rating:
+        stars_count = round(jp_rating)
+        jp_stars = "★" * stars_count + "☆" * (5 - stars_count)
+        jp_block = f'<span style="color:#f59e0b;">{jp_stars}</span> <b style="font-size:13px;">{jp_rating}/5.0</b> <span style="font-size:11px; color:#888;">(잡플래닛)</span>'
+        if jp_reviews:
+            reviews_html = " · ".join(f'"{r}"' for r in jp_reviews[:2])
+            jp_block += f'<br><span style="font-size:11px; color:#555; font-style:italic;">{reviews_html}</span>'
+    elif jp_url:
+        jp_block = f'<a href="{jp_url}" style="font-size:12px; color:#0369a1; text-decoration:none;">📊 잡플래닛 후기 확인 →</a>'
+
+    # 복지
+    welfare = job.get("welfare", "")
+    welfare_block = f'<p style="margin:4px 0; font-size:12px; color:#7c3aed;">🎁 {welfare}</p>' if welfare else ""
+
+    # 등록 시점
+    first_seen = job.get("first_seen_label", "오늘 등록")
+    first_seen_color = "#16a34a" if "오늘" in first_seen else "#6b7280"
+
+    # AI 요약
+    ai_summary = job.get("ai_summary", "")
+    ai_block = ""
+    if ai_summary:
+        # \n → <br>, 특수문자 이스케이프
+        ai_html = (ai_summary
+                   .replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+                   .replace("\n", "<br>"))
+        ai_block = f"""
+      <div style="margin-top:10px; padding:10px 12px; background:#f8fafc;
+                  border-left:3px solid #7c3aed; border-radius:0 6px 6px 0; font-size:13px; color:#334155; line-height:1.6;">
+        {ai_html}
+      </div>"""
+
     return f"""
     <div style="border:1px solid #e0e0e0; border-radius:10px; padding:16px; margin-bottom:16px; background:#ffffff;">
-      <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+      <!-- 헤더 행: 플랫폼 + 회사명 + Track 뱃지 + 별점 -->
+      <div style="display:flex; align-items:center; gap:6px; margin-bottom:8px; flex-wrap:wrap;">
         <span style="background:{color}; color:#fff; font-size:11px; font-weight:bold;
                      padding:2px 8px; border-radius:12px;">{platform}</span>
-        <strong style="font-size:16px;">{job.get('company', '?')}</strong>
-        <span style="margin-left:auto; font-size:18px;">{stars}</span>
+        <strong style="font-size:15px;">{job.get('company', '?')}</strong>
+        {track_badge}
+        <span style="margin-left:auto; font-size:16px;">{stars}</span>
       </div>
-      <p style="margin:4px 0; font-size:14px; color:#333;"><b>📌 직무</b>: {job.get('title', '?')}</p>
-      <p style="margin:4px 0; font-size:13px; color:#555;">💰 {job.get('salary') or '협의'} &nbsp;|&nbsp;
-         📍 {job.get('location') or '미기재'} &nbsp;|&nbsp;
-         ⏰ {job.get('deadline') or '상시모집'}</p>
-      <p style="margin:4px 0; font-size:13px; color:#555;">🏢 {job.get('company_size') or '미기재'}
-         &nbsp;|&nbsp; 📊 평점 {job.get('rating') or '-'}</p>
-      <a href="{job.get('url', '#')}" style="display:inline-block; margin-top:10px;
-         background:{color}; color:#fff; padding:6px 16px; border-radius:6px;
+
+      <!-- 직무 -->
+      <p style="margin:4px 0; font-size:14px; color:#111; font-weight:600;">{job.get('title', '?')}</p>
+
+      <!-- 메타 정보 -->
+      <p style="margin:5px 0; font-size:12px; color:#555;">
+        💰 {job.get('salary') or '연봉 미기재'} &nbsp;|&nbsp;
+        📍 {job.get('location') or '미기재'} &nbsp;|&nbsp;
+        ⏰ {job.get('deadline') or '상시모집'}
+      </p>
+      <p style="margin:3px 0; font-size:12px; color:{first_seen_color};">
+        🕐 {first_seen}
+      </p>
+
+      <!-- 잡플래닛 평점 -->
+      <p style="margin:5px 0;">{jp_block}</p>
+
+      <!-- 복지 -->
+      {welfare_block}
+
+      <!-- AI 요약 -->
+      {ai_block}
+
+      <!-- 공고 보기 버튼 -->
+      <a href="{job.get('url', '#')}" style="display:inline-block; margin-top:12px;
+         background:{color}; color:#fff; padding:7px 18px; border-radius:6px;
          text-decoration:none; font-size:13px; font-weight:bold;">공고 보기 →</a>
+
+      <!-- 자소서 초안 -->
+      {_format_cv_draft_html(job.get('cv_draft', ''))}
     </div>
     """
+
+
+def _build_summary_bar(jobs: list[dict]) -> str:
+    """Track A/B 요약 바 HTML."""
+    track_a = sum(1 for j in jobs if j.get("track_badge") == "A")
+    track_b = sum(1 for j in jobs if j.get("track_badge") == "B")
+    other = len(jobs) - track_a - track_b
+    parts = []
+    if track_a:
+        parts.append(f'<span style="background:#7c3aed; color:#fff; padding:3px 10px; border-radius:12px; font-size:12px; font-weight:bold;">🏆 AI 자체솔루션 {track_a}건</span>')
+    if track_b:
+        parts.append(f'<span style="background:#0369a1; color:#fff; padding:3px 10px; border-radius:12px; font-size:12px; font-weight:bold;">🤖 AI 활용 {track_b}건</span>')
+    if other:
+        parts.append(f'<span style="background:#6b7280; color:#fff; padding:3px 10px; border-radius:12px; font-size:12px;">기타 {other}건</span>')
+    return ' &nbsp;'.join(parts)
 
 
 def build_html_body(jobs: list[dict]) -> str:
     today = datetime.now().strftime("%Y년 %m월 %d일")
     total = len(jobs)
     job_blocks = "\n".join(_format_job_html(i + 1, j) for i, j in enumerate(jobs[:MAX_JOBS_PER_EMAIL]))
+    summary_bar = _build_summary_bar(jobs)
 
     return f"""
     <!DOCTYPE html>
@@ -120,6 +223,13 @@ def build_html_body(jobs: list[dict]) -> str:
                     border-radius:12px; padding:28px 24px; margin-bottom:20px; text-align:center;">
           <h1 style="color:#fff; margin:0; font-size:22px;">📬 맞춤 채용 알림</h1>
           <p style="color:#e8e8ff; margin:8px 0 0;">{RECIPIENT_NAME}님, {today} 공고 {total}건 도착!</p>
+        </div>
+
+        <!-- Track 요약 바 -->
+        <div style="background:#fff; border-radius:10px; padding:12px 16px; margin-bottom:16px;
+                    display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+          <span style="font-size:12px; color:#6b7280; margin-right:4px;">오늘 공고</span>
+          {summary_bar}
         </div>
 
         <!-- 공고 목록 -->

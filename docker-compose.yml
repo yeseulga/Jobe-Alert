@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  job-alert:
+    build: .
+    container_name: job-alert
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    # By default, runs dry-run if you want to test without sending actual emails.
+    # To run full execution, you can change this command or run:
+    # docker-compose run --rm job-alert python main.py
+    command: python main.py --dry-run

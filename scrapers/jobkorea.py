@@ -1,13 +1,15 @@
 """
 잡코리아 채용 공고 스크래퍼
 수집 방식: requests + BeautifulSoup
+셀렉터: data-sentry-component="CardJob" (2026년 리뉴얼 기준)
 """
 from __future__ import annotations
+import re
 import time
 from typing import Optional
 import requests
 from bs4 import BeautifulSoup
-from core.text_cleaner import clean_text, normalize_salary
+from core.text_cleaner import clean_text
 
 BASE_URL = "https://www.jobkorea.co.kr"
 HEADERS = {
@@ -29,31 +31,52 @@ SEARCH_QUERIES = [
     "자연어처리",
 ]
 
+_GI_RE = re.compile(r"/GI_Read/(\d+)")
 
-def _parse_job_card(card: BeautifulSoup) -> Optional[dict]:
+
+def _canonical_url(href: str) -> str:
+    """검색 파라미터 제거한 정규 URL — /Recruit/GI_Read/{ID} 형식."""
+    m = _GI_RE.search(href)
+    return f"{BASE_URL}/Recruit/GI_Read/{m.group(1)}" if m else href
+
+
+def _parse_card(card: BeautifulSoup) -> Optional[dict]:
     try:
-        title_tag = card.select_one(".title")
-        if not title_tag:
+        # 제목
+        title_el = card.select_one('[data-sentry-component="Title"]')
+        if not title_el:
             return None
-        title = clean_text(title_tag.get_text(strip=True))
+        title = clean_text(title_el.get_text(strip=True))
+        if not title:
+            return None
 
-        link_tag = card.select_one("a.title") or card.select_one("a[href*='/Recruit/']")
-        href = link_tag.get("href", "") if link_tag else ""
-        if not href.startswith("http"):
-            href = BASE_URL + href
-        url = href
+        # URL (canonical)
+        link = card.select_one('a[href*="/Recruit/GI_Read"]')
+        if not link:
+            return None
+        url = _canonical_url(link.get("href", ""))
 
-        company_tag = card.select_one(".name") or card.select_one(".corp-name")
-        company = clean_text(company_tag.get_text(strip=True)) if company_tag else "?"
+        # 회사명 — GI_Read 링크 중 타이틀이 아닌 텍스트
+        company = "?"
+        for a in card.select('a[href*="Recruit"]'):
+            t = clean_text(a.get_text(strip=True))
+            if t and t != title:
+                company = t
+                break
 
-        location_tag = card.select_one(".work-place") or card.select_one("[class*='location']")
-        location = clean_text(location_tag.get_text(strip=True)) if location_tag else ""
+        # 위치 (첫번째 GrayChip)
+        chips = card.select('[data-sentry-component="GrayChip"]')
+        location = clean_text(chips[0].get_text(strip=True)) if chips else ""
 
-        deadline_tag = card.select_one(".date") or card.select_one("[class*='deadline']")
-        deadline = clean_text(deadline_tag.get_text(strip=True)) if deadline_tag else ""
-
-        salary_tag = card.select_one(".salary") or card.select_one("[class*='salary']")
-        salary = normalize_salary(salary_tag.get_text(strip=True) if salary_tag else "")
+        # 마감일 — time 태그 또는 텍스트에서 날짜 패턴 추출
+        deadline = ""
+        time_tag = card.select_one("time")
+        if time_tag:
+            deadline = clean_text(time_tag.get_text(strip=True))
+        if not deadline:
+            text = card.get_text(" ")
+            m = re.search(r"(\d{2}/\d{2}|\d{4}-\d{2}-\d{2}|~\d{2}\.\d{2})", text)
+            deadline = m.group(0) if m else ""
 
         return {
             "platform": "잡코리아",
@@ -62,7 +85,7 @@ def _parse_job_card(card: BeautifulSoup) -> Optional[dict]:
             "position": title,
             "location": location,
             "deadline": deadline,
-            "salary": salary,
+            "salary": "",
             "rating": "",
             "company_size": "",
             "url": url,
@@ -76,7 +99,7 @@ def _parse_job_card(card: BeautifulSoup) -> Optional[dict]:
 def scrape(max_pages: int = 3) -> list[dict]:
     session = requests.Session()
     session.headers.update(HEADERS)
-    jobs = []
+    jobs: list[dict] = []
     seen_urls: set[str] = set()
 
     for query in SEARCH_QUERIES:
@@ -87,22 +110,27 @@ def scrape(max_pages: int = 3) -> list[dict]:
                     "stext": query,
                     "tabType": "recruit",
                     "Page_No": page,
-                    "local": "101000,102000",  # 서울/경기
+                    "local": "101000,102000",
                 }
                 resp = session.get(f"{BASE_URL}/Search", params=params, timeout=15)
                 resp.raise_for_status()
                 soup = BeautifulSoup(resp.text, "lxml")
 
-                cards = soup.select(".list-post .post-item") or soup.select(".recruit-info li")
+                cards = soup.select('[data-sentry-component="CardJob"]')
                 if not cards:
                     break
 
+                found = 0
                 for card in cards:
-                    job = _parse_job_card(card)
+                    job = _parse_card(card)
                     if not job or job["url"] in seen_urls:
                         continue
                     seen_urls.add(job["url"])
                     jobs.append(job)
+                    found += 1
+
+                if found == 0:
+                    break
 
                 time.sleep(1.2)
             except Exception as e:

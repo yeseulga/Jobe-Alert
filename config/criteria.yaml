@@ -1,0 +1,114 @@
+# 회사 및 직무 선정 기준
+# Claude가 회사 추천/필터링 시 이 기준을 우선 참고합니다.
+# core/config.py의 키워드 설정은 이 파일의 기준에서 파생됩니다.
+
+---
+
+# ============================================================
+# 직무 키워드 기준
+# ============================================================
+include_keywords:
+  high_priority:  # 가중치 2 (핵심 직무)
+    - "LLM"
+    - "RAG"
+    - "Agent"
+    - "에이전트"
+    - "AI 엔지니어"
+    - "생성형 AI"
+  medium_priority:  # 가중치 1
+    - "자동화"
+    - "챗봇"
+    - "GPT"
+    - "AI"
+    - "머신러닝"
+    - "딥러닝"
+    - "NLP"
+    - "자연어처리"
+
+exclude_keywords:
+  always:  # 무조건 제외
+    - "네트워크"
+    - "보안"
+    - "정보보호"
+    - "임베디드"
+    - "펌웨어"
+    - "반도체"
+    - "하드웨어"
+    - "인프라"
+    - "백엔드"
+    - "프론트엔드"
+    - "웹개발"
+    - "앱개발"
+    - "풀스택"
+    - "DevOps"
+    - "자율주행"
+    - "로봇"
+
+# ============================================================
+# 회사 조건
+# ============================================================
+company:
+  # 기업 규모 (복수 선택 가능)
+  size_preference:
+    - "스타트업"
+    - "중견기업"
+    - "대기업"  # AI 전담팀 있는 경우
+
+  # AI를 핵심 사업으로 하는 도메인
+  preferred_domains:
+    - "AI/LLM 서비스"
+    - "AI 자동화"
+    - "에듀테크 (AI)"
+    - "핀테크 (AI 접목)"
+    - "리걸테크"
+    - "HR테크"
+    - "헬스테크"
+
+  # 제외 도메인
+  excluded_domains:
+    - "순수 하드웨어"
+    - "게임 (AI 미접목)"
+
+# ============================================================
+# 근무 조건
+# ============================================================
+work:
+  locations:
+    - "서울"
+    - "경기"
+  work_type:
+    - "정규직"
+    - "인턴"  # 전환형 우선
+  remote: "hybrid"  # onsite / hybrid / remote 모두 고려
+
+# ============================================================
+# 마감/급여
+# ============================================================
+deadline_days_limit: 60  # 오늘로부터 60일 이내 마감
+min_salary: 0           # 최소 연봉 기준 (0 = 무제한)
+
+# ============================================================
+# 특별 기준 (공식 채용 페이지 직접 확인 대상)
+# ============================================================
+direct_check_companies:
+  # 플랫폼에 안 올리는 경우가 많은 회사들 — 공식 홈피 직접 확인
+  - name: "카카오"
+    careers_url: "https://careers.kakao.com"
+  - name: "네이버"
+    careers_url: "https://recruit.navercorp.com"
+  - name: "토스"
+    careers_url: "https://toss.im/career"
+  - name: "당근"
+    careers_url: "https://about.daangn.com/jobs"
+  - name: "뤼튼"
+    careers_url: "https://wrtn.career.greetinghr.com"
+  - name: "업스테이지"
+    careers_url: "https://careers.upstage.ai"
+  - name: "뱅크샐러드"
+    careers_url: "https://career.banksalad.com"
+  - name: "크래프톤"
+    careers_url: "https://careers.krafton.com/ko"
+  - name: "라인플러스"
+    careers_url: "https://careers.linecorp.com/ko"
+  - name: "쏘카"
+    careers_url: "https://socar.recruiter.co.kr"

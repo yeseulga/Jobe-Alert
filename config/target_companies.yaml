@@ -1,0 +1,210 @@
+# 타겟 회사 목록
+# `/search companies` 명령으로 자동 업데이트됩니다.
+#
+# track:    A (AI 자체 솔루션) / B (AI 활용 기업)
+# priority: 1(최우선)~5 — 급여·안정성·성장성·미래가치 종합
+# status:   관심 / 지원예정 / 지원완료 / 탈락 / 합격
+#
+# jp_rating:  잡플래닛 평점 (0.0~5.0) — 잡플래닛에서 직접 확인 후 입력
+# jp_review:  잡플래닛 대표 후기 요약 (자유롭게 입력)
+# welfare:    복지 키워드 1~2개 (예: "스톡옵션, 재택")
+
+companies:
+
+  # ════════════════════════════════════════════════
+  # Track A — AI 자체 솔루션 보유 (핵심 제품이 AI)
+  # ════════════════════════════════════════════════
+
+  - name: "네이버"
+    track: A
+    priority: 1
+    domain: "플랫폼/AI (HyperCLOVA X)"
+    careers_url: "https://recruit.navercorp.com"
+    note: "HyperCLOVA X 자체 LLM 개발. 국내 최대 AI 연구 조직. 안정성+연봉+성장 모두 최상위"
+    jp_rating: 3.5
+    jp_review: "연봉·복지 좋음. 큰 조직 특성상 속도 느림. 내부 정치 있다는 후기 다수."
+    welfare: "스톡옵션, 유연근무"
+    status: 관심
+
+  - name: "카카오"
+    track: A
+    priority: 1
+    domain: "플랫폼/AI (카카오 AI Lab)"
+    careers_url: "https://careers.kakao.com"
+    note: "카카오 AI Lab 자체 모델 개발. 대기업 안정성+연봉. 카카오브레인 통합 후 AI 역량 집중"
+    jp_rating: 3.6
+    jp_review: "워라밸 양호. 복지 좋음. 최근 구조조정 이후 성장 불확실성 언급 多."
+    welfare: "스톡옵션, 재택가능"
+    status: 관심
+
+  - name: "업스테이지 (Upstage)"
+    track: A
+    priority: 2
+    domain: "LLM/AI 솔루션"
+    careers_url: "https://careers.upstage.ai"
+    note: "Solar LLM 자체 개발·판매. 글로벌 리더보드 상위권. 시리즈B+ 투자. AI 핵심 역량 성장 최적"
+    jp_rating: 4.1
+    jp_review: "AI 기술력 세계적 수준. 빠른 성장. 업무 강도 높다는 후기 있음."
+    welfare: "스톡옵션, 유연근무"
+    status: 관심
+
+  - name: "뤼튼 (Wrtn)"
+    track: A
+    priority: 2
+    domain: "AI/LLM 플랫폼"
+    careers_url: "https://wrtn.career.greetinghr.com"
+    note: "국내 최대 LLM 서비스 플랫폼. 시리즈B 투자. AI 엔지니어 포지션 활발. 성장성 높음"
+    jp_rating: 3.8
+    jp_review: "빠른 성장. 스타트업 특성상 롤 변경 잦음. 기술 스택 최신."
+    welfare: "스톡옵션, 식대"
+    status: 관심
+
+  - name: "마키나락스 (MakinaRocks)"
+    track: A
+    priority: 2
+    domain: "산업 AI/MLOps"
+    careers_url: "https://makinarocks.career.greetinghr.com/culture"
+    note: "MLOps 플랫폼 'Runway' 자체 개발. 산업AI 강자. LLM 엔지니어 포지션. 서울+실리콘밸리"
+    status: 관심
+
+  - name: "솔트룩스"
+    track: A
+    priority: 2
+    domain: "AI/NLP 솔루션"
+    careers_url: "https://www.saltlux.com/en/company/recruit/"
+    note: "국내 AI 특허 최다 보유. NLP·지식그래프 자체 솔루션. 20년 이상 업력으로 안정적. 서울 강남"
+    status: 관심
+
+  - name: "라이너AI (Liner)"
+    track: A
+    priority: 2
+    domain: "AI 검색/리서치"
+    careers_url: "https://liner.career.greetinghr.com/en/jobs"
+    note: "AI 검색엔진 자체 서비스. 글로벌 1,000만 사용자. 시리즈B 438억. 서울+미국"
+    status: 관심
+
+  - name: "올거나이즈 (Allganize)"
+    track: A
+    priority: 3
+    domain: "엔터프라이즈 LLM/RAG"
+    careers_url: "https://www.allganize.ai/en/careers"
+    note: "기업용 RAG/LLM 플랫폼 자체 개발. B2B SaaS. LLM 엔지니어 상시 모집. 서울+휴스턴+도쿄"
+    status: 관심
+
+  - name: "트릴리온랩스 (Trillion Labs)"
+    track: A
+    priority: 3
+    domain: "LLM 파운데이션 모델"
+    careers_url: "https://trillionlabs.co/careers"
+    note: "한국어 특화 파운데이션 모델 Trida-7B 개발. 전 네이버 HyperCLOVA X 연구원 창업. 초기 스타트업"
+    status: 관심
+
+  - name: "Nota AI"
+    track: A
+    priority: 3
+    domain: "AI 모델 최적화"
+    careers_url: "https://www.nota.ai/careers"
+    note: "AI 모델 경량화 플랫폼 NetsPresso 자체 개발. 엣지AI 선도. ⚠️ 대전 본사 — 근무지 확인 필요"
+    status: 관심
+
+  - name: "어피닛 (Aphinit)"
+    track: A
+    priority: 4
+    domain: "AI 지식관리/게이트웨이"
+    careers_url: "https://aphinit.com"
+    note: "AI 게이트웨이·지식관리 솔루션 자체 개발. 인도 본사 한국 지사. 별도 채용 페이지 없음 — 직접 확인"
+    status: 관심
+
+  - name: "알체라 (Alchera)"
+    track: A
+    priority: 4
+    domain: "AI 비전 솔루션"
+    careers_url: "https://www.alchera.ai/en/meet-alchera/career"
+    note: "얼굴인식·화재감지 자체 솔루션. 판교. ⚠️ 핵심 도메인이 비전(이미지처리) — LLM/자동화 포지션만 지원"
+    status: 관심
+
+  - name: "페르소나AI (Persona AI)"
+    track: A
+    priority: 4
+    domain: "AI 진단/교육"
+    careers_url: "https://www.personaai.co.kr"
+    note: "AI 진단·교육 플랫폼 자체 개발. 규모 작음. 별도 채용 페이지 없음 — 직접 확인"
+    status: 관심
+
+  # ════════════════════════════════════════════════
+  # Track B — AI 활용 기업 (플랫폼·서비스에 AI 접목)
+  # ════════════════════════════════════════════════
+
+  - name: "토스"
+    track: B
+    priority: 1
+    domain: "핀테크/AI"
+    careers_url: "https://toss.im/career"
+    note: "국내 최고 연봉 수준. AI 엔지니어링팀 LLM 서비스 개발. 기술 문화 최상위. 성장+보상 모두 탁월"
+    jp_rating: 4.2
+    jp_review: "연봉 업계 최상위. 업무 강도 세고 빠름. 기술 문화 국내 최고 수준."
+    welfare: "스톡옵션, 점심 제공"
+    status: 관심
+
+  - name: "당근마켓"
+    track: B
+    priority: 2
+    domain: "로컬커머스/AI"
+    careers_url: "https://about.daangn.com/jobs"
+    note: "유니콘. AI 추천·NLP 포지션. 기술 문화 좋음. 연봉 상위권"
+    jp_rating: 4.0
+    jp_review: "워라밸 좋음. 기술 자율성 높음. 성장 정체 우려 후기 일부."
+    welfare: "유연근무, 식대"
+    status: 관심
+
+  - name: "패스트캠퍼스"
+    track: B
+    priority: 3
+    domain: "에듀테크/AI"
+    careers_url: "https://career.fastcampus.co.kr"
+    note: "AI 컨텐츠·플랫폼팀. 에듀테크 국내 1위. 연봉 중상위"
+    status: 관심
+
+  - name: "클래스101"
+    track: B
+    priority: 3
+    domain: "에듀테크/AI"
+    careers_url: "https://career.class101.net"
+    note: "AI 개인화 추천. 에듀테크 성장 중"
+    status: 관심
+
+  - name: "42dot"
+    track: B
+    priority: 3
+    domain: "AI 소프트웨어 (현대차 자회사)"
+    careers_url: "https://42dot.ai/careers"
+    note: "현대차 자회사로 안정성 있음. ⚠️ 자율주행 회사 — AI 소프트웨어 포지션만 해당"
+    status: 관심
+
+  # ════════════════════════════════════════════════
+  # 확인 필요
+  # ════════════════════════════════════════════════
+
+  - name: "뤼미네 (Luminae)"
+    track: A
+    priority: 5
+    domain: "AI 자동화"
+    careers_url: ""
+    note: "⚠️ 공식 채용 페이지 확인 필요"
+    status: 확인필요
+
+  - name: "오피스너"
+    track: A
+    priority: 5
+    domain: "AI 업무자동화"
+    careers_url: ""
+    note: "⚠️ 공식 채용 페이지 확인 필요"
+    status: 확인필요
+
+  - name: "마키마맥스"
+    track: A
+    priority: 5
+    domain: "AI (확인 필요)"
+    careers_url: ""
+    note: "⚠️ 회사명 정확한 영문명/철자 확인 필요"
+    status: 확인필요
