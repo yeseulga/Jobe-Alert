@@ -6,7 +6,7 @@ from datetime import datetime
 
 import requests
 
-from .config import CATEGORIES, DISCORD_RETRY_DELAYS, MAX_ITEMS_PER_CATEGORY
+from .config import CATEGORIES, DISCORD_RETRY_DELAYS, IMPACT_AREAS, MAX_ITEMS_PER_CATEGORY
 
 _CATEGORY_COLORS = {
     "research":   0x6366F1,   # 인디고
@@ -67,9 +67,18 @@ def send_digest(categorized_items: dict[str, list[dict]], dry_run: bool = False)
             url = item.get("url", "")
 
             name_md = f"[{title}]({url})" if url else title
+            impact_tags = " · ".join(
+                IMPACT_AREAS[ia] for ia in item.get("impact_areas", []) if ia in IMPACT_AREAS
+            )
+            value_parts = []
+            if summary:
+                value_parts.append(summary)
+            if impact_tags:
+                value_parts.append(impact_tags)
+            value_parts.append(f"*{source}*")
             fields.append({
-                "name": f"{name_md}",
-                "value": f"{summary}\n*{source}*" if summary else f"*{source}*",
+                "name": name_md,
+                "value": "\n".join(value_parts),
                 "inline": False,
             })
 

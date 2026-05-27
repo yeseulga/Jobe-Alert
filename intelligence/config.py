@@ -33,9 +33,17 @@ GITHUB_QUERY = "topic:ai created:>{date}&sort=stars&order=desc&per_page=10"
 
 # Claude Haiku 설정
 CURATOR_MODEL = "claude-haiku-4-5-20251001"
-CURATOR_BATCH_SIZE = 10   # 한 번에 처리할 아이템 수
+CURATOR_BATCH_SIZE = 5    # 배치 크기 줄여서 max_tokens 초과 방지
+CURATOR_MAX_TOKENS = 2048  # 5개 × 약 200토큰/아이템
 CURATOR_INPUT_MAX_CHARS = 500   # 프롬프트 인젝션 방지용 절단 길이
 CURATOR_MIN_RELEVANCE = 6   # 이 점수 미만은 발송 안 함
+
+# 영향 영역 (impact_area)
+IMPACT_AREAS = {
+    "dev_workflow":  "🔧 개발 워크플로우",
+    "prompt_eng":    "💬 프롬프트 엔지니어링",
+    "agent_design":  "🤖 에이전트 설계",
+}
 
 # 카테고리별 Discord embed에 표시할 최대 아이템 수
 MAX_ITEMS_PER_CATEGORY = 3

@@ -16,8 +16,10 @@ from .config import (
     CATEGORIES,
     CURATOR_BATCH_SIZE,
     CURATOR_INPUT_MAX_CHARS,
+    CURATOR_MAX_TOKENS,
     CURATOR_MIN_RELEVANCE,
     CURATOR_MODEL,
+    IMPACT_AREAS,
 )
 
 # ── Rule-based fallback 키워드 맵 ───────────────────────────
@@ -46,11 +48,37 @@ _RULE_KEYWORDS: dict[str, list[str]] = {
 }
 
 
+_IMPACT_KEYWORDS: dict[str, list[str]] = {
+    "dev_workflow": [
+        "ci/cd", "deploy", "dockerfile", "vscode", "cursor", "copilot", "ide",
+        "github action", "devcontainer", "linting", "testing", "debug", "logging",
+        "workflow", "pipeline", "automation", "code generation", "codegen",
+    ],
+    "prompt_eng": [
+        "prompt", "chain-of-thought", "cot", "few-shot", "zero-shot", "instruction",
+        "fine-tun", "rlhf", "dpo", "sft", "alignment", "evaluation", "eval",
+        "benchmark", "hallucination", "output format", "structured output",
+        "system prompt", "context window",
+    ],
+    "agent_design": [
+        "agent", "agentic", "multi-agent", "tool use", "function calling",
+        "memory", "retrieval", "rag", "react", "reflexion", "planning",
+        "langchain", "llamaindex", "autogen", "crewai", "mcp", "orchestrat",
+        "long-running", "autonomous",
+    ],
+}
+
+
 def _rule_classify(title: str, summary: str) -> str:
     text = (title + " " + summary).lower()
     scores = {cat: sum(1 for kw in kws if kw in text) for cat, kws in _RULE_KEYWORDS.items()}
     best = max(scores, key=scores.get)
     return best if scores[best] > 0 else "research"
+
+
+def _rule_impact(title: str, summary: str) -> list[str]:
+    text = (title + " " + summary).lower()
+    return [ia for ia, kws in _IMPACT_KEYWORDS.items() if any(kw in text for kw in kws)]
 
 
 def _safe_input(text: str) -> str:
@@ -68,28 +96,40 @@ _SYSTEM_PROMPT = """당신은 AI 엔지니어 성장을 돕는 큐레이터입�
 - model: 모델 성능/비용/토큰 효율, AX/UX 트렌드
 - ecosystem: AI 회사 동향, 인디 AI 빌더, 스타트업
 
-응답 형식 (배열, 아이템 수 = 입력과 동일):
-[{"category":"research","summary_ko":"한국어 2줄 요약","relevance_score":8}, ...]
+impact_areas (해당하는 것 모두 선택, 없으면 빈 배열):
+- dev_workflow: 개발 도구/환경/CI/배포/코드 자동화
+- prompt_eng: 프롬프트/파인튜닝/평가/정렬
+- agent_design: 에이전트/메모리/멀티에이전트/툴 사용
 
-relevance_score: AI 엔지니어 관련성 1-10 (한국 취업 시장 기준, 7 이상만 발송)"""
+응답 형식 (배열, 아이템 수 = 입력과 동일):
+[{"category":"research","summary_ko":"한국어 2줄 요약","relevance_score":8,"impact_areas":["agent_design"]}, ...]
+
+relevance_score: AI 엔지니어 관련성 1-10 (한국 취업 시장 기준, 6 이상만 발송)"""
 
 
 def _parse_claude_output(text: str, count: int) -> list[dict] | None:
-    """Claude 응답에서 JSON 파싱. 실패하면 None 반환."""
+    """Claude 응답에서 JSON 파싱. 실패하면 None 반환. 아이템 수 불일치는 허용."""
     try:
         match = re.search(r"\[.*\]", text, re.DOTALL)
         if not match:
             return None
         parsed = json.loads(match.group())
-        if not isinstance(parsed, list) or len(parsed) != count:
+        if not isinstance(parsed, list) or len(parsed) == 0:
             return None
+        valid = []
         for item in parsed:
             if not all(k in item for k in ("category", "summary_ko", "relevance_score")):
-                return None
+                continue
             if item["category"] not in CATEGORIES:
                 item["category"] = "research"
             item["relevance_score"] = int(item.get("relevance_score", 5))
-        return parsed
+            # impact_areas 검증 및 정규화
+            raw_impacts = item.get("impact_areas", [])
+            if not isinstance(raw_impacts, list):
+                raw_impacts = []
+            item["impact_areas"] = [ia for ia in raw_impacts if ia in IMPACT_AREAS]
+            valid.append(item)
+        return valid if valid else None
     except (json.JSONDecodeError, ValueError, TypeError):
         return None
 
@@ -127,12 +167,13 @@ def _curate_batch(batch: list[dict], api_key: str | None) -> list[dict]:
             client = anthropic.Anthropic(api_key=api_key)
             message = client.messages.create(
                 model=CURATOR_MODEL,
-                max_tokens=1024,
+                max_tokens=CURATOR_MAX_TOKENS,
                 system=_SYSTEM_PROMPT,
                 messages=[{"role": "user", "content": items_xml}],
             )
             parsed = _parse_claude_output(message.content[0].text, len(batch))
             if parsed:
+                # 파싱 결과가 배치보다 적을 수 있음 — 매칭되는 것만 업데이트
                 for item, meta in zip(batch, parsed):
                     item.update(meta)
                 return batch
@@ -145,4 +186,5 @@ def _curate_batch(batch: list[dict], api_key: str | None) -> list[dict]:
         item["category"] = _rule_classify(item["title"], item.get("summary", ""))
         item["summary_ko"] = item.get("summary", "")[:100]
         item["relevance_score"] = 7   # fallback은 기본 발송
+        item["impact_areas"] = _rule_impact(item["title"], item.get("summary", ""))
     return batch
