@@ -21,11 +21,19 @@ SOURCES = [
     ("arXiv cs.CL",    "https://rss.arxiv.org/rss/cs.CL",                   "rss"),
     ("HuggingFace",    "https://huggingface.co/api/daily_papers",            "hf_api"),
     ("GitHub AI",      "https://api.github.com/search/repositories",         "github_api"),
-    # 블로그 RSS — 공식 피드 URL (변경 시 여기만 수정)
-    ("OpenAI News",    "https://openai.com/news/rss.xml",                    "rss"),
-    ("Google AI Blog", "https://blog.google/technology/ai/rss/",             "rss"),
-    ("Simon Willison", "https://simonwillison.net/atom/everything/",         "rss"),  # AI 엔지니어 실무 블로그
-    ("The Batch",      "https://www.deeplearning.ai/the-batch/feed/",        "rss"),  # Andrew Ng 뉴스레터
+    # ── AI 회사 공식 블로그 ───────────────────────────────────────
+    # Anthropic: 공개 RSS 없음 — 아래 미디어 소스가 Claude 릴리스 커버
+    ("OpenAI News",      "https://openai.com/news/rss.xml",                    "rss"),
+    ("Google AI Blog",   "https://blog.google/technology/ai/rss/",             "rss"),
+    ("DeepMind Blog",    "https://deepmind.google/blog/rss.xml",               "rss"),  # Gemini·연구 발표
+    ("Microsoft AI",     "https://blogs.microsoft.com/ai/feed/",               "rss"),  # Copilot·Azure AI
+    # ── 모델 성능·릴리스 미디어 ──────────────────────────────────
+    ("The Verge AI",     "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "rss"),
+    ("Ars Technica",     "https://feeds.arstechnica.com/arstechnica/technology-lab",          "rss"),
+    ("TechCrunch AI",    "https://techcrunch.com/tag/artificial-intelligence/feed/",          "rss"),
+    # ── AI 엔지니어 실무 ─────────────────────────────────────────
+    ("Simon Willison",   "https://simonwillison.net/atom/everything/",         "rss"),
+    ("The Batch",        "https://www.deeplearning.ai/the-batch/feed/",        "rss"),  # Andrew Ng 뉴스레터
 ]
 
 # GitHub Search API 파라미터

@@ -88,6 +88,25 @@ def _item_field(item: dict, show_cat_badge: bool = False) -> dict:
     }
 
 
+def _chunk_embeds(embeds: list[dict], max_chars: int = 5500) -> list[list[dict]]:
+    """embed 리스트를 Discord 6000자 제한 이하로 청크 분할."""
+    import json
+    chunks: list[list[dict]] = []
+    current: list[dict] = []
+    current_size = 0
+    for embed in embeds:
+        size = len(json.dumps(embed, ensure_ascii=False))
+        if current_size + size > max_chars and current:
+            chunks.append(current)
+            current, current_size = [embed], size
+        else:
+            current.append(embed)
+            current_size += size
+    if current:
+        chunks.append(current)
+    return chunks
+
+
 def send_digest(categorized_items: dict[str, list[dict]], dry_run: bool = False):
     """카테고리별 embed + 핫이슈 TOP embed를 Discord로 발송."""
     webhook_url = os.getenv("DISCORD_INTELLIGENCE_WEBHOOK_URL")
@@ -171,14 +190,27 @@ def send_digest(categorized_items: dict[str, list[dict]], dry_run: bool = False)
         "embeds": embeds,
     }
 
+    # embed가 많으면 여러 메시지로 분할 (Discord 6000자 제한)
+    chunks = _chunk_embeds(embeds)
+
     if dry_run:
         import json
-        print("\n[DRY RUN] Discord 페이로드:")
-        print(json.dumps(payload, ensure_ascii=False, indent=2)[:3000])
+        print(f"\n[DRY RUN] {len(chunks)}개 메시지로 분할:")
+        for i, chunk in enumerate(chunks):
+            p = {"content": content if i == 0 else "", "embeds": chunk}
+            print(f"\n--- 메시지 {i+1} ({len(chunk)}개 embed) ---")
+            print(json.dumps(p, ensure_ascii=False, indent=2)[:2000])
         return
 
-    success = _post_webhook(webhook_url, payload)
-    if success:
-        print(f"✅ Discord 인텔리전스 피드 전송 성공 ({total}건, {len(embeds)}개 embed)")
+    success_count = 0
+    for i, chunk in enumerate(chunks):
+        p = {"content": content if i == 0 else "", "embeds": chunk}
+        if _post_webhook(webhook_url, p):
+            success_count += 1
+        else:
+            print(f"❌ 메시지 {i+1}/{len(chunks)} 전송 실패")
+
+    if success_count == len(chunks):
+        print(f"✅ Discord 인텔리전스 피드 전송 성공 ({total}건, {len(embeds)}개 embed, {len(chunks)}개 메시지)")
     else:
-        print("❌ Discord 인텔리전스 피드 전송 실패")
+        print(f"⚠️  일부 전송 실패 ({success_count}/{len(chunks)} 메시지)")
