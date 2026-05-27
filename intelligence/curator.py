@@ -102,8 +102,10 @@ impact_areas (해당하는 것 모두 선택, 없으면 빈 배열):
 - agent_design: 에이전트/메모리/멀티에이전트/툴 사용
 
 응답 형식 (배열, 아이템 수 = 입력과 동일):
-[{"category":"research","summary_ko":"한국어 2줄 요약","relevance_score":8,"impact_areas":["agent_design"]}, ...]
+[{"category":"research","summary_ko":"한국어 3줄 요약","relevance_score":8,"impact_areas":["agent_design"],"apply_tip":"지금 써먹기 팁"}, ...]
 
+summary_ko: 링크를 클릭하지 않아도 핵심을 파악할 수 있도록 — ① 무엇인지 ② 왜 중요한지 ③ AI 엔지니어에게 어떤 의미인지 3문장으로 작성
+apply_tip: 이 내용을 AI 엔지니어 지망생이 지금 당장 써먹을 수 있는 실용 팁 1문장 (예: "RAG 파이프라인 구성 시 이 기법을 적용해 검색 정확도 높이기")
 relevance_score: AI 엔지니어 관련성 1-10 (한국 취업 시장 기준, 6 이상만 발송)"""
 
 
@@ -128,6 +130,7 @@ def _parse_claude_output(text: str, count: int) -> list[dict] | None:
             if not isinstance(raw_impacts, list):
                 raw_impacts = []
             item["impact_areas"] = [ia for ia in raw_impacts if ia in IMPACT_AREAS]
+            item["apply_tip"] = str(item.get("apply_tip", ""))[:120]
             valid.append(item)
         return valid if valid else None
     except (json.JSONDecodeError, ValueError, TypeError):
@@ -187,4 +190,5 @@ def _curate_batch(batch: list[dict], api_key: str | None) -> list[dict]:
         item["summary_ko"] = item.get("summary", "")[:100]
         item["relevance_score"] = 7   # fallback은 기본 발송
         item["impact_areas"] = _rule_impact(item["title"], item.get("summary", ""))
+        item["apply_tip"] = ""
     return batch

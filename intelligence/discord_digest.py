@@ -6,7 +6,13 @@ from datetime import datetime
 
 import requests
 
-from .config import CATEGORIES, DISCORD_RETRY_DELAYS, IMPACT_AREAS, MAX_ITEMS_PER_CATEGORY
+from .config import (
+    CATEGORIES,
+    DISCORD_RETRY_DELAYS,
+    IMPACT_AREAS,
+    MAX_ITEMS_PER_CATEGORY,
+    TOP_PICKS_COUNT,
+)
 
 _CATEGORY_COLORS = {
     "research":   0x6366F1,   # 인디고
@@ -14,6 +20,7 @@ _CATEGORY_COLORS = {
     "model":      0xF59E0B,   # 앰버
     "ecosystem":  0x10B981,   # 에메랄드
 }
+_TOP_COLOR = 0xFF4500  # 오렌지레드 — 핫이슈
 
 
 def _post_webhook(url: str, payload: dict) -> bool:
@@ -37,8 +44,51 @@ def _post_webhook(url: str, payload: dict) -> bool:
     return False
 
 
+def _item_field(item: dict, show_cat_badge: bool = False) -> dict:
+    """아이템 하나를 Discord embed field dict로 변환."""
+    title = item["title"][:80]
+    summary = item.get("summary_ko") or item.get("summary", "")
+    summary = summary[:200]
+    apply_tip = item.get("apply_tip", "")[:100]
+    source = item.get("source", "")
+    url = item.get("url", "")
+    score = item.get("relevance_score", 0)
+
+    impact_tags = "  ".join(
+        IMPACT_AREAS[ia] for ia in item.get("impact_areas", []) if ia in IMPACT_AREAS
+    )
+
+    # TOP PICKS 섹션에서는 카테고리 뱃지 표시
+    cat_badge = ""
+    if show_cat_badge:
+        cat_key = item.get("_cat_key", "research")
+        cat_badge = CATEGORIES.get(cat_key, ("",))[0] + "  "
+
+    # 관련성 점수 시각화 (8이상 🔥, 7 ⭐, 나머지 없음)
+    score_badge = "🔥 " if score >= 8 else ("⭐ " if score >= 7 else "")
+
+    value_parts = []
+    if summary:
+        value_parts.append(summary)
+    if apply_tip:
+        value_parts.append(f"💡 **써먹기:** {apply_tip}")
+    if impact_tags:
+        value_parts.append(impact_tags)
+
+    source_line = f"출처: {source}"
+    if url:
+        source_line += f"  ·  [원문 🔗]({url})"
+    value_parts.append(f"-# {source_line}")  # Discord subtext (작게 표시)
+
+    return {
+        "name": f"{score_badge}{cat_badge}{title}",
+        "value": "\n".join(value_parts),
+        "inline": False,
+    }
+
+
 def send_digest(categorized_items: dict[str, list[dict]], dry_run: bool = False):
-    """카테고리별 embed 4개를 Discord로 발송."""
+    """카테고리별 embed + 핫이슈 TOP embed를 Discord로 발송."""
     webhook_url = os.getenv("DISCORD_INTELLIGENCE_WEBHOOK_URL")
     if not webhook_url:
         raise EnvironmentError(
@@ -50,54 +100,61 @@ def send_digest(categorized_items: dict[str, list[dict]], dry_run: bool = False)
     total = sum(len(v) for v in categorized_items.values())
 
     if total == 0:
-        print("⚠️ 발송할 아이템이 없습니다. Discord 전송 건너뜀.")
+        print("⚠️  발송할 아이템이 없습니다. Discord 전송 건너뜀.")
         return
 
     embeds = []
-    for cat_key, (emoji, cat_name, _) in CATEGORIES.items():
-        items = categorized_items.get(cat_key, [])[:MAX_ITEMS_PER_CATEGORY]
+
+    # ── 🔥 오늘의 핫이슈 TOP embed ──────────────────────────────
+    all_items: list[dict] = []
+    for cat_key, items in categorized_items.items():
+        for item in items:
+            item["_cat_key"] = cat_key
+            all_items.append(item)
+
+    top_items = sorted(all_items, key=lambda x: x.get("relevance_score", 0), reverse=True)[:TOP_PICKS_COUNT]
+
+    if top_items:
+        top_fields = [_item_field(item, show_cat_badge=True) for item in top_items]
+        embeds.append({
+            "title": "🔥  오늘의 핫이슈 TOP",
+            "description": "관련성 높은 아이템 우선 큐레이션",
+            "color": _TOP_COLOR,
+            "fields": top_fields,
+            "footer": {"text": f"AI 인텔리전스 · {today}"},
+        })
+
+    # ── 카테고리별 embed ─────────────────────────────────────────
+    for cat_key, (emoji, cat_name, cat_desc) in CATEGORIES.items():
+        items = sorted(
+            categorized_items.get(cat_key, []),
+            key=lambda x: x.get("relevance_score", 0),
+            reverse=True,
+        )[:MAX_ITEMS_PER_CATEGORY]
         if not items:
             continue
-        fields = []
-        for item in items:
-            title = item["title"][:100]
-            summary = item.get("summary_ko") or item.get("summary", "")
-            summary = summary[:150]
-            source = item.get("source", "")
-            url = item.get("url", "")
 
-            name_md = f"[{title}]({url})" if url else title
-            impact_tags = " · ".join(
-                IMPACT_AREAS[ia] for ia in item.get("impact_areas", []) if ia in IMPACT_AREAS
-            )
-            value_parts = []
-            if summary:
-                value_parts.append(summary)
-            if impact_tags:
-                value_parts.append(impact_tags)
-            value_parts.append(f"*{source}*")
-            fields.append({
-                "name": name_md,
-                "value": "\n".join(value_parts),
-                "inline": False,
-            })
-
+        fields = [_item_field(item) for item in items]
         embeds.append({
-            "title": f"{emoji} {cat_name}",
+            "title": f"{emoji}  {cat_name}",
+            "description": f"*{cat_desc}*",
             "color": _CATEGORY_COLORS.get(cat_key, 0x6B7280),
             "fields": fields,
             "footer": {"text": f"AI 인텔리전스 · {today}"},
         })
 
     payload = {
-        "content": f"🤖 **AI 엔지니어 인텔리전스** — {today}  `{total}건 큐레이션`",
+        "content": (
+            f"🤖  **AI 엔지니어 인텔리전스** — {today}\n"
+            f"> 오늘의 AI 동향 `{total}건` 큐레이션 완료. 🔥 핫이슈부터 확인하세요!"
+        ),
         "embeds": embeds,
     }
 
     if dry_run:
         import json
         print("\n[DRY RUN] Discord 페이로드:")
-        print(json.dumps(payload, ensure_ascii=False, indent=2)[:2000])
+        print(json.dumps(payload, ensure_ascii=False, indent=2)[:3000])
         return
 
     success = _post_webhook(webhook_url, payload)

@@ -48,5 +48,8 @@ IMPACT_AREAS = {
 # 카테고리별 Discord embed에 표시할 최대 아이템 수
 MAX_ITEMS_PER_CATEGORY = 3
 
+# 전체 핫이슈 TOP N
+TOP_PICKS_COUNT = 3
+
 # Discord 발송 설정
 DISCORD_RETRY_DELAYS = [1, 2, 4]   # 429 시 지수 백오프 (초)
