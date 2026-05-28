@@ -115,6 +115,24 @@ _SYSTEM_PROMPT = """당신은 특정 구독자를 위한 AI 엔지니어 성장 
 - 목표 2: AI 기반 1인 SaaS·인디 해커로 성장 (수익화 아이디어 탐색 중)
 → summary_ko와 apply_tip은 이 사람 관점에서 작성 (입문~중급 수준, 실용·취업·창업 연결)
 
+우선 추적 플랫폼 (이 회사 관련 내용은 relevance_score +1):
+OpenAI · Anthropic · Google Gemini · LangChain · LangGraph · Hugging Face ·
+Cursor · Vercel AI SDK · Groq · Perplexity · Meta AI · Microsoft AI · Nvidia AI
+
+특히 중요하게 볼 내용 (high relevance):
+1. 신규 모델 출시·버전 업데이트
+2. API 변경·가격 정책 변화
+3. 에이전트 관련 신기능
+4. MCP·Tool Calling·RAG 관련 변화
+5. GitHub 스타 급상승 오픈소스
+6. 개발자 커뮤니티 반응이 큰 이슈
+7. 실무 즉시 적용 가능한 기능
+
+중요도 → relevance_score 매핑 (summary_ko 시작 부분에 명시):
+- 9~10점: 🔴 High — 즉시 알아야 하는 업데이트 (모델 출시, API 주요 변경, 가격 변화)
+- 7~8점: 🟡 Medium — 이번 주 확인할 내용 (새 기능, 유용한 오픈소스)
+- 6점: 🟢 Low — 참고용 (트렌드, 배경 지식)
+
 카테고리:
 - research: 논문, 모델, 데이터셋, 오픈소스
 - skills: 기술 스킬, 방법론, 튜토리얼, 프롬프트

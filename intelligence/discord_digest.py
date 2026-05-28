@@ -65,8 +65,14 @@ def _item_field(item: dict, show_cat_badge: bool = False) -> dict:
         cat_key = item.get("_cat_key", "research")
         cat_badge = CATEGORIES.get(cat_key, ("",))[0] + "  "
 
-    # 관련성 점수 시각화 (8이상 🔥, 7 ⭐, 나머지 없음)
-    score_badge = "🔥 " if score >= 8 else ("⭐ " if score >= 7 else "")
+    # 중요도 배지
+    if score >= 9:
+        priority_badge = "🔴 High  "
+    elif score >= 7:
+        priority_badge = "🟡 Medium  "
+    else:
+        priority_badge = "🟢 Low  "
+    score_badge = priority_badge
 
     value_parts = []
     if summary:

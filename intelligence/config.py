@@ -34,6 +34,16 @@ SOURCES = [
     ("TechCrunch AI",    "https://techcrunch.com/tag/artificial-intelligence/feed/",          "rss"),
     # ── 대학 연구소 ─────────────────────────────────────────────
     ("BAIR Blog",        "https://bair.berkeley.edu/blog/feed.xml",            "rss"),  # UC버클리
+    # ── AI 플랫폼 릴리스 (GitHub releases.atom) ──────────────────
+    # 신규 버전·API 변경·에이전트 기능·MCP 업데이트를 직접 추적
+    ("LangChain Rel",    "https://github.com/langchain-ai/langchain/releases.atom",       "rss"),
+    ("LangGraph Rel",    "https://github.com/langchain-ai/langgraph/releases.atom",       "rss"),
+    ("Vercel AI SDK",    "https://github.com/vercel/ai/releases.atom",                    "rss"),
+    ("Groq Releases",    "https://github.com/groq/groq-python/releases.atom",             "rss"),
+    ("Meta Llama Rel",   "https://github.com/meta-llama/llama-models/releases.atom",      "rss"),
+    # ── AI 플랫폼 공식 블로그 ────────────────────────────────────
+    ("Nvidia Dev Blog",  "https://developer.nvidia.com/blog/feed/",            "rss"),  # 추론·하드웨어·NIM
+    ("HuggingFace Blog", "https://huggingface.co/blog/feed.xml",               "rss"),  # 모델·툴·생태계
     # ── 빌더 커뮤니티 (1인 사업자 관점) ────────────────────────
     ("Hacker News AI",   "https://hnrss.org/newest?q=LLM+agent&count=10",     "rss"),  # 실전 빌더 토론
     ("Product Hunt",     "https://www.producthunt.com/feed",                   "rss"),  # 매일 새 AI 제품 런치
