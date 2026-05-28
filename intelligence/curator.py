@@ -77,6 +77,12 @@ _IMPACT_KEYWORDS: dict[str, list[str]] = {
         "step by step", "project", "demo", "example", "notebook",
         "colab", "open source", "reproduce", "from scratch",
         "beginner", "practice", "exercise", "code along",
+        # LLM 동작 분석 논문 — 면접에서 말할 수 있는 인사이트
+        "we find that", "we show that", "empirical", "position bias",
+        "lost in the middle", "context rot", "attention pattern",
+        "long context", "needle in a haystack", "calibration",
+        "hallucination", "in-context learning", "recency bias",
+        "primacy bias", "distraction", "context length",
     ],
 }
 
@@ -130,7 +136,15 @@ apply_tip: 취업 포트폴리오 또는 1인 SaaS 아이디어로 연결되는 
 relevance_score: 이 구독자 기준 유용도 1-10 (6 이상만 발송)
   → +1: MIT·Stanford·CMU·UC버클리·코넬·DeepMind·OpenAI·Anthropic·Microsoft Research 소속 논문
   → +1: RAG·에이전트·LLM 파인튜닝·추론 효율화·멀티에이전트 주제
-  → +1: 실제 구현 가능한 튜토리얼·코드 포함·사이드 프로젝트 아이디어"""
+  → +1: 실제 구현 가능한 튜토리얼·코드 포함·사이드 프로젝트 아이디어
+  → +1: LLM 실제 동작 분석 논문 — "Lost in the Middle"(위치 편향), "Context Rot"(컨텍스트 성능 저하) 류
+       즉, 위치 편향·주의력 패턴·환각 메커니즘·컨텍스트 한계·캘리브레이션·ICL 한계 등
+       AI 엔지니어가 시스템 설계 시 반드시 알아야 하는 실험적 발견
+
+apply_tip 작성 가이드 (LLM 동작 분석 논문의 경우):
+  "Lost in the Middle" 스타일이면 → "중요 정보를 컨텍스트 앞뒤에 배치하는 프롬프트 전략 적용"
+  환각 패턴 논문이면 → "RAG에서 이 조건일 때 검색 결과 재확인 로직 추가"
+  이런 식으로 실무 시스템 설계에 직접 연결되는 팁 작성"""
 
 
 def _parse_claude_output(text: str, count: int) -> list[dict] | None:
